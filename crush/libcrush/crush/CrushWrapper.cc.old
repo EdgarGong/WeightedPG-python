@@ -22,6 +22,8 @@ using namespace ceph;
 #define ceph_abort abort
 #define dout_subsys ceph_subsys_crush
 
+#include <algorithm>
+
 bool CrushWrapper::has_v2_rules() const
 {
   for (unsigned i=0; i<crush->max_rules; i++) {
@@ -1127,6 +1129,8 @@ int CrushWrapper::get_immediate_parent_id(int id, int *parent) const
     crush_bucket *b = crush->buckets[bidx];
     if (b == 0)
       continue;
+    if (is_shadow_item(b->id))
+      continue;
     for (unsigned i = 0; i < b->size; i++) {
       if (b->items[i] == id) {
 	*parent = b->id;
@@ -1137,15 +1141,33 @@ int CrushWrapper::get_immediate_parent_id(int id, int *parent) const
   return -ENOENT;
 }
 
-int CrushWrapper::get_parent_of_type(int item, int type) const
+int CrushWrapper::get_parent_of_type(int item, int type, int rule) const
 {
-  do {
-    int r = get_immediate_parent_id(item, &item);
-    if (r < 0) {
-      return 0;
+  if (rule < 0) {
+    // no rule specified
+    do {
+      int r = get_immediate_parent_id(item, &item);
+      if (r < 0) {
+        return 0;
+      }
+    } while (get_bucket_type(item) != type);
+    return item;
+  }
+  set<int> roots;
+  find_takes_by_rule(rule, &roots);
+  for (auto root : roots) {
+    set<int> candidates;
+    get_children_of_type(root, type, &candidates, false);
+    for (auto candidate : candidates) {
+      if (subtree_contains(candidate, item)) {
+	// note that here we assure that no two different buckets
+	// from a single crush rule will share a same device,
+	// which should generally be true.
+        return candidate;
+      }
     }
-  } while (get_bucket_type(item) != type);
-  return item;
+  }
+  return 0; // not found
 }
 
 bool CrushWrapper::class_is_in_use(int class_id)
@@ -2315,28 +2337,32 @@ int CrushWrapper::_choose_type_stack(
   const vector<pair<int,int>>& stack,
   const set<int>& overfull,
   const vector<int>& underfull,
+  const vector<int>& more_underfull,
   const vector<int>& orig,
   vector<int>::const_iterator& i,
   set<int>& used,
-  vector<int> *pw) const
+  vector<int> *pw,
+  int root_bucket,
+  int rule) const
 {
   vector<int> w = *pw;
   vector<int> o;
 
-  ldout(cct, 10) << __func__ << " stack " << stack
-		 << " orig " << orig
-		 << " at " << *i
-		 << " pw " << *pw
-		 << dendl;
-
+//  ldout(cct, 10) << __func__ << " stack " << stack
+//		 << " orig " << orig
+//		 << " at " << *i
+//		 << " pw " << *pw
+//		 << dendl;
+//  ceph_assert(root_bucket < 0);
+	assert(root_bucket < 0);
   vector<int> cumulative_fanout(stack.size());
   int f = 1;
   for (int j = (int)stack.size() - 1; j >= 0; --j) {
     cumulative_fanout[j] = f;
     f *= stack[j].second;
   }
-  ldout(cct, 10) << __func__ << " cumulative_fanout " << cumulative_fanout
-		 << dendl;
+//  ldout(cct, 10) << __func__ << " cumulative_fanout " << cumulative_fanout
+//		 << dendl;
 
   // identify underful targets for each intermediate level.
   // this serves two purposes:
@@ -2353,25 +2379,33 @@ int CrushWrapper::_choose_type_stack(
     int item = osd;
     for (int j = (int)stack.size() - 2; j >= 0; --j) {
       int type = stack[j].first;
-      item = get_parent_of_type(item, type);
-      ldout(cct, 10) << __func__ << " underfull " << osd << " type " << type
-		     << " is " << item << dendl;
+      item = get_parent_of_type(item, type, rule);
+//      ldout(cct, 10) << __func__ << " underfull " << osd << " type " << type
+//		     << " is " << item << dendl;
+      if (!subtree_contains(root_bucket, item)) {
+//        ldout(cct, 20) << __func__ << " not in root subtree " << root_bucket << dendl;
+        continue;
+      }
       underfull_buckets[j].insert(item);
     }
   }
-  ldout(cct, 20) << __func__ << " underfull_buckets " << underfull_buckets << dendl;
+//  ldout(cct, 20) << __func__ << " underfull_buckets " << underfull_buckets << dendl;
 
   for (unsigned j = 0; j < stack.size(); ++j) {
     int type = stack[j].first;
     int fanout = stack[j].second;
     int cum_fanout = cumulative_fanout[j];
-    ldout(cct, 10) << " level " << j << ": type " << type << " fanout " << fanout
-		   << " cumulative " << cum_fanout
-		   << " w " << w << dendl;
+//    ldout(cct, 10) << " level " << j << ": type " << type << " fanout " << fanout
+//		   << " cumulative " << cum_fanout
+//		   << " w " << w << dendl;
     vector<int> o;
     auto tmpi = i;
+    if (i == orig.end()) {
+//      ldout(cct, 10) << __func__ << " end of orig, break 0" << dendl;
+      break;
+    }
     for (auto from : w) {
-      ldout(cct, 10) << " from " << from << dendl;
+//      ldout(cct, 10) << " from " << from << dendl;
       // identify leaves under each choice.  we use this to check whether any of these
       // leaves are overfull.  (if so, we need to make sure there are underfull candidates
       // to swap for them.)
@@ -2380,51 +2414,80 @@ int CrushWrapper::_choose_type_stack(
       for (int pos = 0; pos < fanout; ++pos) {
 	if (type > 0) {
 	  // non-leaf
-	  int item = get_parent_of_type(*tmpi, type);
+	  int item = get_parent_of_type(*tmpi, type, rule);
 	  o.push_back(item);
 	  int n = cum_fanout;
 	  while (n-- && tmpi != orig.end()) {
 	    leaves[pos].insert(*tmpi++);
 	  }
-	  ldout(cct, 10) << __func__ << "   from " << *tmpi << " got " << item
-			 << " of type " << type << " over leaves " << leaves[pos] << dendl;
+//	  ldout(cct, 10) << __func__ << "   from " << *tmpi << " got " << item
+//			 << " of type " << type << " over leaves " << leaves[pos] << dendl;
 	} else {
 	  // leaf
 	  bool replaced = false;
 	  if (overfull.count(*i)) {
 	    for (auto item : underfull) {
-	      ldout(cct, 10) << __func__ << " pos " << pos
-			     << " was " << *i << " considering " << item
-			     << dendl;
+//	      ldout(cct, 10) << __func__ << " pos " << pos
+//			     << " was " << *i << " considering " << item
+//			     << dendl;
 	      if (used.count(item)) {
-		ldout(cct, 20) << __func__ << "   in used " << used << dendl;
+//		ldout(cct, 20) << __func__ << "   in used " << used << dendl;
 		continue;
 	      }
 	      if (!subtree_contains(from, item)) {
-		ldout(cct, 20) << __func__ << "   not in subtree " << from << dendl;
+//		ldout(cct, 20) << __func__ << "   not in subtree " << from << dendl;
 		continue;
 	      }
 	      if (std::find(orig.begin(), orig.end(), item) != orig.end()) {
-		ldout(cct, 20) << __func__ << "   in orig " << orig << dendl;
+//		ldout(cct, 20) << __func__ << "   in orig " << orig << dendl;
 		continue;
 	      }
 	      o.push_back(item);
 	      used.insert(item);
-	      ldout(cct, 10) << __func__ << " pos " << pos << " replace "
-			     << *i << " -> " << item << dendl;
+//	      ldout(cct, 10) << __func__ << " pos " << pos << " replace "
+//			     << *i << " -> " << item << dendl;
 	      replaced = true;
+              assert(i != orig.end());
 	      ++i;
 	      break;
 	    }
+	      if (!replaced) {
+	      for (auto item : more_underfull) {
+//	        ldout(cct, 10) << __func__ << " more underfull pos " << pos
+//			       << " was " << *i << " considering " << item
+//			       << dendl;
+	        if (used.count(item)) {
+//		  ldout(cct, 20) << __func__ << "   in used " << used << dendl;
+		  continue;
+	        }
+	        if (!subtree_contains(from, item)) {
+//		  ldout(cct, 20) << __func__ << "   not in subtree " << from << dendl;
+		  continue;
+	        }
+	        if (std::find(orig.begin(), orig.end(), item) != orig.end()) {
+//		  ldout(cct, 20) << __func__ << "   in orig " << orig << dendl;
+		  continue;
+	        }
+	        o.push_back(item);
+	        used.insert(item);
+//	        ldout(cct, 10) << __func__ << " pos " << pos << " replace "
+//			       << *i << " -> " << item << dendl;
+	        replaced = true;
+                assert(i != orig.end());
+	        ++i;
+	        break;
+	      }
+	    }
 	  }
 	  if (!replaced) {
-	    ldout(cct, 10) << __func__ << " pos " << pos << " keep " << *i
-			   << dendl;
+//	    ldout(cct, 10) << __func__ << " pos " << pos << " keep " << *i
+//			   << dendl;
+            assert(i != orig.end());
 	    o.push_back(*i);
 	    ++i;
 	  }
 	  if (i == orig.end()) {
-	    ldout(cct, 10) << __func__ << " end of orig, break 1" << dendl;
+//	    ldout(cct, 10) << __func__ << " end of orig, break 1" << dendl;
 	    break;
 	  }
 	}
@@ -2441,31 +2504,31 @@ int CrushWrapper::_choose_type_stack(
 	      }
 	    }
 	    if (any_overfull) {
-	      ldout(cct, 10) << " bucket " << o[pos] << " has no underfull targets and "
-			     << ">0 leaves " << leaves[pos] << " is overfull; alts "
-			     << underfull_buckets[j]
-			     << dendl;
+//	      ldout(cct, 10) << " bucket " << o[pos] << " has no underfull targets and "
+//			     << ">0 leaves " << leaves[pos] << " is overfull; alts "
+//			     << underfull_buckets[j]
+//			     << dendl;
 	      for (auto alt : underfull_buckets[j]) {
 		if (std::find(o.begin(), o.end(), alt) == o.end()) {
 		  // see if alt has the same parent
 		  if (j == 0 ||
-		      get_parent_of_type(o[pos], stack[j-1].first) ==
-		      get_parent_of_type(alt, stack[j-1].first)) {
-		    if (j)
-		      ldout(cct, 10) << "  replacing " << o[pos]
-				     << " (which has no underfull leaves) with " << alt
-				     << " (same parent "
-				     << get_parent_of_type(alt, stack[j-1].first) << " type "
-				     << type << ")" << dendl;
-		    else
-		      ldout(cct, 10) << "  replacing " << o[pos]
-				     << " (which has no underfull leaves) with " << alt
-				     << " (first level)" << dendl;
+		      get_parent_of_type(o[pos], stack[j-1].first, rule) ==
+		      get_parent_of_type(alt, stack[j-1].first, rule)) {
+//		    if (j)
+//		      ldout(cct, 10) << "  replacing " << o[pos]
+//				     << " (which has no underfull leaves) with " << alt
+//				     << " (same parent "
+//				     << get_parent_of_type(alt, stack[j-1].first, rule) << " type "
+//				     << type << ")" << dendl;
+//		    else
+//		      ldout(cct, 10) << "  replacing " << o[pos]
+//				     << " (which has no underfull leaves) with " << alt
+//				     << " (first level)" << dendl;
 		    o[pos] = alt;
 		    break;
 		  } else {
-		    ldout(cct, 30) << "  alt " << alt << " for " << o[pos]
-				   << " has different parent, skipping" << dendl;
+//		    ldout(cct, 30) << "  alt " << alt << " for " << o[pos]
+//				   << " has different parent, skipping" << dendl;
 		  }
 		}
 	      }
@@ -2474,16 +2537,17 @@ int CrushWrapper::_choose_type_stack(
 	}
       }
       if (i == orig.end()) {
-	ldout(cct, 10) << __func__ << " end of orig, break 2" << dendl;
+//	ldout(cct, 10) << __func__ << " end of orig, break 2" << dendl;
 	break;
       }
     }
-    ldout(cct, 10) << __func__ << "  w <- " << o << " was " << w << dendl;
+//    ldout(cct, 10) << __func__ << "  w <- " << o << " was " << w << dendl;
     w.swap(o);
   }
   *pw = w;
   return 0;
 }
+
 
 int CrushWrapper::try_remap_rule(
   CephContext *cct,
@@ -2491,6 +2555,7 @@ int CrushWrapper::try_remap_rule(
   int maxout,
   const set<int>& overfull,
   const vector<int>& underfull,
+  const vector<int>& more_underfull,
   const vector<int>& orig,
   vector<int> *out) const
 {
@@ -2498,10 +2563,12 @@ int CrushWrapper::try_remap_rule(
   const crush_rule *rule = get_rule(ruleno);
   assert(rule);
 
-  ldout(cct, 10) << __func__ << " ruleno " << ruleno
-		<< " numrep " << maxout << " overfull " << overfull
-		<< " underfull " << underfull << " orig " << orig
-		<< dendl;
+//  ldout(cct, 10) << __func__ << " ruleno " << ruleno
+//		<< " numrep " << maxout << " overfull " << overfull
+//		<< " underfull " << underfull
+//		<< " more_underfull " << more_underfull
+//		<< " orig " << orig
+//		<< dendl;
   vector<int> w; // working set
   out->clear();
 
@@ -2509,10 +2576,10 @@ int CrushWrapper::try_remap_rule(
   set<int> used;
 
   vector<pair<int,int>> type_stack;  // (type, fan-out)
-
+  int root_bucket = 0;
   for (unsigned step = 0; step < rule->len; ++step) {
     const crush_rule_step *curstep = &rule->steps[step];
-    ldout(cct, 10) << __func__ << " step " << step << " w " << w << dendl;
+//    ldout(cct, 10) << __func__ << " step " << step << " w " << w << dendl;
     switch (curstep->op) {
     case CRUSH_RULE_TAKE:
       if ((curstep->arg1 >= 0 && curstep->arg1 < map->max_devices) ||
@@ -2520,9 +2587,10 @@ int CrushWrapper::try_remap_rule(
 	   map->buckets[-1-curstep->arg1])) {
 	w.clear();
 	w.push_back(curstep->arg1);
-	ldout(cct, 10) << __func__ << " take " << w << dendl;
+	root_bucket = curstep->arg1;
+//	ldout(cct, 10) << __func__ << " take " << w << dendl;
       } else {
-	ldout(cct, 1) << " bad take value " << curstep->arg1 << dendl;
+//	ldout(cct, 1) << " bad take value " << curstep->arg1 << dendl;
       }
       break;
 
@@ -2534,9 +2602,10 @@ int CrushWrapper::try_remap_rule(
 	if (numrep <= 0)
 	  numrep += maxout;
 	type_stack.push_back(make_pair(type, numrep));
-	type_stack.push_back(make_pair(0, 1));
-	int r = _choose_type_stack(cct, type_stack, overfull, underfull, orig,
-				   i, used, &w);
+        if (type > 0)
+	  type_stack.push_back(make_pair(0, 1));
+	int r = _choose_type_stack(cct, type_stack, overfull, underfull, more_underfull, orig,
+				   i, used, &w, root_bucket, ruleno);
 	if (r < 0)
 	  return r;
 	type_stack.clear();
@@ -2555,10 +2624,10 @@ int CrushWrapper::try_remap_rule(
       break;
 
     case CRUSH_RULE_EMIT:
-      ldout(cct, 10) << " emit " << w << dendl;
+//      ldout(cct, 10) << " emit " << w << dendl;
       if (!type_stack.empty()) {
-	int r = _choose_type_stack(cct, type_stack, overfull, underfull, orig,
-				   i, used, &w);
+	int r = _choose_type_stack(cct, type_stack, overfull, underfull, more_underfull, orig,
+				   i, used, &w, root_bucket, ruleno);
 	if (r < 0)
 	  return r;
 	type_stack.clear();

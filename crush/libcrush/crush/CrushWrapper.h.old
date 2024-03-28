@@ -594,7 +594,7 @@ public:
    * return ancestor of the given type, or 0 if none
    * (parent is always a bucket and thus <0)
    */
-  int get_parent_of_type(int id, int type) const;
+  int get_parent_of_type(int id, int type, int rule = -1) const;
 
   /**
    * get the fully qualified location of a device by successively finding
@@ -1274,10 +1274,13 @@ public:
     const vector<pair<int,int>>& stack,
     const set<int>& overfull,
     const vector<int>& underfull,
+    const vector<int>& more_underfull,
     const vector<int>& orig,
     vector<int>::const_iterator& i,
     set<int>& used,
-    vector<int> *pw) const;
+    vector<int> *pw,
+    int root_bucket,
+    int rule) const;
 
   int try_remap_rule(
     CephContext *cct,
@@ -1285,6 +1288,7 @@ public:
     int maxout,
     const set<int>& overfull,
     const vector<int>& underfull,
+    const vector<int>& more_underfull,
     const vector<int>& orig,
     vector<int> *out) const;
 
