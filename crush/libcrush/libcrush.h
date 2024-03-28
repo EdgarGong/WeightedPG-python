@@ -20,6 +20,10 @@
 #ifndef _LIBCRUSH_H
 #define _LIBCRUSH_H
 
+#ifdef __cplusplus
+extern "C"{
+#endif
+
 #include <Python.h>
 #include <structmember.h>
 #include <opcode.h>
@@ -59,10 +63,33 @@
 
 #endif /* Py3k */
 
+#ifdef __cplusplus
+}
+#endif
+
 /* The LibCrush type. */
 
+#ifdef __cplusplus
+extern "C"{
+#endif
 #include "crush.h"
+#ifdef __cplusplus
+}
+#endif
 
+#include "CrushWrapper.h"
+#include <map>
+#include <vector>
+
+struct OSDMap {
+  std::map<uint32_t, std::vector<int32_t>> pg_upmap;
+  std::map<uint32_t, std::vector<std::pair<int32_t, int32_t>>> pg_upmap_items;
+  std::map<uint32_t, int32_t> pg_upmap_primaries;
+};
+
+#ifdef __cplusplus
+extern "C"{
+#endif
 typedef struct LibCrush {
   PyObject_HEAD
 
@@ -78,8 +105,15 @@ typedef struct LibCrush {
   int highest_device_id;
   PyObject *rules;
   PyObject *choose_args;
+
+  CrushWrapper crush_wrapper;
+  // OSDMap osdmap;
 } LibCrush;
 
+
 extern PyTypeObject LibCrushType;
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* _LIBCRUSH_H */

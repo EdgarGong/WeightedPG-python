@@ -1,0 +1,47 @@
+========== start logging at Mon Mar 25 12:25:05 2024 ==========
+Objects in Engines MIN/MAX objects number: 7370/7872
+Objects in Engines MIN/MAX deviation: 0.96499650838/1.03072625698
+PGs in OSDs MIN/MAX/AVG PGs number: 40/85/64.0
+pri_PGs in OSDs MIN/MAX/AVG pri_PGs number: 25/36/21.3333333333
+PGS/pri_PGs in OSDs MAX OSD id: 41/13
+objects in PGs MIN/MAX/AVG objects number: 163/992/358.0
+========== stop logging at Mon Mar 25 12:33:35 2024 ==========
+========== start logging at Mon Mar 25 12:40:35 2024 ==========
+========== stop logging at Mon Mar 25 12:40:50 2024 ==========
+========== start logging at Tue Mar 26 18:41:34 2024 ==========
+========== stop logging at Tue Mar 26 18:41:47 2024 ==========
+========== start logging at Tue Mar 26 18:42:08 2024 ==========
+========== stop logging at Tue Mar 26 18:42:21 2024 ==========
+========== start logging at Tue Mar 26 18:42:57 2024 ==========
+========== stop logging at Tue Mar 26 18:51:07 2024 ==========
+========== start logging at Tue Mar 26 18:51:25 2024 ==========
+========== stop logging at Tue Mar 26 18:52:52 2024 ==========
+========== start logging at Tue Mar 26 19:38:02 2024 ==========
+Objects in Engines MIN/MAX objects number: 4716/5148
+Objects in Engines MIN/MAX deviation: 0.961141304348/1.04918478261
+PGs in OSDs MIN/MAX/AVG PGs number: 40/85/64.0
+pri_PGs in OSDs MIN/MAX/AVG pri_PGs number: 25/36/21.3333333333
+PGS/pri_PGs in OSDs MAX OSD id: 41/13
+objects in PGs MIN/MAX/AVG objects number: 97/737/230.0
+========== stop logging at Tue Mar 26 19:43:42 2024 ==========
+========== start logging at Tue Mar 26 19:38:31 2024 ==========
+Objects in Engines MIN/MAX objects number: 4716/5148
+Objects in Engines MIN/MAX deviation: 0.961141304348/1.04918478261
+PGs in OSDs MIN/MAX/AVG PGs number: 40/85/64.0
+pri_PGs in OSDs MIN/MAX/AVG pri_PGs number: 25/36/21.3333333333
+PGS/pri_PGs in OSDs MAX OSD id: 41/13
+objects in PGs MIN/MAX/AVG objects number: 96/680/230.0
+========== stop logging at Tue Mar 26 19:44:20 2024 ==========
+========== start logging at Tue Mar 26 19:53:41 2024 ==========
+========== stop logging at Tue Mar 26 19:53:47 2024 ==========
+========== start logging at Tue Mar 26 19:57:58 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+Objects in Engines MIN/MAX objects number: 4716/5148
+Objects in Engines MIN/MAX deviation: 0.961141304348/1.04918478261
+PGs in OSDs MIN/MAX/AVG PGs number: 40/85/64.0
+pri_PGs in OSDs MIN/MAX/AVG pri_PGs number: 25/36/21.3333333333
+PGS/pri_PGs in OSDs MAX OSD id: 41/13
+objects in PGs MIN/MAX/AVG objects number: 137/616/230.0
+========== stop logging at Tue Mar 26 19:58:04 2024 ==========

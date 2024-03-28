@@ -51,7 +51,7 @@ struct denc_traits {
   static constexpr bool bounded = false;
 };
 
-
+using namespace ceph;
 // hack for debug only; FIXME
 //#include <iostream>
 //using std::cout;

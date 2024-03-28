@@ -79,6 +79,7 @@
 #ifdef __cplusplus
 // count trailing zeros.
 // NOTE: the builtin is nondeterministic on 0 input
+#include <type_traits>
 template<class T>
   inline typename std::enable_if<
   (std::is_integral<T>::value &&

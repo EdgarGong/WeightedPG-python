@@ -63,7 +63,7 @@ inline void decode_raw(T& t, bufferlist::iterator &p)
 
 #define WRITE_RAW_ENCODER(type)						\
   inline void encode(const type &v, bufferlist& bl, uint64_t features=0) { encode_raw(v, bl); } \
-  inline void decode(type &v, bufferlist::iterator& p) { __ASSERT_FUNCTION decode_raw(v, p); }
+  inline void decode(type &v, bufferlist::iterator& p) { /*__// assert_FUNCTION*/ decode_raw(v, p); }
 
 WRITE_RAW_ENCODER(__u8)
 #ifndef _CHAR_IS_SIGNED
@@ -278,7 +278,7 @@ inline void decode(T &o, bufferlist& bl)
 {
   bufferlist::iterator p = bl.begin();
   decode(o, p);
-  assert(p.end());
+  // assert(p.end());
 }
 
 

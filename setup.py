@@ -18,6 +18,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 import setuptools
+import os
 
 setuptools.setup(
     setup_requires=['d2to1', 'pbr'],

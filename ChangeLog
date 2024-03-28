@@ -1,6 +1,10 @@
 CHANGES
 =======
 
+* docs: fixed dev/hacking.rst: start-after pattern not found
+* bin/crush: Remove redundant import
+* bump 1.0.36
+
 1.0.35
 ------
 
