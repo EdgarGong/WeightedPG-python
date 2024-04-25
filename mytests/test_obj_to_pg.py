@@ -8,8 +8,6 @@ from goto import with_goto
 import time
 import sys
 
-import math
-
 from crush import Crush
 import utils
 
@@ -76,8 +74,7 @@ class Balancer:
 
         self.overall_used_capacity = 0.7
         # self.pg_num = int(100 * self.disk_num * self.overall_used_capacity / self.replication_count)  # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
-        # self.pg_num = 1 << (self.pg_num.bit_length() - 1)
-        self.pg_num = 8192
+        self.pg_num = 16
 
         self.pg_num_mask = self.compute_pgp_num_mask()
         
@@ -182,28 +179,72 @@ class Balancer:
         logger.log("pg num in osd deviation, MAX/MIN:" + str(max_pg_num/avg_pg_num) + "/" + str(min_pg_num/avg_pg_num))
         logger.log("pg num in osd  MAX/MIN osd id:" + str(max_osdid) + "/" + str(min_osdid))
         return max_osdid, min_osdid
-
-    def stripe_write_obj(self, inode_num, inode_size):
-        pg_id = 0
+    
+    def hash_obj_to_pg(self, inode_num, inode_size):
         for inode_no in range(inode_num):
             # print(inode_num-inode_no)
             for block_no in range(inode_size):
                 # key format: "10000000001.00000002"
                 key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
+                raw_pg_id = self.c.c.ceph_str_hash_rjenkins(key, len(key))
+                pg_id = utils.ceph_stable_mod(raw_pg_id, self.pg_num, self.pg_num_mask)
                 # append to obj_in_pg
                 objs = self.obj_in_pg.get(pg_id, [])
                 objs.append(key)
                 self.obj_in_pg[pg_id] = objs
-                # start crush
-                osds = self.pg_to_osds.get(pg_id, [])
-                for i in range(len(osds)):
-                    used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                    used_capacity += self.obj_size
-                    # if used_capacity >= self.disk_size*1024:
-                        # print("overflow! osd id:", osds[i])
-                    self.osd_used_capacity[osds[i]] = used_capacity
-                
-                pg_id = (pg_id + 1) % self.pg_num
+
+    def write_obj_with_pg_num(self, inode_num, inode_size):
+        object_num = inode_num*inode_size
+        # Calculate the pg average of the osd corresponding to each pg
+        pg_to_avg = {}
+        for pg, osds in self.pg_to_osds.items():
+            total_pg = 0
+            for osd in osds:
+                total_pg += len(self.pg_in_osd[osd])
+            pg_to_avg[pg] = total_pg / len(osds)
+        # Sort by average in ascending order
+        sorted_pg = sorted(pg_to_avg.items(), key=lambda x: x[1])
+        print(sorted_pg)
+        # Calculate the sum of all values
+        total_value = sum([v for _, v in sorted_pg])
+        print(total_value)
+        # Then calculate the average value
+        average_value = total_value / len(sorted_pg)
+        # Divide each value in sorted_pg by the average value
+        normalized_pg = [(pg, v/average_value) for pg, v in sorted_pg]
+        print(normalized_pg)
+
+        pg_ids = [pg_id for pg_id, _ in normalized_pg]
+        values = [value for _, value in normalized_pg]
+        pg_ids.reverse()
+        avg_obj_in_pg = object_num / self.pg_num
+
+        max_obj = 0
+        min_obj = sys.maxsize
+        obj_sum = 0
+        for i in range(len(pg_ids)):
+            pg_id = pg_ids[i]
+            value = values[i]
+            print(pg_id, value)
+            obj_num = int(avg_obj_in_pg * value)
+            max_obj = max(max_obj, obj_num)
+            min_obj = min(min_obj, obj_num)
+            obj_sum += obj_num
+            self.obj_num_in_pg[pg_id] = obj_num
+            print("pgid:", pg_id, " object num:", obj_num)
+            # start crush
+            osds = self.pg_to_osds.get(pg_id, [])
+            for i in range(len(osds)):
+                used_capacity = self.osd_used_capacity.get(osds[i], 0)
+                used_capacity += (self.obj_size * obj_num)
+                # if used_capacity >= self.disk_size*1024:
+                    # print("overflow! osd id:", osds[i])
+                self.osd_used_capacity[osds[i]] = used_capacity
+
+        print("object sum:", obj_sum)
+        avg_obj = float(obj_sum) / self.pg_num
+        logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
+        
 
     def write_obj(self, inode_num, inode_size):
         for inode_no in range(inode_num):
@@ -219,7 +260,6 @@ class Balancer:
                 self.obj_in_pg[pg_id] = objs
                 # start crush
                 osds = self.pg_to_osds.get(pg_id, [])
-                assert len(osds) == self.replication_count
                 for i in range(len(osds)):
                     used_capacity = self.osd_used_capacity.get(osds[i], 0)
                     used_capacity += self.obj_size
@@ -227,184 +267,6 @@ class Balancer:
                         # print("overflow! osd id:", osds[i])
                     self.osd_used_capacity[osds[i]] = used_capacity
 
-    def group_data(self, data, num_groups):
-        sorted_data = sorted(data.items(), key=lambda x: x[1])
-        min_value = sorted_data[0][1]
-        max_value = sorted_data[-1][1]
-        interval_width = (max_value - min_value) / num_groups
-
-        groups = [[] for _ in range(num_groups)]
-    
-        for key, value in sorted_data:
-            group_index = int((value - min_value) // interval_width)
-            if group_index == num_groups:
-                group_index -= 1
-            groups[group_index].append((key, value))
-        
-        groups = [group for group in groups if len(group) != 0]
-        groups = dict(enumerate(groups))
-        return groups
-
-        # chunk_size = math.ceil(len(sorted_data) / float(num_groups))
-        # print(chunk_size)
-        # groups = [sorted_data[int(i*chunk_size):int((i+1)*chunk_size)] for i in range(num_groups)]
-        # return groups
-
-    def group_and_stats(self, data, num_groups):
-        sorted_data = sorted(data.items(), key=lambda x: x[1])
-        chunk_size = math.ceil(len(sorted_data) / float(num_groups))
-        print(chunk_size)
-        grouped_data = [sorted_data[int(i*chunk_size):int((i+1)*chunk_size)] for i in range(num_groups)]
-        # print(grouped_data)
-        stats = []
-        for group in grouped_data:
-            print(len(group))
-            values = [pair[1] for pair in group]
-            mean_value = np.mean(values)
-            max_value = np.max(values)
-            min_value = np.min(values)
-            stats.append((mean_value, max_value, min_value))
-        return stats
-
-    def write_obj_with_pg_num_group(self, inode_num, inode_size):
-        object_num = inode_num*inode_size
-        # Calculate the average pg num of the osd corresponding to each pg
-        pg_to_avg = {}
-        for pg, osds in self.pg_to_osds.items():
-            total_pg = 0
-            for osd in osds:
-                total_pg += len(self.pg_in_osd[osd])
-            pg_to_avg[pg] = total_pg / len(osds)
-        # # Sort by average in ascending order
-        # sorted_pg = sorted(pg_to_avg.items(), key=lambda x: x[1])
-        # # print(sorted_pg)
-        # Calculate the sum of all values
-        total_value = sum([v for _, v in pg_to_avg.items()])
-        print(total_value)
-        # Then calculate the average value
-        average_value = total_value / len(pg_to_avg)
-        # Divide each value in pg_to_avg by the average value
-        normalized_pg = {}
-        for pg, v in pg_to_avg.items():
-            normalized_pg[pg] = average_value/v
-        # # print(normalized_pg)
-            
-        grouped_data = self.group_data(normalized_pg, 100)
-
-        
-
-        # print(grouped_data[0])
-
-        for i, group in grouped_data.items():
-            print("group", i, " length:", len(grouped_data[i]))
-        #     for pgid, weight in grouped_data[i]:
-        #         print("pgid:", pgid, " weight:", weight)
-
-        stats = []
-        for _, group in grouped_data.items():
-            values = [pair[1] for pair in group]
-            mean_value = np.mean(values)
-            max_value = np.max(values)
-            min_value = np.min(values)
-            stats.append((mean_value, max_value, min_value))
-
-        # for i, stats in enumerate(stats):
-        #     print("Group {}: Mean={}, Max={}, Min={}".format(i+1, stats[0], stats[1], stats[2]))
-
-
-        # group_stats = self.group_and_stats(normalized_pg, 100)
-        
-        # pg_ids = [pg_id for pg_id, _ in normalized_pg]
-        # values = [value for _, value in normalized_pg]
-        # pg_ids.reverse()
-        avg_obj_in_pg = object_num / self.pg_num
-
-        max_obj = 0
-        min_obj = sys.maxsize
-        obj_sum = 0
-
-        for id, group in grouped_data.items():
-            values = [pair[1] for pair in group]
-
-            # all pgs in this group use the mean weight as their weight
-            mean_weight = np.mean(values)
-            obj_num = int(avg_obj_in_pg * mean_weight * mean_weight)
-            max_obj = max(max_obj, obj_num)
-            min_obj = min(min_obj, obj_num)
-            
-            for pair in group:
-                obj_sum += obj_num
-                pg_id = pair[0]
-                self.obj_num_in_pg[pg_id] = obj_num
-                osds = self.pg_to_osds.get(pg_id, [])
-                assert len(osds) == self.replication_count
-                for i in range(len(osds)):
-                    used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                    used_capacity += (self.obj_size * obj_num)
-                    # if used_capacity >= self.disk_size*1024:
-                        # print("overflow! osd id:", osds[i])
-                    self.osd_used_capacity[osds[i]] = used_capacity
-
-        print("object sum:", obj_sum)
-        avg_obj = float(obj_sum) / self.pg_num
-        logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
-        logger.log("objects in PGs MIN/MAX/AVG objects number deviation: " + str(min_obj/avg_obj) + "/" + str(max_obj/avg_obj))
-
-
-    def write_obj_with_pg_num(self, inode_num, inode_size):
-        object_num = inode_num*inode_size
-        # Calculate the average pg num of the osd corresponding to each pg
-        pg_to_avg = {}
-        for pg, osds in self.pg_to_osds.items():
-            total_pg = 0
-            for osd in osds:
-                total_pg += len(self.pg_in_osd[osd])
-            pg_to_avg[pg] = total_pg / len(osds)
-        # # Sort by average in ascending order
-        # sorted_pg = sorted(pg_to_avg.items(), key=lambda x: x[1])
-        # # print(sorted_pg)
-        # Calculate the sum of all values
-        total_value = sum([v for _, v in pg_to_avg.items()])
-        print(total_value)
-        # Then calculate the average value
-        average_value = total_value / len(pg_to_avg)
-        # Divide each value in pg_to_avg by the average value
-        normalized_pg = [(pg, v/average_value) for pg, v in pg_to_avg.items()]
-        # # print(normalized_pg)
-
-        # pg_ids = [pg_id for pg_id, _ in normalized_pg]
-        # values = [value for _, value in normalized_pg]
-        # pg_ids.reverse()
-        avg_obj_in_pg = object_num / self.pg_num
-
-        max_obj = 0
-        min_obj = sys.maxsize
-        obj_sum = 0
-        for pg_id, weight in normalized_pg:
-            # the more the avg_pg_num, the less the objects in it
-            value = 1 / weight
-            # print(pg_id, value)
-            obj_num = int(avg_obj_in_pg * value)
-            max_obj = max(max_obj, obj_num)
-            min_obj = min(min_obj, obj_num)
-            obj_sum += obj_num
-            self.obj_num_in_pg[pg_id] = obj_num
-            # print("pgid:", pg_id, " object num:", obj_num)
-            # start crush
-            osds = self.pg_to_osds.get(pg_id, [])
-            assert len(osds) == self.replication_count
-            for i in range(len(osds)):
-                used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                used_capacity += (self.obj_size * obj_num)
-                # if used_capacity >= self.disk_size*1024:
-                    # print("overflow! osd id:", osds[i])
-                self.osd_used_capacity[osds[i]] = used_capacity
-
-        print("object sum:", obj_sum)
-        avg_obj = float(obj_sum) / self.pg_num
-        logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
-        logger.log("objects in PGs MIN/MAX/AVG objects number deviation: " + str(min_obj/avg_obj) + "/" + str(max_obj/avg_obj))
-        
     def print_osd_used_capacity(self, max_osd_id, min_osd_id):
         max_used_capacity = 0
         max_osdid = 0
@@ -422,13 +284,9 @@ class Balancer:
                 min_used_capacity = used
                 min_osdid = osd
         avg_capacity = float(obj_sum) / self.disk_num
-        logger.log("MAX/MIN used capacity:" + str(float(max_used_capacity)/(self.disk_size * 1024))+ "/" + str(float(min_used_capacity)/(self.disk_size * 1024)))
-        # print("max used capacity:", float(max_used_capacity)/(self.disk_size * 1024), "min used capacity:", float(min_used_capacity)/(self.disk_size * 1024))
-        logger.log("MAX/MIN used capacity deviation:" + str(max_used_capacity/avg_capacity)+ "/" + str(min_used_capacity/avg_capacity))
-        # print("max used capacity deviation:", max_used_capacity/avg_capacity, "min used capacity deviation:", min_used_capacity/avg_capacity)
-        logger.log("MAX/MIN used osd id:" + str(max_osdid)+ "/" + str(min_osdid))
-        # print("max used osd id:", max_osdid, "min used osd id:", min_osdid)
-        logger.log("MAX/MIN pg osd's used deviation:" + str(float(self.osd_used_capacity[max_osd_id]) / avg_capacity)+ "/" + str(float(self.osd_used_capacity[min_osd_id]) / avg_capacity))
+        print("max used capacity:", float(max_used_capacity)/(self.disk_size * 1024), "min used capacity:", float(min_used_capacity)/(self.disk_size * 1024))
+        print("max used capacity deviation:", max_used_capacity/avg_capacity, "min used capacity deviation:", min_used_capacity/avg_capacity)
+        print("max used osd id:", max_osdid, "min used osd id:", min_osdid)
         # print("max_pg_osd's used deviation:", float(self.osd_used_capacity[max_osd_id]) / avg_capacity)
         # print("min_pg_osd's used deviation:", float(self.osd_used_capacity[min_osd_id]) / avg_capacity)
 
@@ -442,7 +300,7 @@ class Balancer:
             max_obj = max(max_obj, obj_count)
             min_obj = min(min_obj, obj_count)
             obj_sum += obj_count
-            # logger.log("pgid:" + str(pgid) + " object count:" + str(obj_count))
+            logger.log("pgid:" + str(pgid) + " object count:" + str(obj_count))
         avg_obj = float(obj_sum) / self.pg_num
         logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
         
@@ -458,7 +316,6 @@ class Balancer:
 logger = Logger("raw_crush_log.txt")
 b = Balancer()
 print("pg num:", b.pg_num)
-print("pg num mask:", b.pg_num_mask)
 # disk_load = 12288  # GB
 # inode_size = 4096
 inode_size = 4096
@@ -469,20 +326,22 @@ obj_load_num = int(disk_capacity*overall_utilization*1024/b.replication_count/b.
 # obj_load_num = 2936012
 print("object load number:", obj_load_num)
 inode_num = int(obj_load_num/inode_size)
+# inode_num = b.pg_num
 print("inode number:", inode_num)
+# b.hash_obj_to_pg(inode_num, inode_size)
+
 # each inode has {inode_size} blocks
 # each block is a object
-time1 = time.time()
+# time1 = time.time()
 b.crush_pg_to_osds()
-# b.stripe_pg_to_osds()
+# # b.stripe_pg_to_osds()
 
-time2 = time.time()
-# b.write_obj(inode_num, inode_size)
+# time2 = time.time()
 # b.write_obj_with_pg_num(inode_num, inode_size)
-b.write_obj_with_pg_num(inode_num, inode_size)
-# b.stripe_write_obj(inode_num, inode_size)
-time3 = time.time()
-# print(time2-time1, time3-time2)
-max_osd_id, min_osd_id = b.print_pg_in_osd()
 # b.print_obj_in_pg_number()
-b.print_osd_used_capacity(max_osd_id, min_osd_id)
+b.write_obj(inode_num, inode_size)
+# time3 = time.time()
+# # print(time2-time1, time3-time2)
+# max_osd_id, min_osd_id = b.print_pg_in_osd()
+# b.print_obj_in_pg_number()
+b.print_osd_used_capacity(0, 0)

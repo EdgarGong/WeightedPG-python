@@ -1,0 +1,9 @@
+{
+    "host_num": 12,
+    "disk_num": 32,
+    "obj_size": 4,
+    "disk_size": 128,
+    "overall_used_capacity": 0.7,
+    "pg_num": 8192
+  }
+  

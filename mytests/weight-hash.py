@@ -1,5 +1,7 @@
 from __future__ import division
 
+import mmh3
+import math
 import copy
 import json
 import random
@@ -7,8 +9,6 @@ import numpy as np
 from goto import with_goto
 import time
 import sys
-
-import math
 
 from crush import Crush
 import utils
@@ -44,13 +44,56 @@ class OSDMap:
         self.pg_upmap_items = {}
 
 
+class rendezvousNode:
+    """Class representing a node that is assigned keys as part of a weighted rendezvous hash."""
+    def __init__(self, id, weight):
+        self.id = id
+        self.weight = weight
+
+    def compute_weighted_score(self, key):
+        score = hash_to_unit_interval("%d: %s" % (self.id, key))
+        log_score = 1.0 / -math.log(score)
+        return self.weight * log_score
+
+def hash_to_unit_interval(id):
+    """Hashes a string onto the unit interval (0, 1]"""
+    return (float(mmh3.hash128(id)) + 1) / 2**128
+
+def determine_responsible_node(nodes, key):
+    """Determines which node of a set of nodes of various weights is responsible for the provided key."""
+    return max(nodes, key=lambda node: node.compute_weighted_score(key)) if nodes else None
+
+
 class Balancer:
     def __init__(self):
 #         self.crushmap = """
 # {"rules": {"default_rule": [["take", "default"], ["chooseleaf", "firstn", 0, "type", "host"], ["emit"]]}, "types": [{"name": "root", "type_id": 2}, {"name": "host", "type_id": 1}], "trees": [{"children": [{"children": [{"id": 0, "weight": 1, "name": "device0"}, {"id": 1, "weight": 1, "name": "device1"}, {"id": 2, "weight": 1, "name": "device2"}], "type": "host", "name": "host0", "id": -2}, {"children": [{"id": 3, "weight": 1, "name": "device3"}, {"id": 4, "weight": 1, "name": "device4"}, {"id": 5, "weight": 1, "name": "device5"}], "type": "host", "name": "host1", "id": -3}, {"children": [{"id": 6, "weight": 1, "name": "device6"}, {"id": 7, "weight": 1, "name": "device7"}, {"id": 8, "weight": 1, "name": "device8"}], "type": "host", "name": "host2", "id": -4}, {"children": [{"id": 9, "weight": 1, "name": "device9"}, {"id": 10, "weight": 1, "name": "device10"}, {"id": 11, "weight": 1, "name": "device11"}], "type": "host", "name": "host3", "id": -5}], "type": "root", "name": "default", "id": -1}]}
 # """
-        self.n_host = 12
-        self.n_disk = 32
+        with open("config/config.json") as f:
+            config = json.load(f)
+        self.n_host = config['host_num']
+        self.n_disk = config['disk_num']
+        self.obj_size = config['obj_size'] #MB
+        self.disk_size = config['disk_size'] #GB
+
+        self.overall_used_capacity = config['overall_used_capacity']
+        self.disk_num = self.n_host*self.n_disk
+        # engine_num = disk_num, Each engine corresponds to one osd.
+        # self.engine_num = self.disk_num
+        # self.engine_id = [i for i in range(self.engine_num)]
+        # self.obj_in_engine = {}
+
+        
+        # self.pg_num = int(100 * self.disk_num * self.overall_used_capacity / self.replication_count)  # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
+        # self.pg_num = 1 << (self.pg_num.bit_length() - 1)
+        self.pg_num = config['pg_num']
+
+
+        self.pg_num_mask = self.compute_pgp_num_mask()
+        
+        # print("pg num:", bin(self.pg_num), " pg num mask:", bin(self.pg_num_mask))
+
+        
         self.crushmap = self.gen_crushmap(self.n_host, self.n_disk)
         # print(self.crushmap)
         self.c = Crush()
@@ -65,30 +108,20 @@ class Balancer:
         self.obj_in_pg = {}
         self.obj_num_in_pg = {}
 
-        self.disk_num = self.n_host*self.n_disk
-        # engine_num = disk_num, Each engine corresponds to one osd.
-        # self.engine_num = self.disk_num
-        # self.engine_id = [i for i in range(self.engine_num)]
-        # self.obj_in_engine = {}
-
-        self.obj_size = 4 #MB
-        self.disk_size = 128 #GB
-
-        self.overall_used_capacity = 0.7
-        # self.pg_num = int(100 * self.disk_num * self.overall_used_capacity / self.replication_count)  # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
-        # self.pg_num = 1 << (self.pg_num.bit_length() - 1)
-        self.pg_num = 8192
-
-        self.pg_num_mask = self.compute_pgp_num_mask()
         
-        # print("pg num:", bin(self.pg_num), " pg num mask:", bin(self.pg_num_mask))
-
         self.max_optimizations = self.pg_num
         self.max_deviation = 1
         self.aggressive = True
         self.fast_aggressive = True
         self.local_fallback_retries = 100
         self.osdmap = OSDMap()
+
+        self.pg_weight = {}
+
+        self.pg_Rendezvous_node = {}
+
+        self.grouped_data = {}
+        self.group_Rendezvous_node = {}
 
     def compute_pgp_num_mask(self):
         # Calculate the pgp_num_mask for given pgp_num
@@ -233,41 +266,23 @@ class Balancer:
         max_value = sorted_data[-1][1]
         interval_width = (max_value - min_value) / num_groups
 
-        groups = [[] for _ in range(num_groups)]
+        groups = {}
     
         for key, value in sorted_data:
             group_index = int((value - min_value) // interval_width)
             if group_index == num_groups:
                 group_index -= 1
-            groups[group_index].append((key, value))
+            group = groups.get(group_index, [])
+            group.append((key, value))
+            groups[group_index] = group
         
-        groups = [group for group in groups if len(group) != 0]
-        groups = dict(enumerate(groups))
+        # groups = [group for group in groups if len(group) != 0]
+        
         return groups
-
-        # chunk_size = math.ceil(len(sorted_data) / float(num_groups))
-        # print(chunk_size)
-        # groups = [sorted_data[int(i*chunk_size):int((i+1)*chunk_size)] for i in range(num_groups)]
-        # return groups
-
-    def group_and_stats(self, data, num_groups):
-        sorted_data = sorted(data.items(), key=lambda x: x[1])
-        chunk_size = math.ceil(len(sorted_data) / float(num_groups))
-        print(chunk_size)
-        grouped_data = [sorted_data[int(i*chunk_size):int((i+1)*chunk_size)] for i in range(num_groups)]
-        # print(grouped_data)
-        stats = []
-        for group in grouped_data:
-            print(len(group))
-            values = [pair[1] for pair in group]
-            mean_value = np.mean(values)
-            max_value = np.max(values)
-            min_value = np.min(values)
-            stats.append((mean_value, max_value, min_value))
-        return stats
-
-    def write_obj_with_pg_num_group(self, inode_num, inode_size):
-        object_num = inode_num*inode_size
+    
+    
+    # calculate pg weight. And 
+    def cal_pg_weight(self):
         # Calculate the average pg num of the osd corresponding to each pg
         pg_to_avg = {}
         for pg, osds in self.pg_to_osds.items():
@@ -284,127 +299,91 @@ class Balancer:
         # Then calculate the average value
         average_value = total_value / len(pg_to_avg)
         # Divide each value in pg_to_avg by the average value
-        normalized_pg = {}
         for pg, v in pg_to_avg.items():
-            normalized_pg[pg] = average_value/v
+            self.pg_weight[pg] = (average_value/v) * (average_value/v)
         # # print(normalized_pg)
             
-        grouped_data = self.group_data(normalized_pg, 100)
 
-        
+    def init_pg_Rendezvous_node(self):
+        assert len(self.pg_weight) > 0
+        for pgid, v in self.pg_weight.items():
+            self.pg_Rendezvous_node[pgid] = rendezvousNode(pgid, v)
 
-        # print(grouped_data[0])
-
-        for i, group in grouped_data.items():
-            print("group", i, " length:", len(grouped_data[i]))
-        #     for pgid, weight in grouped_data[i]:
-        #         print("pgid:", pgid, " weight:", weight)
-
-        stats = []
-        for _, group in grouped_data.items():
+    def init_pg_group_Rendezvous_node(self):
+        assert len(self.pg_weight) > 0
+        self.grouped_data = self.group_data(self.pg_weight, 100)
+        for groupid, group in self.grouped_data.items():
             values = [pair[1] for pair in group]
-            mean_value = np.mean(values)
-            max_value = np.max(values)
-            min_value = np.min(values)
-            stats.append((mean_value, max_value, min_value))
-
-        # for i, stats in enumerate(stats):
-        #     print("Group {}: Mean={}, Max={}, Min={}".format(i+1, stats[0], stats[1], stats[2]))
-
-
-        # group_stats = self.group_and_stats(normalized_pg, 100)
-        
-        # pg_ids = [pg_id for pg_id, _ in normalized_pg]
-        # values = [value for _, value in normalized_pg]
-        # pg_ids.reverse()
-        avg_obj_in_pg = object_num / self.pg_num
-
-        max_obj = 0
-        min_obj = sys.maxsize
-        obj_sum = 0
-
-        for id, group in grouped_data.items():
-            values = [pair[1] for pair in group]
-
             # all pgs in this group use the mean weight as their weight
-            mean_weight = np.mean(values)
-            obj_num = int(avg_obj_in_pg * mean_weight * mean_weight)
-            max_obj = max(max_obj, obj_num)
-            min_obj = min(min_obj, obj_num)
-            
-            for pair in group:
-                obj_sum += obj_num
-                pg_id = pair[0]
-                self.obj_num_in_pg[pg_id] = obj_num
+            mean_weight = np.sum(values)
+            self.group_Rendezvous_node[groupid] = rendezvousNode(groupid, mean_weight)
+
+    # use Rendezvous hash. Each pg corresponds to a node
+    def write_obj_with_Rendezvous(self, inode_num, inode_size):
+        self.cal_pg_weight()
+        self.init_pg_Rendezvous_node()
+        count = 0
+        for inode_no in range(inode_num):
+            # print(inode_num-inode_no)
+            for block_no in range(inode_size):
+                count = count + 1
+                if count % 10000 == 0:
+                    print(count)
+
+                # key format: "10000000001.00000002"
+                key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
+                pg_node = determine_responsible_node(self.pg_Rendezvous_node.values(), key)
+                
+                pg_id = pg_node.id
+
+                # append to obj_in_pg
+                objs = self.obj_in_pg.get(pg_id, [])
+                objs.append(key)
+                self.obj_in_pg[pg_id] = objs
+
+                # start crush
                 osds = self.pg_to_osds.get(pg_id, [])
                 assert len(osds) == self.replication_count
                 for i in range(len(osds)):
                     used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                    used_capacity += (self.obj_size * obj_num)
+                    used_capacity += self.obj_size
+                    # if used_capacity >= self.disk_size*1024:
+                        # print("overflow! osd id:", osds[i])
+                    self.osd_used_capacity[osds[i]] = used_capacity
+    
+    # devide pg into groups
+    def write_obj_with_Rendezvous_group(self, inode_num, inode_size):
+        self.init_pg_group_Rendezvous_node()
+        count = 0
+        for inode_no in range(inode_num):
+            # print(inode_num-inode_no)
+            for block_no in range(inode_size):
+                count = count + 1
+                if count % 10000 == 0:
+                    print(count)
+
+                # key format: "10000000001.00000002"
+                key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
+                group_node = determine_responsible_node(self.group_Rendezvous_node.values(), key)
+                
+                group = self.grouped_data[group_node.id]
+                pg_id = group[hash(key) % len(group)][0]
+
+                # append to obj_in_pg
+                objs = self.obj_in_pg.get(pg_id, [])
+                objs.append(key)
+                self.obj_in_pg[pg_id] = objs
+
+                # start crush
+                osds = self.pg_to_osds.get(pg_id, [])
+                assert len(osds) == self.replication_count
+                for i in range(len(osds)):
+                    used_capacity = self.osd_used_capacity.get(osds[i], 0)
+                    used_capacity += self.obj_size
                     # if used_capacity >= self.disk_size*1024:
                         # print("overflow! osd id:", osds[i])
                     self.osd_used_capacity[osds[i]] = used_capacity
 
-        print("object sum:", obj_sum)
-        avg_obj = float(obj_sum) / self.pg_num
-        logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
-        logger.log("objects in PGs MIN/MAX/AVG objects number deviation: " + str(min_obj/avg_obj) + "/" + str(max_obj/avg_obj))
-
-
-    def write_obj_with_pg_num(self, inode_num, inode_size):
-        object_num = inode_num*inode_size
-        # Calculate the average pg num of the osd corresponding to each pg
-        pg_to_avg = {}
-        for pg, osds in self.pg_to_osds.items():
-            total_pg = 0
-            for osd in osds:
-                total_pg += len(self.pg_in_osd[osd])
-            pg_to_avg[pg] = total_pg / len(osds)
-        # # Sort by average in ascending order
-        # sorted_pg = sorted(pg_to_avg.items(), key=lambda x: x[1])
-        # # print(sorted_pg)
-        # Calculate the sum of all values
-        total_value = sum([v for _, v in pg_to_avg.items()])
-        print(total_value)
-        # Then calculate the average value
-        average_value = total_value / len(pg_to_avg)
-        # Divide each value in pg_to_avg by the average value
-        normalized_pg = [(pg, v/average_value) for pg, v in pg_to_avg.items()]
-        # # print(normalized_pg)
-
-        # pg_ids = [pg_id for pg_id, _ in normalized_pg]
-        # values = [value for _, value in normalized_pg]
-        # pg_ids.reverse()
-        avg_obj_in_pg = object_num / self.pg_num
-
-        max_obj = 0
-        min_obj = sys.maxsize
-        obj_sum = 0
-        for pg_id, weight in normalized_pg:
-            # the more the avg_pg_num, the less the objects in it
-            value = 1 / weight
-            # print(pg_id, value)
-            obj_num = int(avg_obj_in_pg * value)
-            max_obj = max(max_obj, obj_num)
-            min_obj = min(min_obj, obj_num)
-            obj_sum += obj_num
-            self.obj_num_in_pg[pg_id] = obj_num
-            # print("pgid:", pg_id, " object num:", obj_num)
-            # start crush
-            osds = self.pg_to_osds.get(pg_id, [])
-            assert len(osds) == self.replication_count
-            for i in range(len(osds)):
-                used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                used_capacity += (self.obj_size * obj_num)
-                # if used_capacity >= self.disk_size*1024:
-                    # print("overflow! osd id:", osds[i])
-                self.osd_used_capacity[osds[i]] = used_capacity
-
-        print("object sum:", obj_sum)
-        avg_obj = float(obj_sum) / self.pg_num
-        logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
-        logger.log("objects in PGs MIN/MAX/AVG objects number deviation: " + str(min_obj/avg_obj) + "/" + str(max_obj/avg_obj))
-        
     def print_osd_used_capacity(self, max_osd_id, min_osd_id):
         max_used_capacity = 0
         max_osdid = 0
@@ -476,11 +455,11 @@ time1 = time.time()
 b.crush_pg_to_osds()
 # b.stripe_pg_to_osds()
 
+# b.cal_pg_weight()
 time2 = time.time()
 # b.write_obj(inode_num, inode_size)
-# b.write_obj_with_pg_num(inode_num, inode_size)
-b.write_obj_with_pg_num(inode_num, inode_size)
-# b.stripe_write_obj(inode_num, inode_size)
+# b.write_obj_with_Rendezvous(inode_num, inode_size)
+b.stripe_write_obj(inode_num, inode_size)
 time3 = time.time()
 # print(time2-time1, time3-time2)
 max_osd_id, min_osd_id = b.print_pg_in_osd()
