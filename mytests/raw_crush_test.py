@@ -384,7 +384,7 @@ class Balancer:
             # the more the avg_pg_num, the less the objects in it
             value = 1 / weight
             # print(pg_id, value)
-            obj_num = int(avg_obj_in_pg * value)
+            obj_num = int(avg_obj_in_pg * (value ** 5))
             max_obj = max(max_obj, obj_num)
             min_obj = min(min_obj, obj_num)
             obj_sum += obj_num

@@ -13,6 +13,8 @@ import sys
 from crush import Crush
 import utils
 
+import hashlib
+
 
 class Logger:
     def __init__(self, path):
@@ -281,8 +283,8 @@ class Balancer:
         return groups
     
     
-    # calculate pg weight. And 
-    def cal_pg_weight(self):
+    # calculate pg weight
+    def cal_pg_weight(self, power):
         # Calculate the average pg num of the osd corresponding to each pg
         pg_to_avg = {}
         for pg, osds in self.pg_to_osds.items():
@@ -294,13 +296,13 @@ class Balancer:
         # sorted_pg = sorted(pg_to_avg.items(), key=lambda x: x[1])
         # # print(sorted_pg)
         # Calculate the sum of all values
-        total_value = sum([v for _, v in pg_to_avg.items()])
-        print(total_value)
+        # total_value = sum([v for _, v in pg_to_avg.items()])
+        # print(total_value)
         # Then calculate the average value
-        average_value = total_value / len(pg_to_avg)
+        # average_value = total_value / len(pg_to_avg)
         # Divide each value in pg_to_avg by the average value
         for pg, v in pg_to_avg.items():
-            self.pg_weight[pg] = (average_value/v) * (average_value/v)
+            self.pg_weight[pg] = (1/v) ** power
         # # print(normalized_pg)
             
 
@@ -320,7 +322,7 @@ class Balancer:
 
     # use Rendezvous hash. Each pg corresponds to a node
     def write_obj_with_Rendezvous(self, inode_num, inode_size):
-        self.cal_pg_weight()
+        self.cal_pg_weight(3)
         self.init_pg_Rendezvous_node()
         count = 0
         for inode_no in range(inode_num):
@@ -328,7 +330,8 @@ class Balancer:
             for block_no in range(inode_size):
                 count = count + 1
                 if count % 10000 == 0:
-                    print(count)
+                    sys.stdout.write("\r%d" % count)  
+                    sys.stdout.flush() 
 
                 # key format: "10000000001.00000002"
                 key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
@@ -351,6 +354,152 @@ class Balancer:
                         # print("overflow! osd id:", osds[i])
                     self.osd_used_capacity[osds[i]] = used_capacity
     
+    def hash1(self, key):
+        raw_pg_id = self.c.c.ceph_str_hash_rjenkins(key, len(key))
+        return utils.ceph_stable_mod(raw_pg_id, self.pg_num, self.pg_num_mask)
+    
+    def hash2(self, key):
+        return mmh3.hash(key) % self.pg_num
+    
+    def hash3(self, key):
+        return hash(key) % self.pg_num
+    
+    def hash4(self, key):
+        md5_hash = hashlib.md5(key).hexdigest()
+        # hash_object = hashlib.md5()
+        # hash_object.update(key)
+        # md5_hash = hash_object.hexdigest()
+        hashed_value_mod = int(md5_hash, 16) % self.pg_num
+        return hashed_value_mod
+    
+    def hash5(self, key):
+        hash = hashlib.sha1(key).hexdigest()
+        hashed_value_mod = int(hash, 16) % self.pg_num
+        return hashed_value_mod
+
+    def hash6(self, key):
+        hash = hashlib.sha256(key).hexdigest()
+        hashed_value_mod = int(hash, 16) % self.pg_num
+        return hashed_value_mod
+    
+    def hash7(self, key):
+        hash = hashlib.sha3_224(key).hexdigest()
+        hashed_value_mod = int(hash, 16) % self.pg_num
+        return hashed_value_mod
+    
+    # use Rendezvous hash and "the Power of Two Choices". 
+    # Each pg corresponds to a node
+    def write_obj_with_Rendezvous_power_2(self, inode_num, inode_size):
+        power = 4
+        self.cal_pg_weight(power)
+        self.init_pg_Rendezvous_node()
+        hash_funcs = [self.hash1, self.hash2, self.hash3, self.hash4, self.hash5]
+        print("hash func num:", len(hash_funcs))
+        print("weight power:", power)
+        collision_num = 0
+        count = 0
+        for inode_no in range(inode_num):
+            # print(inode_num-inode_no)
+            for block_no in range(inode_size):
+                count = count + 1
+                if count % 10000 == 0:
+                    sys.stdout.write("\r%d" % count)  
+                    sys.stdout.flush()  
+
+                # key format: "10000000001.00000002"
+                key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
+
+                # use 2 different hash function to choose 2 pgs.
+                pg_ids = set()
+                for hash_func in hash_funcs:
+                    elem = hash_func(key)
+                    while elem in pg_ids:
+                        # print("hash collision")
+                        collision_num += 1
+                        elem += 1
+                    pg_ids.add(elem)
+                
+                # elem = self.hash3(key)
+                # while elem in pg_ids:
+                #     elem += 1
+                # pg_ids.add(elem)
+                # elem = self.hash4(key)
+                # while elem in pg_ids:
+                #     elem += 1
+                # pg_ids.add(elem)
+                    
+                # raw_pg_id = self.c.c.ceph_str_hash_rjenkins(key, len(key))
+                # pg_id1 = utils.ceph_stable_mod(raw_pg_id, self.pg_num, self.pg_num_mask)
+                # pg_id1 = self.hash1(key)
+
+                # pg_id1 = mmh3.hash(key) % self.pg_num
+                # Eliminate pg1 to avoid pg1 and pg2 being the same.
+                # pg_id2 = (pg_id1 + 1 + (self.hash2(key) % (self.pg_num - 1))) % self.pg_num
+                # pg_id2 = (pg_id1 + 1 + mmh3.hash(key)) % (self.pg_num - 1)
+                # pg_id2 = self.hash2(key)
+                # if pg_id1 == pg_id2:
+                #     pg_id2 = pg_id2 + 1
+
+                # pg_id3 = self.hash3(key)
+                # while pg_id1 == pg_id3 or pg_id2 == pg_id3:
+                #     pg_id3 = pg_id3 + 1
+                # assert pg_id1 != pg_id2
+
+
+
+                # pgs = []
+                # for i in range(self.pg_num):
+                #     pgs.append(i)
+
+                # pg_id1 = pgs[self.hash1(key) % len(pgs)]
+                # pgs.remove(pg_id1)
+                # pg_id2 = pgs[self.hash2(key) % len(pgs)]
+                # assert pg_id1 != pg_id2
+                
+
+                # random_numbers = random.sample(range(0, self.pg_num), 3)
+                # pg_id1, pg_id2, pg_id3 = random_numbers[0], random_numbers[1], random_numbers[2]
+
+                pg_nodes = []
+                for pg_id in pg_ids:
+                    pg_nodes.append(self.pg_Rendezvous_node[pg_id])
+                # pg_node1 = self.pg_Rendezvous_node[pg_id1]
+                # pg_node2 = self.pg_Rendezvous_node[pg_id2]
+                # pg_node3 = self.pg_Rendezvous_node[pg_id3]
+
+                # if pg_node1.compute_weighted_score(key) > pg_node2.compute_weighted_score(key):
+                #     pg_id = pg_id1
+                # else:
+                #     pg_id = pg_id2
+
+                # choose the biggest
+                max_pg_node = max(pg_nodes, key=lambda x: x.compute_weighted_score(key))
+                pg_id = max_pg_node.id
+                # if pg_node1.compute_weighted_score(key) > pg_node2.compute_weighted_score(key) \
+                #  and pg_node1.compute_weighted_score(key) > pg_node3.compute_weighted_score(key):
+                #     pg_id = pg_id1
+                # elif pg_node2.compute_weighted_score(key) > pg_node3.compute_weighted_score(key):
+                #     pg_id = pg_id2
+                # else:
+                #     pg_id = pg_id3
+
+
+                # append to obj_in_pg
+                objs = self.obj_in_pg.get(pg_id, [])
+                objs.append(key)
+                self.obj_in_pg[pg_id] = objs
+
+                # start crush
+                osds = self.pg_to_osds.get(pg_id, [])
+                assert len(osds) == self.replication_count
+                for i in range(len(osds)):
+                    used_capacity = self.osd_used_capacity.get(osds[i], 0)
+                    used_capacity += self.obj_size
+                    # if used_capacity >= self.disk_size*1024:
+                        # print("overflow! osd id:", osds[i])
+                    self.osd_used_capacity[osds[i]] = used_capacity
+        print("collision num:", collision_num)
+
     # devide pg into groups
     def write_obj_with_Rendezvous_group(self, inode_num, inode_size):
         self.init_pg_group_Rendezvous_node()
@@ -414,12 +563,13 @@ class Balancer:
     
     def print_obj_in_pg_number(self):
         max_obj = 0
-        min_obj = len(self.obj_in_pg[0])
+        min_obj = sys.maxsize
         obj_sum = 0
         for pgid, objs in self.obj_in_pg.items():
             obj_count = len(objs)
-            max_obj = max(max_obj, obj_count)
-            min_obj = min(min_obj, obj_count)
+            obj_to_weight = obj_count / self.pg_weight[pgid]
+            max_obj = max(max_obj, obj_to_weight)
+            min_obj = min(min_obj, obj_to_weight)
             obj_sum += obj_count
             # logger.log("pgid:" + str(pgid) + " object count:" + str(obj_count))
         avg_obj = float(obj_sum) / self.pg_num
@@ -458,10 +608,10 @@ b.crush_pg_to_osds()
 # b.cal_pg_weight()
 time2 = time.time()
 # b.write_obj(inode_num, inode_size)
-# b.write_obj_with_Rendezvous(inode_num, inode_size)
-b.stripe_write_obj(inode_num, inode_size)
+b.write_obj_with_Rendezvous_power_2(inode_num, inode_size)
+# b.stripe_write_obj(inode_num, inode_size)
 time3 = time.time()
 # print(time2-time1, time3-time2)
 max_osd_id, min_osd_id = b.print_pg_in_osd()
-# b.print_obj_in_pg_number()
+b.print_obj_in_pg_number()
 b.print_osd_used_capacity(max_osd_id, min_osd_id)
