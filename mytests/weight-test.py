@@ -106,19 +106,20 @@ class Balancer:
         # print("pg num:", bin(self.pg_num), " pg num mask:", bin(self.pg_num_mask))
 
         
-        self.crushmap = self.gen_crushmap(self.n_host, self.n_disk)
-        # print(self.crushmap)
-        self.c = Crush()
-        # self.crushmap_json = json.loads(self.crushmap)
-        self.c.parse(self.crushmap)
+        
         
         # self.pg_pri_in_osd = {}
         # self.pg_rep_in_osd = {}
         self.pg_in_osd = {}
+        self.new_pg_in_osd = {}
         self.pg_to_osds = {}
+        self.new_pg_to_osds = {}
         self.osd_used_capacity = {}
         self.obj_in_pg = {}
         self.obj_num_in_pg = {}
+
+        self.pg_to_avg = {}
+        self.new_pg_to_avg = {}
 
         
         self.max_optimizations = self.pg_num
@@ -139,11 +140,14 @@ class Balancer:
         # Calculate the pgp_num_mask for given pgp_num
         return (1 << (self.pg_num - 1).bit_length()) - 1
     
-    def gen_crushmap(self, n_host, n_disk):
+    def gen_crushmap(self, n_host, n_disk, fail_type):
         device_id = 0
         host_id = -2
         children = []
         for host in range(n_host):
+            if fail_type == "host":
+                if host == n_host-1:
+                    continue
             host_dict = {}
             host_dict["type"] = "host"
             host_dict["name"] = "host" + str(host)
@@ -151,6 +155,9 @@ class Balancer:
             host_id -= 1
             host_dict_children = []
             for i in range(n_disk):
+                if fail_type == "disk":
+                    if host == n_host-1 and i == n_disk-1:
+                        continue
                 disk_dict = {}
                 disk_dict["id"] = device_id
                 disk_dict["name"] = "device" + str(device_id)
@@ -201,6 +208,8 @@ class Balancer:
             self.pg_to_osds[pg_no] = osds
 
     def crush_pg_to_osds(self):
+        self.pg_in_osd.clear()
+        self.pg_to_osds.clear()
         for pg_no in range(self.pg_num):
             pps = np.int32(
                 utils.crush_hash32_rjenkins1_2(utils.ceph_stable_mod(pg_no, self.pg_num, self.pg_num_mask), 3))  # 3 is pool no., not rep count
@@ -210,7 +219,54 @@ class Balancer:
                 pgs = self.pg_in_osd.get(osds[i], [])
                 pgs.append(pg_no)
                 self.pg_in_osd[osds[i]] = pgs
+
+    def are_lists_equal(self, list1, list2):
+        return sorted(list1) == sorted(list2)
+
+    def count_different_elements(list1, list2):
+        # Convert lists to sets
+        set1 = set(list1)
+        set2 = set(list2)
+        
+        # Find different elements using symmetric difference operation
+        different_elements_set = set1 ^ set2
+        
+        # Return the number of different elements
+        return len(different_elements_set)
     
+    def check_crush_pg_to_osds(self):
+        equal_count = 0
+        diff_map = {}
+        for pg_no in range(self.pg_num):
+            pps = np.int32(
+                utils.crush_hash32_rjenkins1_2(utils.ceph_stable_mod(pg_no, self.pg_num, self.pg_num_mask), 3))  # 3 is pool no., not rep count
+            osds = self.c.map(rule="default_rule", value=pps, replication_count=self.replication_count)
+            self.new_pg_to_osds[pg_no] = osds
+            if self.are_lists_equal(self.pg_to_osds[pg_no], osds):
+                equal_count += 1
+            for i in range(len(osds)):
+                pgs = self.new_pg_in_osd.get(osds[i], [])
+                pgs.append(pg_no)
+                self.new_pg_in_osd[osds[i]] = pgs
+        print("equal_count:", equal_count, " total pg count:", self.pg_num)
+
+    def check_pg_in_osd(self):
+        count = 0
+        pg_num_change_count = {}
+        for osd, pgs in self.new_pg_in_osd.items():
+            before = len(self.pg_in_osd[osd])
+            after = len(pgs)
+            if before != after:
+                count += 1
+                diff = (before-after)
+                tmp = pg_num_change_count.get(diff, 0)
+                tmp += 1
+                pg_num_change_count[diff] = tmp
+                # print("before pg num:", before, " after pg num:", after)
+        print("different pg num osd count:", count, " total osd num:", self.disk_num)
+        for diff, tmp in pg_num_change_count.items():
+            print("diff:", diff, " count:", tmp)
+
     def print_pg_in_osd(self):
         max_pg_num = 0
         max_osdid = 0
@@ -305,24 +361,81 @@ class Balancer:
     # calculate pg weight
     def cal_pg_weight(self, power):
         # Calculate the average pg num of the osd corresponding to each pg
+        # pg_to_avg = {}
+        for pg, osds in self.pg_to_osds.items():
+            total_pg = 0
+            for osd in osds:
+                total_pg += len(self.pg_in_osd[osd])
+            self.pg_to_avg[pg] = total_pg / len(osds)
+
+        for pg, v in self.pg_to_avg.items():
+            self.pg_weight[pg] = (1/v) ** power
+        # # print(normalized_pg)
+            
+    # new calculate pg weight
+    def new_cal_pg_weight(self, power):
+        avg_pg_num_count = {}
+        # Calculate the average pg num of the osd corresponding to each pg
+        # pg_to_avg = {}
+        for pg, osds in self.new_pg_to_osds.items():
+            total_pg = 0
+            for osd in osds:
+                total_pg += len(self.new_pg_in_osd[osd])
+            self.new_pg_to_avg[pg] = total_pg / len(osds)
+            before = self.pg_to_avg[pg]
+            after = self.new_pg_to_avg[pg]
+            if before != after:
+                diff = abs(before-after)
+                if diff < 1:
+                    tmp = avg_pg_num_count.get(1, 0)
+                    tmp += 1
+                    avg_pg_num_count[1] = tmp
+                elif diff >=1 and diff < 2:
+                    tmp = avg_pg_num_count.get(2, 0)
+                    tmp += 1
+                    avg_pg_num_count[2] = tmp
+                elif diff >=2 and diff < 5:
+                    tmp = avg_pg_num_count.get(5, 0)
+                    tmp += 1
+                    avg_pg_num_count[5] = tmp
+                elif diff >=5 and diff < 10:
+                    tmp = avg_pg_num_count.get(10, 0)
+                    tmp += 1
+                    avg_pg_num_count[10] = tmp
+                else:
+                    tmp = avg_pg_num_count.get(100, 0)
+                    tmp += 1
+                    avg_pg_num_count[100] = tmp
+                # print("before avg pg num:", self.pg_to_avg[pg], " after avg pg num:", self.new_pg_to_avg[pg])
+            else:
+                tmp = avg_pg_num_count.get(0, 0)
+                tmp += 1
+                avg_pg_num_count[0] = tmp
+        for avg, count in avg_pg_num_count.items():
+            print("avg pg num diff:", avg, " count:", count)
+
+        for pg, v in self.new_pg_to_avg.items():
+            self.pg_weight[pg] = (1/v) ** power
+        # # print(normalized_pg)
+            
+    # calculate pg weight
+    def check_pg_weight(self, power):
+        equal_count = 0
+        # Calculate the average pg num of the osd corresponding to each pg
         pg_to_avg = {}
         for pg, osds in self.pg_to_osds.items():
             total_pg = 0
             for osd in osds:
                 total_pg += len(self.pg_in_osd[osd])
             pg_to_avg[pg] = total_pg / len(osds)
-        # # Sort by average in ascending order
-        # sorted_pg = sorted(pg_to_avg.items(), key=lambda x: x[1])
-        # # print(sorted_pg)
-        # Calculate the sum of all values
-        # total_value = sum([v for _, v in pg_to_avg.items()])
-        # print(total_value)
-        # Then calculate the average value
-        # average_value = total_value / len(pg_to_avg)
-        # Divide each value in pg_to_avg by the average value
         for pg, v in pg_to_avg.items():
-            self.pg_weight[pg] = (1/v) ** power
-        # # print(normalized_pg)
+            value = (1/v) ** power
+            if self.pg_weight[pg] == value:
+                equal_count += 1
+            else:
+                print("before:", self.pg_weight[pg]*100, " after:", value*100)
+        # print(normalized_pg)
+        print("equal_count:", equal_count)
             
 
     def init_pg_Rendezvous_node(self):
@@ -409,8 +522,8 @@ class Balancer:
     # use Rendezvous hash and "the Power of Two Choices". 
     # Each pg corresponds to a node
     def write_obj_with_Rendezvous_power_2(self, inode_num, inode_size):
-        power = 12.2
-        self.cal_pg_weight(power)
+        power = 3.95
+        # self.cal_pg_weight(power)
         self.init_pg_Rendezvous_node()
         hash_funcs = [self.hash1, self.hash2, self.hash3, self.hash4, self.hash5]
         print("hash func num:", len(hash_funcs))
@@ -608,6 +721,7 @@ class Balancer:
 
 logger = Logger("raw_crush_log.txt")
 b = Balancer()
+
 print("pg num:", b.pg_num)
 print("pg num mask:", b.pg_num_mask)
 print("crush type:", b.crush_type)
@@ -633,17 +747,45 @@ inode_num = int(obj_load_num/inode_size)
 print("inode number:", inode_num)
 # each inode has {inode_size} blocks
 # each block is a object
-time1 = time.time()
+power = 12.2
+# time1 = time.time()
+
+# entire cluster without failure
+b.crushmap = b.gen_crushmap(b.n_host, b.n_disk, "")
+# print(self.crushmap)
+b.c = Crush()
+# self.crushmap_json = json.loads(self.crushmap)
+b.c.parse(b.crushmap)
 b.crush_pg_to_osds()
+b.cal_pg_weight(power)
 # b.stripe_pg_to_osds()
+
+# b.crushmap = b.gen_crushmap(b.n_host, b.n_disk, "disk")
+# print(self.crushmap)
+# b.c = Crush()
+# self.crushmap_json = json.loads(self.crushmap)
+# b.c.parse(b.crushmap)
+
+# b.crush_pg_to_osds()
+# b.check_pg_weight(power)
 
 # b.cal_pg_weight()
 time2 = time.time()
-# b.write_obj(inode_num, inode_size)
-b.write_obj_with_Rendezvous_power_2(inode_num, inode_size)
+
+#one disk failure
+b.crushmap = b.gen_crushmap(b.n_host, b.n_disk, "disk")
+# print(self.crushmap)
+b.c = Crush()
+# self.crushmap_json = json.loads(self.crushmap)
+b.c.parse(b.crushmap)
+b.check_crush_pg_to_osds()
+b.check_pg_in_osd()
+b.new_cal_pg_weight(power)
+# b.crush_pg_to_osds()
+# b.write_obj_with_Rendezvous_power_2(inode_num, inode_size)
 # b.stripe_write_obj(inode_num, inode_size)
 time3 = time.time()
 # print(time2-time1, time3-time2)
-max_osd_id, min_osd_id = b.print_pg_in_osd()
-b.print_obj_in_pg_number()
-b.print_osd_used_capacity(max_osd_id, min_osd_id)
+# max_osd_id, min_osd_id = b.print_pg_in_osd()
+# b.print_obj_in_pg_number()
+# b.print_osd_used_capacity(max_osd_id, min_osd_id)

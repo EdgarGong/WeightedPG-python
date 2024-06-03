@@ -49,14 +49,44 @@ class Balancer:
 #         self.crushmap = """
 # {"rules": {"default_rule": [["take", "default"], ["chooseleaf", "firstn", 0, "type", "host"], ["emit"]]}, "types": [{"name": "root", "type_id": 2}, {"name": "host", "type_id": 1}], "trees": [{"children": [{"children": [{"id": 0, "weight": 1, "name": "device0"}, {"id": 1, "weight": 1, "name": "device1"}, {"id": 2, "weight": 1, "name": "device2"}], "type": "host", "name": "host0", "id": -2}, {"children": [{"id": 3, "weight": 1, "name": "device3"}, {"id": 4, "weight": 1, "name": "device4"}, {"id": 5, "weight": 1, "name": "device5"}], "type": "host", "name": "host1", "id": -3}, {"children": [{"id": 6, "weight": 1, "name": "device6"}, {"id": 7, "weight": 1, "name": "device7"}, {"id": 8, "weight": 1, "name": "device8"}], "type": "host", "name": "host2", "id": -4}, {"children": [{"id": 9, "weight": 1, "name": "device9"}, {"id": 10, "weight": 1, "name": "device10"}, {"id": 11, "weight": 1, "name": "device11"}], "type": "host", "name": "host3", "id": -5}], "type": "root", "name": "default", "id": -1}]}
 # """
-        self.n_host = 12
-        self.n_disk = 32
+        with open("config/config.json") as f:
+            config = json.load(f)
+        self.n_host = config['host_num']
+        self.n_disk = config['disk_num']
+
+        self.crush_type = config['type']
+
+        if self.crush_type == 'ec':
+            self.k = config['k']
+            self.m = config['m']
+            self.replication_count = self.k + self.m
+        elif self.crush_type == 'rep':
+            self.replication_count = config['replicated_num']
+            
+        self.obj_size = config['obj_size'] #MB
+        self.disk_size = config['disk_size'] #GB
+
+        self.overall_used_capacity = config['overall_used_capacity']
+        self.disk_num = self.n_host*self.n_disk
+        # engine_num = disk_num, Each engine corresponds to one osd.
+        # self.engine_num = self.disk_num
+        # self.engine_id = [i for i in range(self.engine_num)]
+        # self.obj_in_engine = {}
+
+
+        # self.pg_num = int(100 * self.disk_num * self.overall_used_capacity / self.replication_count)  # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
+        # self.pg_num = 1 << (self.pg_num.bit_length() - 1)
+        self.pg_num = config['pg_num']
+
+        self.pg_num_mask = self.compute_pgp_num_mask()
+        
         self.crushmap = self.gen_crushmap(self.n_host, self.n_disk)
+        
         # print(self.crushmap)
         self.c = Crush()
         # self.crushmap_json = json.loads(self.crushmap)
         self.c.parse(self.crushmap)
-        self.replication_count = 3
+        
         # self.pg_pri_in_osd = {}
         # self.pg_rep_in_osd = {}
         self.pg_in_osd = {}
@@ -65,21 +95,7 @@ class Balancer:
         self.obj_in_pg = {}
         self.obj_num_in_pg = {}
 
-        self.disk_num = self.n_host*self.n_disk
-        # engine_num = disk_num, Each engine corresponds to one osd.
-        # self.engine_num = self.disk_num
-        # self.engine_id = [i for i in range(self.engine_num)]
-        # self.obj_in_engine = {}
-
-        self.obj_size = 4 #MB
-        self.disk_size = 128 #GB
-
-        self.overall_used_capacity = 0.7
-        # self.pg_num = int(100 * self.disk_num * self.overall_used_capacity / self.replication_count)  # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
-        # self.pg_num = 1 << (self.pg_num.bit_length() - 1)
-        self.pg_num = 8192
-
-        self.pg_num_mask = self.compute_pgp_num_mask()
+        
         
         # print("pg num:", bin(self.pg_num), " pg num mask:", bin(self.pg_num_mask))
 
@@ -129,7 +145,12 @@ class Balancer:
         # default_rule_ec = [["take", "default"], ["choose", "indep", 5, "type", "host"], ["chooseleaf", "indep", 2, "type", 0], ["emit"]]
         default_rule_ec = [["take", "default"], ["chooseleaf", "indep", 0, "type", "host"], ["emit"]]
 
-        rules["default_rule"] = default_rule_rep
+        if self.crush_type == 'ec':
+            rules["default_rule"] = default_rule_ec
+        elif self.crush_type == 'rep':
+            rules["default_rule"] = default_rule_rep
+        else:
+            print("error crush type!!!")
 
         types = [{"type_id": 2, "name": "root"}, {"type_id": 1, "name": "host"}]
 
@@ -222,7 +243,10 @@ class Balancer:
                 assert len(osds) == self.replication_count
                 for i in range(len(osds)):
                     used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                    used_capacity += self.obj_size
+                    if self.crush_type == 'ec':
+                        used_capacity += (self.obj_size / self.k)
+                    elif self.crush_type == 'rep':
+                        used_capacity += self.obj_size
                     # if used_capacity >= self.disk_size*1024:
                         # print("overflow! osd id:", osds[i])
                     self.osd_used_capacity[osds[i]] = used_capacity
@@ -352,6 +376,8 @@ class Balancer:
 
 
     def write_obj_with_pg_num(self, inode_num, inode_size):
+        power = 13
+
         object_num = inode_num*inode_size
         # Calculate the average pg num of the osd corresponding to each pg
         pg_to_avg = {}
@@ -380,11 +406,14 @@ class Balancer:
         max_obj = 0
         min_obj = sys.maxsize
         obj_sum = 0
+
+        
+        print("weight power:", power)
         for pg_id, weight in normalized_pg:
             # the more the avg_pg_num, the less the objects in it
             value = 1 / weight
             # print(pg_id, value)
-            obj_num = int(avg_obj_in_pg * (value ** 5))
+            obj_num = int(avg_obj_in_pg * (value ** power))
             max_obj = max(max_obj, obj_num)
             min_obj = min(min_obj, obj_num)
             obj_sum += obj_num
@@ -395,7 +424,10 @@ class Balancer:
             assert len(osds) == self.replication_count
             for i in range(len(osds)):
                 used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                used_capacity += (self.obj_size * obj_num)
+                if self.crush_type == 'rep':
+                    used_capacity += (self.obj_size * obj_num)
+                elif self.crush_type == 'ec':
+                    used_capacity += (self.obj_size / self.k * obj_num)
                 # if used_capacity >= self.disk_size*1024:
                     # print("overflow! osd id:", osds[i])
                 self.osd_used_capacity[osds[i]] = used_capacity
@@ -459,13 +491,21 @@ logger = Logger("raw_crush_log.txt")
 b = Balancer()
 print("pg num:", b.pg_num)
 print("pg num mask:", b.pg_num_mask)
+print("crush type:", b.crush_type)
+print("replicated count:", b.replication_count)
 # disk_load = 12288  # GB
 # inode_size = 4096
 inode_size = 4096
 # inode_num = int(b.disk_num * disk_load / inode_size / b.replication_count * 256)
 disk_capacity = b.disk_num*b.disk_size #GB
 overall_utilization = b.overall_used_capacity
-obj_load_num = int(disk_capacity*overall_utilization*1024/b.replication_count/b.obj_size)
+
+target_capacity = disk_capacity*overall_utilization*1024
+if b.crush_type == 'rep':
+    obj_load_num = int(target_capacity/b.replication_count/b.obj_size)
+elif b.crush_type == 'ec':
+    redun = (b.k + b.m)/b.k
+    obj_load_num = int(target_capacity/redun/b.obj_size)
 # obj_load_num = 2936012
 print("object load number:", obj_load_num)
 inode_num = int(obj_load_num/inode_size)

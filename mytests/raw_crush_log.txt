@@ -59311,3 +59311,1815 @@ MAX/MIN used capacity deviation:1.0765974162/0.924188198324
 MAX/MIN used osd id:201/41
 MAX/MIN pg osd's used deviation:0.924188198324/0.92938198324
 ========== stop logging at Mon May  6 10:04:28 2024 ==========
+========== start logging at Wed May 22 10:10:18 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 124/1522/386.301147461
+objects in PGs MIN/MAX/AVG objects number deviation: 0.320993092604/3.93993134632
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:1.00469970703/0.571136474609
+MAX/MIN used capacity deviation:1.3316197826/0.756979048398
+MAX/MIN used osd id:102/41
+MAX/MIN pg osd's used deviation:0.756979048398/1.20784976453
+========== stop logging at Wed May 22 10:10:19 2024 ==========
+========== start logging at Wed May 22 10:11:45 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 189/853/368.643920898
+objects in PGs MIN/MAX/AVG objects number deviation: 0.51268985947/2.31388597951
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.766876220703/0.66943359375
+MAX/MIN used capacity deviation:1.06509453362/0.929758991182
+MAX/MIN used osd id:201/320
+MAX/MIN pg osd's used deviation:0.955995352212/0.9335312628
+========== stop logging at Wed May 22 10:11:46 2024 ==========
+========== start logging at Wed May 22 10:16:52 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 210/738/365.600952148
+objects in PGs MIN/MAX/AVG objects number deviation: 0.574396753526/2.01859430525
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.766571044922/0.624298095703
+MAX/MIN used capacity deviation:1.07353214671/0.874288272833
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:1.01156225887/0.874288272833
+========== stop logging at Wed May 22 10:16:54 2024 ==========
+========== start logging at Wed May 22 10:17:01 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 206/759/366.056640625
+objects in PGs MIN/MAX/AVG objects number deviation: 0.562754440538/2.07344961344
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.765441894531/0.633209228516
+MAX/MIN used capacity deviation:1.07061641972/0.885663826359
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:1.0004001686/0.885663826359
+========== stop logging at Wed May 22 10:17:03 2024 ==========
+========== start logging at Wed May 22 10:17:10 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 202/782/366.717895508
+objects in PGs MIN/MAX/AVG objects number deviation: 0.550832131386/2.13242934032
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.764892578125/0.642944335938
+MAX/MIN used capacity deviation:1.0679189775/0.897658674508
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:0.989307801567/0.897658674508
+========== stop logging at Wed May 22 10:17:11 2024 ==========
+========== start logging at Wed May 22 10:17:19 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 197/805/367.319335938
+objects in PGs MIN/MAX/AVG objects number deviation: 0.536318077286/2.19155356454
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.763885498047/0.652435302734
+MAX/MIN used capacity deviation:1.06476663964/0.909418161033
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:0.977946747843/0.909418161033
+========== stop logging at Wed May 22 10:17:20 2024 ==========
+========== start logging at Wed May 22 10:17:26 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 193/828/367.964599609
+objects in PGs MIN/MAX/AVG objects number deviation: 0.524506977587/2.25021646343
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.764312744141/0.662322998047
+MAX/MIN used capacity deviation:1.06349394864/0.921581519961
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.96667757001/0.921581519961
+========== stop logging at Wed May 22 10:17:28 2024 ==========
+========== start logging at Wed May 22 10:18:32 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 210/738/365.600952148
+objects in PGs MIN/MAX/AVG objects number deviation: 0.574396753526/2.01859430525
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.766571044922/0.624298095703
+MAX/MIN used capacity deviation:1.07353214671/0.874288272833
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:1.01156225887/0.874288272833
+========== stop logging at Wed May 22 10:18:33 2024 ==========
+========== start logging at Wed May 22 10:18:37 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 206/759/366.056640625
+objects in PGs MIN/MAX/AVG objects number deviation: 0.562754440538/2.07344961344
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.765441894531/0.633209228516
+MAX/MIN used capacity deviation:1.07061641972/0.885663826359
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:1.0004001686/0.885663826359
+========== stop logging at Wed May 22 10:18:39 2024 ==========
+========== start logging at Wed May 22 10:19:01 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 202/782/366.717895508
+objects in PGs MIN/MAX/AVG objects number deviation: 0.550832131386/2.13242934032
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.764892578125/0.642944335938
+MAX/MIN used capacity deviation:1.0679189775/0.897658674508
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:0.989307801567/0.897658674508
+========== stop logging at Wed May 22 10:19:02 2024 ==========
+========== start logging at Wed May 22 10:19:52 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 197/805/367.319335938
+objects in PGs MIN/MAX/AVG objects number deviation: 0.536318077286/2.19155356454
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.763885498047/0.652435302734
+MAX/MIN used capacity deviation:1.06476663964/0.909418161033
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:0.977946747843/0.909418161033
+========== stop logging at Wed May 22 10:19:53 2024 ==========
+========== start logging at Wed May 22 10:20:16 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 193/828/367.964599609
+objects in PGs MIN/MAX/AVG objects number deviation: 0.524506977587/2.25021646343
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.764312744141/0.662322998047
+MAX/MIN used capacity deviation:1.06349394864/0.921581519961
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.96667757001/0.921581519961
+========== stop logging at Wed May 22 10:20:17 2024 ==========
+========== start logging at Wed May 22 10:20:42 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 189/853/368.643920898
+objects in PGs MIN/MAX/AVG objects number deviation: 0.51268985947/2.31388597951
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.766876220703/0.66943359375
+MAX/MIN used capacity deviation:1.06509453362/0.929758991182
+MAX/MIN used osd id:201/320
+MAX/MIN pg osd's used deviation:0.955995352212/0.9335312628
+========== stop logging at Wed May 22 10:20:43 2024 ==========
+========== start logging at Wed May 22 10:21:20 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 210/738/365.600952148
+objects in PGs MIN/MAX/AVG objects number deviation: 0.574396753526/2.01859430525
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.766571044922/0.624298095703
+MAX/MIN used capacity deviation:1.07353214671/0.874288272833
+MAX/MIN used osd id:210/262
+MAX/MIN pg osd's used deviation:1.01156225887/0.874288272833
+========== stop logging at Wed May 22 10:21:21 2024 ==========
+========== start logging at Wed May 22 10:33:25 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 185/878/369.289794922
+objects in PGs MIN/MAX/AVG objects number deviation: 0.500961582324/2.3775365907
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.769195556641/0.674163818359
+MAX/MIN used capacity deviation:1.06644735494/0.934691073911
+MAX/MIN used osd id:201/320
+MAX/MIN pg osd's used deviation:0.945099566247/0.945903474191
+========== stop logging at Wed May 22 10:33:26 2024 ==========
+========== start logging at Wed May 22 10:33:50 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 181/904/370.031738281
+objects in PGs MIN/MAX/AVG objects number deviation: 0.489147230561/2.44303368192
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.771789550781/0.671966552734
+MAX/MIN used capacity deviation:1.06789826147/0.929776663478
+MAX/MIN used osd id:201/347
+MAX/MIN pg osd's used deviation:0.934674891961/0.958321512222
+========== stop logging at Wed May 22 10:33:51 2024 ==========
+========== start logging at Wed May 22 10:36:36 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 178/930/370.73840332
+objects in PGs MIN/MAX/AVG objects number deviation: 0.480122907165/2.50850732395
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.774536132812/0.666107177734
+MAX/MIN used capacity deviation:1.06965584479/0.919912455644
+MAX/MIN used osd id:201/347
+MAX/MIN pg osd's used deviation:0.923747707097/0.970866510662
+========== stop logging at Wed May 22 10:36:38 2024 ==========
+========== start logging at Wed May 22 10:37:39 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 187/865/368.901367188
+objects in PGs MIN/MAX/AVG objects number deviation: 0.506910563725/2.34480020119
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.767761230469/0.671691894531
+MAX/MIN used capacity deviation:1.0655795423/0.93224444415
+MAX/MIN used osd id:201/320
+MAX/MIN pg osd's used deviation:0.950711439954/0.939826077749
+========== stop logging at Wed May 22 10:37:41 2024 ==========
+========== start logging at Wed May 22 10:39:29 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 186/873/369.158081055
+objects in PGs MIN/MAX/AVG objects number deviation: 0.503849189671/2.36484055152
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.768676757812/0.673370361328
+MAX/MIN used capacity deviation:1.06610831565/0.93392409023
+MAX/MIN used osd id:201/320
+MAX/MIN pg osd's used deviation:0.947256793082/0.943405123369
+========== stop logging at Wed May 22 10:39:31 2024 ==========
+========== start logging at Wed May 22 10:39:46 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 183/891/369.587036133
+objects in PGs MIN/MAX/AVG objects number deviation: 0.495147237616/2.41079884544
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.770416259766/0.674957275391
+MAX/MIN used capacity deviation:1.06728073887/0.935038546308
+MAX/MIN used osd id:201/347
+MAX/MIN pg osd's used deviation:0.94002722237/0.95194931262
+========== stop logging at Wed May 22 10:39:47 2024 ==========
+========== start logging at Wed May 22 10:42:58 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 30797604474.5/64119708997.4/358.0
+MAX/MIN used capacity:0.762084960938/0.615051269531
+MAX/MIN used capacity deviation:1.08990921788/0.879626396648
+MAX/MIN used osd id:206/41
+MAX/MIN pg osd's used deviation:0.879626396648/0.973201815642
+========== stop logging at Wed May 22 10:44:19 2024 ==========
+========== start logging at Wed May 22 10:45:57 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 9162472021.19/18337146482.7/358.0
+MAX/MIN used capacity:0.754516601562/0.633697509766
+MAX/MIN used capacity deviation:1.07908519553/0.906293645251
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.906293645251/0.947014664804
+========== stop logging at Wed May 22 10:47:14 2024 ==========
+========== start logging at Wed May 22 10:49:36 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 6080466546.96/12008629679.1/358.0
+MAX/MIN used capacity:0.754180908203/0.639678955078
+MAX/MIN used capacity deviation:1.07860509777/0.914848114525
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.914848114525/0.938372905028
+========== stop logging at Wed May 22 10:50:53 2024 ==========
+========== start logging at Wed May 22 10:51:18 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 4986537224.2/9783683150.39/358.0
+MAX/MIN used capacity:0.753509521484/0.642608642578
+MAX/MIN used capacity deviation:1.07764490223/0.919038058659
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.919038058659/0.93344099162
+========== stop logging at Wed May 22 10:52:34 2024 ==========
+========== start logging at Wed May 22 10:53:12 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 4395507676.4/8602064479.11/358.0
+MAX/MIN used capacity:0.752960205078/0.64501953125
+MAX/MIN used capacity deviation:1.07685928771/0.92248603352
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.92248603352/0.930822276536
+========== stop logging at Wed May 22 10:54:31 2024 ==========
+========== start logging at Wed May 22 10:55:00 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 4050080000.4/7894793430.91/358.0
+MAX/MIN used capacity:0.752777099609/0.646209716797
+MAX/MIN used capacity deviation:1.0765974162/0.924188198324
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.924188198324/0.92938198324
+========== stop logging at Wed May 22 10:56:23 2024 ==========
+========== start logging at Wed May 22 10:56:51 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 2677786225.93/5214447062.1/358.0
+MAX/MIN used capacity:0.751647949219/0.643768310547
+MAX/MIN used capacity deviation:1.0749825419/0.920696578212
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.933353701117/0.920696578212
+========== stop logging at Wed May 22 10:58:08 2024 ==========
+========== start logging at Wed May 22 10:58:30 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 1789944455.84/3407322993.4/358.0
+MAX/MIN used capacity:0.7509765625/0.637603759766
+MAX/MIN used capacity deviation:1.07402234637/0.91188023743
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.941515363128/0.91188023743
+========== stop logging at Wed May 22 10:59:47 2024 ==========
+========== start logging at Wed May 22 11:00:12 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 3298094049.63/6439195596.4/358.0
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Wed May 22 11:01:32 2024 ==========
+========== start logging at Wed May 22 11:05:44 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 28858795507.2/68503962604.0/358.0
+MAX/MIN used capacity:0.753173828125/0.634826660156
+MAX/MIN used capacity deviation:1.07716480447/0.907908519553
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.907908519553/0.938023743017
+========== stop logging at Wed May 22 11:06:50 2024 ==========
+========== start logging at Wed May 22 11:08:28 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 64652472488.0/1.54655331065e+11/358.0
+MAX/MIN used capacity:0.756134033203/0.624847412109
+MAX/MIN used capacity deviation:1.08139839385/0.893636522346
+MAX/MIN used osd id:206/41
+MAX/MIN pg osd's used deviation:0.893636522346/0.95373603352
+========== stop logging at Wed May 22 11:09:34 2024 ==========
+========== start logging at Wed May 22 11:10:20 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 8500890124.91/19358736665.3/358.0
+MAX/MIN used capacity:0.750274658203/0.639556884766
+MAX/MIN used capacity deviation:1.07301850559/0.91467353352
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.932393505587/0.91467353352
+========== stop logging at Wed May 22 11:11:25 2024 ==========
+========== start logging at Wed May 22 11:12:16 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 5720943606.71/12700705054.3/358.0
+MAX/MIN used capacity:0.749969482422/0.634429931641
+MAX/MIN used capacity deviation:1.07258205307/0.907341131285
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.941297136872/0.907341131285
+========== stop logging at Wed May 22 11:13:21 2024 ==========
+========== start logging at Wed May 22 11:14:22 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 10387296673.7/23836930746.7/358.0
+MAX/MIN used capacity:0.751007080078/0.642486572266
+MAX/MIN used capacity deviation:1.07406599162/0.918863477654
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.927243365922/0.918863477654
+========== stop logging at Wed May 22 11:15:30 2024 ==========
+========== start logging at Wed May 22 11:16:00 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 12752648160.9/29580356099.7/358.0
+MAX/MIN used capacity:0.75146484375/0.645080566406
+MAX/MIN used capacity deviation:1.07472067039/0.922573324022
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.923315293296/0.922573324022
+========== stop logging at Wed May 22 11:17:07 2024 ==========
+========== start logging at Wed May 22 11:17:33 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 19156936011.4/45552217582.3/358.0
+MAX/MIN used capacity:0.75244140625/0.640380859375
+MAX/MIN used capacity deviation:1.07611731844/0.915851955307
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.915851955307/0.930342178771
+========== stop logging at Wed May 22 11:18:41 2024 ==========
+========== start logging at Wed May 22 11:19:04 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 15630635459.5/36707639766.3/358.0
+MAX/MIN used capacity:0.751953125/0.643188476562
+MAX/MIN used capacity deviation:1.07541899441/0.919867318436
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.919867318436/0.926763268156
+========== stop logging at Wed May 22 11:20:12 2024 ==========
+========== start logging at Wed May 22 15:19:02 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9.08678151273e+11/2.08167910446e+12/107.5
+MAX/MIN used capacity:0.773803710938/0.597473144531
+MAX/MIN used capacity deviation:1.10563953488/0.853691860465
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.08998546512/0.853691860465
+========== stop logging at Wed May 22 15:19:25 2024 ==========
+========== start logging at Wed May 22 15:20:30 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 15630635459.5/36707639766.3/358.0
+MAX/MIN used capacity:0.751953125/0.643188476562
+MAX/MIN used capacity deviation:1.07541899441/0.919867318436
+MAX/MIN used osd id:201/41
+MAX/MIN pg osd's used deviation:0.919867318436/0.926763268156
+========== stop logging at Wed May 22 15:21:39 2024 ==========
+========== start logging at Wed May 22 15:22:44 2024 ==========
+========== start logging at Wed May 22 15:23:33 2024 ==========
+========== start logging at Wed May 22 15:23:58 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 83/140/107.312744141
+objects in PGs MIN/MAX/AVG objects number deviation: 0.773440290477/1.30459808032
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.770935058594/0.589263916016
+MAX/MIN used capacity deviation:1.10346283611/0.843431395076
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.09787170148/0.843431395076
+========== stop logging at Wed May 22 15:24:00 2024 ==========
+========== start logging at Wed May 22 15:24:29 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.811920166016/0.559448242188
+MAX/MIN used capacity deviation:1.16010174419/0.799360465116
+MAX/MIN used osd id:344/15
+MAX/MIN pg osd's used deviation:1.15238372093/0.799360465116
+========== stop logging at Wed May 22 15:24:38 2024 ==========
+========== start logging at Wed May 22 15:28:15 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 183/891/369.587036133
+objects in PGs MIN/MAX/AVG objects number deviation: 0.495147237616/2.41079884544
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.770416259766/0.674957275391
+MAX/MIN used capacity deviation:1.06728073887/0.935038546308
+MAX/MIN used osd id:201/347
+MAX/MIN pg osd's used deviation:0.94002722237/0.95194931262
+========== stop logging at Wed May 22 15:28:16 2024 ==========
+========== start logging at Wed May 22 15:28:54 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 183/891/369.587036133
+objects in PGs MIN/MAX/AVG objects number deviation: 0.495147237616/2.41079884544
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.770416259766/0.674957275391
+MAX/MIN used capacity deviation:1.06728073887/0.935038546308
+MAX/MIN used osd id:201/347
+MAX/MIN pg osd's used deviation:0.94002722237/0.95194931262
+========== stop logging at Wed May 22 15:28:55 2024 ==========
+========== start logging at Wed May 22 15:29:25 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 83/140/107.312744141
+objects in PGs MIN/MAX/AVG objects number deviation: 0.773440290477/1.30459808032
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.770935058594/0.589263916016
+MAX/MIN used capacity deviation:1.10346283611/0.843431395076
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.09787170148/0.843431395076
+========== stop logging at Wed May 22 15:29:27 2024 ==========
+========== start logging at Wed May 22 15:30:16 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 83/140/107.312744141
+objects in PGs MIN/MAX/AVG objects number deviation: 0.773440290477/1.30459808032
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.770935058594/0.589263916016
+MAX/MIN used capacity deviation:1.10346283611/0.843431395076
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.09787170148/0.843431395076
+========== stop logging at Wed May 22 15:30:18 2024 ==========
+========== start logging at Wed May 22 15:30:30 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 83/140/107.312744141
+objects in PGs MIN/MAX/AVG objects number deviation: 0.773440290477/1.30459808032
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.770935058594/0.589263916016
+MAX/MIN used capacity deviation:1.10346283611/0.843431395076
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.09787170148/0.843431395076
+========== stop logging at Wed May 22 15:30:31 2024 ==========
+========== start logging at Wed May 22 15:31:21 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 84/139/107.295776367
+objects in PGs MIN/MAX/AVG objects number deviation: 0.782882633819/1.29548435834
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.771911621094/0.587127685547
+MAX/MIN used capacity deviation:1.10503534262/0.840506640181
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.10071026557/0.840506640181
+========== stop logging at Wed May 22 15:31:23 2024 ==========
+========== start logging at Wed May 22 15:31:36 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 91/127/107.156738281
+objects in PGs MIN/MAX/AVG objects number deviation: 0.849223310261/1.18517978465
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.781097412109/0.573883056641
+MAX/MIN used capacity deviation:1.11963619297/0.822612174595
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.11963619297/0.822612174595
+========== stop logging at Wed May 22 15:31:37 2024 ==========
+========== start logging at Wed May 22 15:31:42 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 72/165/107.74206543
+objects in PGs MIN/MAX/AVG objects number deviation: 0.668262667073/1.53143527871
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.757293701172/0.615966796875
+MAX/MIN used capacity deviation:1.07961836481/0.878138910951
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.06417349197/0.878138910951
+========== stop logging at Wed May 22 15:31:44 2024 ==========
+========== start logging at Wed May 22 15:31:50 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 66/179/108.026367188
+objects in PGs MIN/MAX/AVG objects number deviation: 0.610961950479/1.65700286569
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.750671386719/0.631500244141
+MAX/MIN used capacity deviation:1.06736094161/0.897914463157
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.04605537927/0.897914463157
+========== stop logging at Wed May 22 15:31:51 2024 ==========
+========== start logging at Wed May 22 15:31:57 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 52/232/109.194946289
+objects in PGs MIN/MAX/AVG objects number deviation: 0.476212515022/2.12464045164
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.736145019531/0.670959472656
+MAX/MIN used capacity deviation:1.03550465331/0.943810849333
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.99365003773/0.958620944076
+========== stop logging at Wed May 22 15:31:58 2024 ==========
+========== start logging at Wed May 22 15:32:13 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 48/253/109.715820312
+objects in PGs MIN/MAX/AVG objects number deviation: 0.437493880675/2.30595732939
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.742248535156/0.681457519531
+MAX/MIN used capacity deviation:1.03913341463/0.954027183152
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.976628185387/0.980131554353
+========== stop logging at Wed May 22 15:32:15 2024 ==========
+========== start logging at Wed May 22 15:32:20 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 32/388/112.97253418
+objects in PGs MIN/MAX/AVG objects number deviation: 0.283254688694/3.43446310041
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.824584960938/0.655059814453
+MAX/MIN used capacity deviation:1.12112427078/0.890634066329
+MAX/MIN used osd id:28/356
+MAX/MIN pg osd's used deviation:0.895405690724/1.09556496098
+========== stop logging at Wed May 22 15:32:22 2024 ==========
+========== start logging at Wed May 22 15:32:32 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 38/327/111.482055664
+objects in PGs MIN/MAX/AVG objects number deviation: 0.340862031774/2.93320748395
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.785186767578/0.668670654297
+MAX/MIN used capacity deviation:1.08183049533/0.921294569679
+MAX/MIN used osd id:28/356
+MAX/MIN pg osd's used deviation:0.927139120142/1.0474779937
+========== stop logging at Wed May 22 15:32:34 2024 ==========
+========== start logging at Wed May 22 15:32:43 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 41/300/110.830566406
+objects in PGs MIN/MAX/AVG objects number deviation: 0.369934047343/2.70683449275
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.767028808594/0.676239013672
+MAX/MIN used capacity deviation:1.06302465845/0.937199148827
+MAX/MIN used osd id:28/356
+MAX/MIN pg osd's used deviation:0.943670175037/1.02474832695
+========== stop logging at Wed May 22 15:32:45 2024 ==========
+========== start logging at Wed May 22 15:32:50 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 48/253/109.715820312
+objects in PGs MIN/MAX/AVG objects number deviation: 0.437493880675/2.30595732939
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.742248535156/0.681457519531
+MAX/MIN used capacity deviation:1.03913341463/0.954027183152
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.976628185387/0.980131554353
+========== stop logging at Wed May 22 15:32:51 2024 ==========
+========== start logging at Wed May 22 15:32:57 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 44/275/110.238769531
+objects in PGs MIN/MAX/AVG objects number deviation: 0.399133627735/2.49458517334
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.750823974609/0.684295654297
+MAX/MIN used capacity deviation:1.04615248329/0.953455966054
+MAX/MIN used osd id:42/356
+MAX/MIN pg osd's used deviation:0.959961730796/1.00201533426
+========== stop logging at Wed May 22 15:32:59 2024 ==========
+========== start logging at Wed May 22 15:33:05 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 52/232/109.194946289
+objects in PGs MIN/MAX/AVG objects number deviation: 0.476212515022/2.12464045164
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.736145019531/0.670959472656
+MAX/MIN used capacity deviation:1.03550465331/0.943810849333
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.99365003773/0.958620944076
+========== stop logging at Wed May 22 15:33:07 2024 ==========
+========== start logging at Wed May 22 15:33:14 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 50/242/109.406982422
+objects in PGs MIN/MAX/AVG objects number deviation: 0.45700922275/2.21192463811
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.738372802734/0.676666259766
+MAX/MIN used capacity deviation:1.03662545104/0.949993640253
+MAX/MIN used osd id:303/178
+MAX/MIN pg osd's used deviation:0.98529760271/0.969830696827
+========== stop logging at Wed May 22 15:33:15 2024 ==========
+========== start logging at Wed May 22 15:33:23 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 49/246/109.53503418
+objects in PGs MIN/MAX/AVG objects number deviation: 0.447345457706/2.24585678767
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.739868164062/0.679046630859
+MAX/MIN used capacity deviation:1.03751051754/0.952221024817
+MAX/MIN used osd id:303/178
+MAX/MIN pg osd's used deviation:0.981963221224/0.973746672001
+========== stop logging at Wed May 22 15:33:25 2024 ==========
+========== start logging at Wed May 22 15:33:33 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 49/248/109.602294922
+objects in PGs MIN/MAX/AVG objects number deviation: 0.447070930722/2.26272634325
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.740447998047/0.680267333984
+MAX/MIN used capacity deviation:1.03768641506/0.95334739637
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.980120330296/0.975971808585
+========== stop logging at Wed May 22 15:33:34 2024 ==========
+========== start logging at Wed May 22 16:32:59 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.15210606003e+25/107.5
+MAX/MIN used capacity:0.738403320312/0.644897460938
+MAX/MIN used capacity deviation:1.05505813953/0.921453488372
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01463662791/0.934098837209
+========== stop logging at Wed May 22 16:33:21 2024 ==========
+========== start logging at Wed May 22 16:36:39 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.15210606003e+25/107.5
+MAX/MIN used capacity:0.738403320312/0.644897460938
+MAX/MIN used capacity deviation:1.05505813953/0.921453488372
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01463662791/0.934098837209
+========== stop logging at Wed May 22 16:37:04 2024 ==========
+========== start logging at Wed May 22 16:37:42 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.98386922872e+27/107.5
+MAX/MIN used capacity:0.733123779297/0.650451660156
+MAX/MIN used capacity deviation:1.04751453488/0.929389534884
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:1.00125/0.948575581395
+========== stop logging at Wed May 22 16:38:07 2024 ==========
+========== start logging at Wed May 22 16:38:43 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.49983882497e+30/107.5
+MAX/MIN used capacity:0.730590820312/0.655731201172
+MAX/MIN used capacity deviation:1.04389534884/0.936933139535
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.988386627907/0.962441860465
+========== stop logging at Wed May 22 16:39:09 2024 ==========
+========== start logging at Wed May 22 16:39:04 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.811920166016/0.559448242188
+MAX/MIN used capacity deviation:1.16010174419/0.799360465116
+MAX/MIN used osd id:344/15
+MAX/MIN pg osd's used deviation:1.15238372093/0.799360465116
+========== stop logging at Wed May 22 16:39:13 2024 ==========
+========== start logging at Wed May 22 16:39:47 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 48/253/109.715820312
+objects in PGs MIN/MAX/AVG objects number deviation: 0.437493880675/2.30595732939
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.742248535156/0.681457519531
+MAX/MIN used capacity deviation:1.03913341463/0.954027183152
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.976628185387/0.980131554353
+========== stop logging at Wed May 22 16:39:48 2024 ==========
+========== start logging at Wed May 22 16:40:15 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 44/275/110.238769531
+objects in PGs MIN/MAX/AVG objects number deviation: 0.399133627735/2.49458517334
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.750823974609/0.684295654297
+MAX/MIN used capacity deviation:1.04615248329/0.953455966054
+MAX/MIN used osd id:42/356
+MAX/MIN pg osd's used deviation:0.959961730796/1.00201533426
+========== stop logging at Wed May 22 16:40:16 2024 ==========
+========== start logging at Wed May 22 16:40:47 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.28597319995e+32/107.5
+MAX/MIN used capacity:0.732360839844/0.662139892578
+MAX/MIN used capacity deviation:1.0464244186/0.946090116279
+MAX/MIN used osd id:303/178
+MAX/MIN pg osd's used deviation:0.975959302326/0.976002906977
+========== stop logging at Wed May 22 16:41:09 2024 ==========
+========== start logging at Wed May 22 16:41:59 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 52/232/109.194946289
+objects in PGs MIN/MAX/AVG objects number deviation: 0.476212515022/2.12464045164
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.736145019531/0.670959472656
+MAX/MIN used capacity deviation:1.03550465331/0.943810849333
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.99365003773/0.958620944076
+========== stop logging at Wed May 22 16:42:01 2024 ==========
+========== start logging at Wed May 22 16:42:39 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.4788701354e+23/107.5
+MAX/MIN used capacity:0.744049072266/0.639404296875
+MAX/MIN used capacity deviation:1.063125/0.913604651163
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.02645348837/0.920494186047
+========== stop logging at Wed May 22 16:43:06 2024 ==========
+========== start logging at Wed May 22 16:43:07 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 56/213/108.749511719
+objects in PGs MIN/MAX/AVG objects number deviation: 0.514944840808/1.95862948379
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.73828125/0.659637451172
+MAX/MIN used capacity deviation:1.04276330264/0.931685217696
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01116833319/0.937849038474
+========== stop logging at Wed May 22 16:43:09 2024 ==========
+========== start logging at Wed May 22 16:43:55 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.78427728243e+20/107.5
+MAX/MIN used capacity:0.749847412109/0.632965087891
+MAX/MIN used capacity deviation:1.07140988372/0.904404069767
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.03949127907/0.907151162791
+========== stop logging at Wed May 22 16:44:19 2024 ==========
+========== start logging at Wed May 22 16:45:10 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.86042620711e+20/107.5
+MAX/MIN used capacity:0.745178222656/0.632568359375
+MAX/MIN used capacity deviation:1.06473837209/0.903837209302
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.03434593023/0.903837209302
+========== stop logging at Wed May 22 16:45:36 2024 ==========
+========== start logging at Wed May 22 16:46:31 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.46576259274e+23/107.5
+MAX/MIN used capacity:0.738739013672/0.643585205078
+MAX/MIN used capacity deviation:1.0555377907/0.919578488372
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.01960755814/0.919578488372
+========== stop logging at Wed May 22 16:46:58 2024 ==========
+========== start logging at Wed May 22 16:50:50 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.22324068189e+25/107.5
+MAX/MIN used capacity:0.733947753906/0.652984619141
+MAX/MIN used capacity deviation:1.04869186047/0.93300872093
+MAX/MIN used osd id:276/178
+MAX/MIN pg osd's used deviation:1.00796511628/0.934229651163
+========== stop logging at Wed May 22 16:51:16 2024 ==========
+========== start logging at Wed May 22 16:52:53 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.94053969549e+27/107.5
+MAX/MIN used capacity:0.729278564453/0.659576416016
+MAX/MIN used capacity deviation:1.04202034884/0.942427325581
+MAX/MIN used osd id:276/178
+MAX/MIN pg osd's used deviation:0.994098837209/0.950973837209
+========== stop logging at Wed May 22 16:53:20 2024 ==========
+========== start logging at Wed May 22 17:12:10 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 17:12:12 2024 ==========
+========== start logging at Wed May 22 17:13:49 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 17:13:51 2024 ==========
+========== start logging at Wed May 22 17:19:48 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 17:19:50 2024 ==========
+========== start logging at Wed May 22 17:25:45 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 17:25:46 2024 ==========
+========== start logging at Wed May 22 17:25:57 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.808982849121/0.550437927246
+MAX/MIN used capacity deviation:1.15590479651/0.78648619186
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.15590479651/0.78648619186
+========== stop logging at Wed May 22 17:27:19 2024 ==========
+========== start logging at Wed May 22 18:51:13 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 18:51:15 2024 ==========
+========== start logging at Wed May 22 18:58:45 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 750/973/860.0
+MAX/MIN used capacity:0.808982849121/0.550437927246
+MAX/MIN used capacity deviation:1.15590479651/0.78648619186
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.15590479651/0.78648619186
+========== stop logging at Wed May 22 19:00:03 2024 ==========
+========== start logging at Wed May 22 19:01:36 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 19:01:37 2024 ==========
+========== start logging at Wed May 22 19:06:41 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 19:06:42 2024 ==========
+========== start logging at Wed May 22 19:07:26 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.000942230224609/0.000640869140625
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 19:07:28 2024 ==========
+========== start logging at Wed May 22 19:09:47 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.00753784179688/0.005126953125
+MAX/MIN used capacity deviation:1.1578125/0.7875
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.1578125/0.7875
+========== stop logging at Wed May 22 19:09:49 2024 ==========
+========== start logging at Wed May 22 19:13:28 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.741374969482/0.662284851074
+MAX/MIN used capacity deviation:1.04294345842/0.931681917347
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01158222531/0.937332735017
+========== stop logging at Wed May 22 19:13:30 2024 ==========
+========== start logging at Thu May 23 09:22:22 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 454/1707/873.490844727
+objects in PGs MIN/MAX/AVG objects number deviation: 0.519753587277/1.95422769489
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.741374969482/0.662284851074
+MAX/MIN used capacity deviation:1.04294345842/0.931681917347
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01158222531/0.937332735017
+========== stop logging at Thu May 23 09:22:23 2024 ==========
+========== start logging at Thu May 23 09:21:02 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/4.53755416279e+28/860.0
+MAX/MIN used capacity:0.724899291992/0.657123565674
+MAX/MIN used capacity deviation:1.0357630814/0.938922601744
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.997080305233/0.949006177326
+========== stop logging at Thu May 23 09:24:46 2024 ==========
+========== start logging at Thu May 23 09:25:34 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 113/426/217.992919922
+objects in PGs MIN/MAX/AVG objects number deviation: 0.518365459027/1.95419190748
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.739990234375/0.661209106445
+MAX/MIN used capacity deviation:1.04280909711/0.931789149725
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01154374683/0.937637963532
+========== stop logging at Thu May 23 09:25:35 2024 ==========
+========== start logging at Thu May 23 09:25:47 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.25826093806e+28/215.0
+MAX/MIN used capacity:0.728500366211/0.658081054688
+MAX/MIN used capacity deviation:1.04090843023/0.940290697674
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:0.997718023256/0.951671511628
+========== stop logging at Thu May 23 09:26:38 2024 ==========
+========== start logging at Thu May 23 09:28:05 2024 ==========
+========== stop logging at Thu May 23 09:28:05 2024 ==========
+========== start logging at Thu May 23 09:28:15 2024 ==========
+========== stop logging at Thu May 23 09:28:15 2024 ==========
+========== start logging at Thu May 23 09:29:04 2024 ==========
+========== stop logging at Thu May 23 09:29:04 2024 ==========
+========== start logging at Thu May 23 09:29:48 2024 ==========
+========== start logging at Thu May 23 09:29:32 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.34902474794e+22/89.5
+MAX/MIN used capacity:1.14978027344/0.330322265625
+MAX/MIN used capacity deviation:1.64437849162/0.472416201117
+MAX/MIN used osd id:102/41
+MAX/MIN pg osd's used deviation:0.472416201117/1.51326815642
+========== stop logging at Thu May 23 09:29:54 2024 ==========
+========== start logging at Thu May 23 09:30:08 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 16/907/107.614746094
+objects in PGs MIN/MAX/AVG objects number deviation: 0.148678509041/8.42821298124
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:1.66235351562/0.435791015625
+MAX/MIN used capacity deviation:1.97724993761/0.518342067651
+MAX/MIN used osd id:102/41
+MAX/MIN pg osd's used deviation:0.518342067651/1.75263504163
+========== stop logging at Thu May 23 09:30:09 2024 ==========
+========== start logging at Thu May 23 09:31:23 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 16/907/107.614746094
+objects in PGs MIN/MAX/AVG objects number deviation: 0.148678509041/8.42821298124
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:1.66235351562/0.435791015625
+MAX/MIN used capacity deviation:1.97724993761/0.518342067651
+MAX/MIN used osd id:102/41
+MAX/MIN pg osd's used deviation:0.518342067651/1.75263504163
+========== stop logging at Thu May 23 09:31:24 2024 ==========
+========== start logging at Thu May 23 09:32:42 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 47/213/91.7120361328
+objects in PGs MIN/MAX/AVG objects number deviation: 0.512473629218/2.32248687284
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.76318359375/0.666870117188
+MAX/MIN used capacity deviation:1.06515463094/0.930732525406
+MAX/MIN used osd id:201/320
+MAX/MIN pg osd's used deviation:0.954584356553/0.935332521413
+========== stop logging at Thu May 23 09:32:43 2024 ==========
+========== start logging at Thu May 23 09:35:36 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 113/426/217.992919922
+objects in PGs MIN/MAX/AVG objects number deviation: 0.518365459027/1.95419190748
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.739990234375/0.661209106445
+MAX/MIN used capacity deviation:1.04280909711/0.931789149725
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01154374683/0.937637963532
+========== stop logging at Thu May 23 09:35:38 2024 ==========
+========== start logging at Thu May 23 09:34:58 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.25826093806e+28/215.0
+MAX/MIN used capacity:0.728500366211/0.658081054688
+MAX/MIN used capacity deviation:1.04090843023/0.940290697674
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:0.997718023256/0.951671511628
+========== stop logging at Thu May 23 09:35:55 2024 ==========
+========== start logging at Thu May 23 09:36:09 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 104/464/218.883178711
+objects in PGs MIN/MAX/AVG objects number deviation: 0.475139298563/2.11985225513
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.738037109375/0.672378540039
+MAX/MIN used capacity deviation:1.0358265141/0.943675474362
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.99413047079/0.958323699132
+========== stop logging at Thu May 23 09:36:11 2024 ==========
+========== start logging at Thu May 23 09:37:09 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.808837890625/0.553344726562
+MAX/MIN used capacity deviation:1.15569767442/0.790639534884
+MAX/MIN used osd id:170/15
+MAX/MIN pg osd's used deviation:1.15569767442/0.790639534884
+========== stop logging at Thu May 23 09:37:31 2024 ==========
+========== start logging at Thu May 23 09:38:05 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 104/464/218.883178711
+objects in PGs MIN/MAX/AVG objects number deviation: 0.475139298563/2.11985225513
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.738037109375/0.672378540039
+MAX/MIN used capacity deviation:1.0358265141/0.943675474362
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:0.99413047079/0.958323699132
+========== stop logging at Thu May 23 09:38:07 2024 ==========
+========== start logging at Thu May 23 09:38:27 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 96/506/219.945922852
+objects in PGs MIN/MAX/AVG objects number deviation: 0.436470923195/2.30056549101
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.744033813477/0.682968139648
+MAX/MIN used capacity deviation:1.03919720146/0.95390635016
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.976902059444/0.979821811225
+========== stop logging at Thu May 23 09:38:29 2024 ==========
+========== start logging at Thu May 23 09:37:35 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/5.82649290804e+25/215.0
+MAX/MIN used capacity:0.732376098633/0.651718139648
+MAX/MIN used capacity deviation:1.04644622093/0.931199127907
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:1.01132267442/0.936104651163
+========== stop logging at Thu May 23 09:38:34 2024 ==========
+========== start logging at Thu May 23 09:39:09 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 89/551/221.013427734
+objects in PGs MIN/MAX/AVG objects number deviation: 0.402690465065/2.49306119383
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.752471923828/0.686309814453
+MAX/MIN used capacity deviation:1.04590647441/0.953943736185
+MAX/MIN used osd id:42/356
+MAX/MIN pg osd's used deviation:0.960306471764/1.00153699831
+========== stop logging at Thu May 23 09:39:11 2024 ==========
+========== start logging at Thu May 23 09:39:37 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 82/601/222.184692383
+objects in PGs MIN/MAX/AVG objects number deviation: 0.369062328825/2.70495682468
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.768478393555/0.678176879883
+MAX/MIN used capacity deviation:1.06252397484/0.937670076483
+MAX/MIN used osd id:28/356
+MAX/MIN pg osd's used deviation:0.943914881133/1.02404247592
+========== stop logging at Thu May 23 09:39:38 2024 ==========
+========== start logging at Thu May 23 09:39:31 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.6738502334e+23/215.0
+MAX/MIN used capacity:0.737747192383/0.644470214844
+MAX/MIN used capacity deviation:1.05412063953/0.920843023256
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.02388081395/0.920843023256
+========== stop logging at Thu May 23 09:40:25 2024 ==========
+========== start logging at Thu May 23 09:47:00 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.24057128607e+21/215.0
+MAX/MIN used capacity:0.745071411133/0.634002685547
+MAX/MIN used capacity deviation:1.06458575581/0.905886627907
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.03912063953/0.905886627907
+========== stop logging at Thu May 23 09:47:53 2024 ==========
+========== start logging at Thu May 23 09:48:11 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.77959520147e+30/215.0
+MAX/MIN used capacity:0.724822998047/0.661987304688
+MAX/MIN used capacity deviation:1.03565406977/0.945872093023
+MAX/MIN used osd id:354/306
+MAX/MIN pg osd's used deviation:0.984462209302/0.967674418605
+========== stop logging at Thu May 23 09:49:03 2024 ==========
+========== start logging at Thu May 23 09:49:37 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.02535865842e+32/215.0
+MAX/MIN used capacity:0.728652954102/0.664535522461
+MAX/MIN used capacity deviation:1.04112645349/0.949513081395
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.970552325581/0.98324127907
+========== stop logging at Thu May 23 09:50:32 2024 ==========
+========== start logging at Thu May 23 09:53:20 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.31275618846e+35/215.0
+MAX/MIN used capacity:0.733322143555/0.666229248047
+MAX/MIN used capacity deviation:1.04779796512/0.951933139535
+MAX/MIN used osd id:42/334
+MAX/MIN pg osd's used deviation:0.956860465116/0.998066860465
+========== stop logging at Thu May 23 09:54:11 2024 ==========
+========== start logging at Thu May 23 09:54:47 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.25541238463e+21/215.0
+MAX/MIN used capacity:0.748733520508/0.63020324707
+MAX/MIN used capacity deviation:1.06981831395/0.900457848837
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.04546511628/0.900457848837
+========== stop logging at Thu May 23 09:55:32 2024 ==========
+========== start logging at Thu May 23 09:55:51 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.71431780027e+23/215.0
+MAX/MIN used capacity:0.7421875/0.639419555664
+MAX/MIN used capacity deviation:1.06046511628/0.913626453488
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.0321875/0.914302325581
+========== stop logging at Thu May 23 09:56:37 2024 ==========
+========== start logging at Thu May 23 09:56:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/5.92580812806e+25/215.0
+MAX/MIN used capacity:0.736053466797/0.645004272461
+MAX/MIN used capacity deviation:1.0517005814/0.921606104651
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01976017442/0.928015988372
+========== stop logging at Thu May 23 09:57:37 2024 ==========
+========== start logging at Thu May 23 09:57:59 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.28804226203e+28/215.0
+MAX/MIN used capacity:0.732421875/0.650283813477
+MAX/MIN used capacity deviation:1.04651162791/0.929149709302
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:1.00632994186/0.941228197674
+========== stop logging at Thu May 23 09:58:44 2024 ==========
+========== start logging at Thu May 23 09:59:03 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.81308430028e+30/215.0
+MAX/MIN used capacity:0.72883605957/0.656265258789
+MAX/MIN used capacity deviation:1.0413880814/0.93769622093
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:0.993335755814/0.955094476744
+========== stop logging at Thu May 23 09:59:48 2024 ==========
+========== start logging at Thu May 23 10:00:29 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.02535865842e+32/215.0
+MAX/MIN used capacity:0.728607177734/0.659561157227
+MAX/MIN used capacity deviation:1.04106104651/0.942405523256
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.980930232558/0.968808139535
+========== stop logging at Thu May 23 10:01:14 2024 ==========
+========== start logging at Thu May 23 10:01:32 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.33816437275e+35/215.0
+MAX/MIN used capacity:0.731689453125/0.662109375
+MAX/MIN used capacity deviation:1.04546511628/0.946046511628
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.968219476744/0.981715116279
+========== stop logging at Thu May 23 10:02:21 2024 ==========
+========== start logging at Thu May 23 10:05:46 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.2989597865e+35/215.0
+MAX/MIN used capacity:0.74089050293/0.660247802734
+MAX/MIN used capacity deviation:1.0586119186/0.943386627907
+MAX/MIN used osd id:42/356
+MAX/MIN pg osd's used deviation:0.952630813953/1.01526889535
+========== stop logging at Thu May 23 10:06:43 2024 ==========
+========== start logging at Thu May 23 10:07:04 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.10383004724e+32/215.0
+MAX/MIN used capacity:0.734558105469/0.666549682617
+MAX/MIN used capacity deviation:1.04956395349/0.952390988372
+MAX/MIN used osd id:42/306
+MAX/MIN pg osd's used deviation:0.966584302326/0.998611918605
+========== stop logging at Thu May 23 10:08:03 2024 ==========
+========== start logging at Thu May 23 10:08:20 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.76793284165e+30/215.0
+MAX/MIN used capacity:0.728698730469/0.664169311523
+MAX/MIN used capacity deviation:1.04119186047/0.948989825581
+MAX/MIN used osd id:42/306
+MAX/MIN pg osd's used deviation:0.980472383721/0.982521802326
+========== stop logging at Thu May 23 10:09:20 2024 ==========
+========== start logging at Thu May 23 10:10:15 2024 ==========
+objects in PGs MIN/MAX/AVG objects number: 76/655/223.493041992
+objects in PGs MIN/MAX/AVG objects number deviation: 0.340055329341/2.93074000945
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+MAX/MIN used capacity:0.786743164062/0.670761108398
+MAX/MIN used capacity deviation:1.0814095054/0.921987595959
+MAX/MIN used osd id:28/356
+MAX/MIN pg osd's used deviation:0.927629550128/1.04697051378
+========== stop logging at Thu May 23 10:10:16 2024 ==========
+========== start logging at Thu May 23 10:09:41 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.26294428367e+28/215.0
+MAX/MIN used capacity:0.728729248047/0.661224365234
+MAX/MIN used capacity deviation:1.04123546512/0.944781976744
+MAX/MIN used osd id:354/306
+MAX/MIN pg osd's used deviation:0.995145348837/0.964360465116
+========== stop logging at Thu May 23 10:10:43 2024 ==========
+========== start logging at Thu May 23 10:11:12 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/5.91110122484e+25/215.0
+MAX/MIN used capacity:0.731689453125/0.655227661133
+MAX/MIN used capacity deviation:1.04546511628/0.936213662791
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:1.00903343023/0.948270348837
+========== stop logging at Thu May 23 10:12:11 2024 ==========
+========== start logging at Thu May 23 10:12:40 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.68123592491e+23/215.0
+MAX/MIN used capacity:0.735855102539/0.647994995117
+MAX/MIN used capacity deviation:1.05141715116/0.925879360465
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:1.02313953488/0.93132994186
+========== stop logging at Thu May 23 10:13:40 2024 ==========
+========== start logging at Thu May 23 10:14:00 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.23804015856e+21/215.0
+MAX/MIN used capacity:0.740676879883/0.640060424805
+MAX/MIN used capacity deviation:1.05830668605/0.914542151163
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.03855377907/0.914542151163
+========== stop logging at Thu May 23 10:15:01 2024 ==========
+========== start logging at Thu May 23 10:15:21 2024 ==========
+========== stop logging at Thu May 23 10:15:23 2024 ==========
+========== start logging at Thu May 23 10:15:50 2024 ==========
+========== stop logging at Thu May 23 10:16:15 2024 ==========
+========== start logging at Thu May 23 10:21:22 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/5.70565138514e+25/215.0
+MAX/MIN used capacity:0.730163574219/0.655685424805
+MAX/MIN used capacity deviation:1.04328488372/0.936867732558
+MAX/MIN used osd id:354/178
+MAX/MIN pg osd's used deviation:1.00441133721/0.950668604651
+========== stop logging at Thu May 23 10:22:29 2024 ==========
+========== start logging at Thu May 23 10:22:51 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.24012332856e+28/215.0
+MAX/MIN used capacity:0.727844238281/0.661148071289
+MAX/MIN used capacity deviation:1.03997093023/0.944672965116
+MAX/MIN used osd id:12/306
+MAX/MIN pg osd's used deviation:0.98945494186/0.967434593023
+========== stop logging at Thu May 23 10:23:57 2024 ==========
+========== start logging at Thu May 23 10:24:26 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.61301747196e+30/215.0
+MAX/MIN used capacity:0.729187011719/0.66389465332
+MAX/MIN used capacity deviation:1.04188953488/0.948597383721
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.974651162791/0.98550872093
+========== stop logging at Thu May 23 10:25:33 2024 ==========
+========== start logging at Thu May 23 10:25:59 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.94704069554e+30/215.0
+MAX/MIN used capacity:0.732574462891/0.646179199219
+MAX/MIN used capacity deviation:1.04672965116/0.923284883721
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.01031976744/0.934796511628
+========== stop logging at Thu May 23 10:26:37 2024 ==========
+========== start logging at Thu May 23 10:26:53 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.340159579e+28/215.0
+MAX/MIN used capacity:0.738067626953/0.640716552734
+MAX/MIN used capacity deviation:1.05457848837/0.915479651163
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.02135174419/0.923699127907
+========== stop logging at Thu May 23 10:27:30 2024 ==========
+========== start logging at Thu May 23 10:27:54 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.15754364145e+25/215.0
+MAX/MIN used capacity:0.743759155273/0.636093139648
+MAX/MIN used capacity deviation:1.06271075581/0.908873546512
+MAX/MIN used osd id:149/178
+MAX/MIN pg osd's used deviation:1.03292877907/0.911533430233
+========== stop logging at Thu May 23 10:28:32 2024 ==========
+========== start logging at Thu May 23 10:28:54 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.55257754103e+32/215.0
+MAX/MIN used capacity:0.727462768555/0.651626586914
+MAX/MIN used capacity deviation:1.03942587209/0.931068313953
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:0.999462209302/0.945959302326
+========== stop logging at Thu May 23 10:29:31 2024 ==========
+========== start logging at Thu May 23 10:29:48 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.43132771516e+35/215.0
+MAX/MIN used capacity:0.726364135742/0.656723022461
+MAX/MIN used capacity deviation:1.03785610465/0.938350290698
+MAX/MIN used osd id:303/178
+MAX/MIN pg osd's used deviation:0.987776162791/0.956904069767
+========== stop logging at Thu May 23 10:30:26 2024 ==========
+========== start logging at Thu May 23 10:31:11 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.08572234961e+37/215.0
+MAX/MIN used capacity:0.728729248047/0.66145324707
+MAX/MIN used capacity deviation:1.04123546512/0.945109011628
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.977856104651/0.96769622093
+========== stop logging at Thu May 23 10:31:48 2024 ==========
+========== start logging at Thu May 23 10:32:21 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.18433900795e+23/215.0
+MAX/MIN used capacity:0.759292602539/0.60871887207
+MAX/MIN used capacity deviation:1.08490552326/0.869760174419
+MAX/MIN used osd id:84/15
+MAX/MIN pg osd's used deviation:1.06613372093/0.869760174419
+========== stop logging at Thu May 23 10:32:55 2024 ==========
+========== start logging at Thu May 23 10:33:11 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/6.94164792093e+25/215.0
+MAX/MIN used capacity:0.754241943359/0.614700317383
+MAX/MIN used capacity deviation:1.07768895349/0.878306686047
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.05769622093/0.878306686047
+========== stop logging at Thu May 23 10:33:44 2024 ==========
+========== start logging at Thu May 23 10:34:03 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.53686470633e+28/215.0
+MAX/MIN used capacity:0.750518798828/0.620040893555
+MAX/MIN used capacity deviation:1.07236918605/0.8859375
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.0491497093/0.8859375
+========== stop logging at Thu May 23 10:34:38 2024 ==========
+========== start logging at Thu May 23 10:35:02 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/3.35566076227e+30/215.0
+MAX/MIN used capacity:0.746871948242/0.625076293945
+MAX/MIN used capacity deviation:1.06715843023/0.893132267442
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.0407122093/0.893132267442
+========== stop logging at Thu May 23 10:35:35 2024 ==========
+========== start logging at Thu May 23 10:35:51 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/7.40556101187e+32/215.0
+MAX/MIN used capacity:0.742721557617/0.630615234375
+MAX/MIN used capacity deviation:1.06122819767/0.901046511628
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.03299418605/0.901046511628
+========== stop logging at Thu May 23 10:36:24 2024 ==========
+========== start logging at Thu May 23 10:41:39 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/4.1684661675e+31/215.0
+MAX/MIN used capacity:0.727142333984/0.658889770508
+MAX/MIN used capacity deviation:1.03896802326/0.94144622093
+MAX/MIN used osd id:314/306
+MAX/MIN pg osd's used deviation:0.987143895349/0.962180232558
+========== stop logging at Thu May 23 10:42:26 2024 ==========
+========== start logging at Thu May 23 10:43:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.07641295778e+31/215.0
+MAX/MIN used capacity:0.727981567383/0.65771484375
+MAX/MIN used capacity deviation:1.04016715116/0.93976744186
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:0.990174418605/0.958430232558
+========== stop logging at Thu May 23 10:44:41 2024 ==========
+========== start logging at Thu May 23 10:45:10 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.81308430028e+30/215.0
+MAX/MIN used capacity:0.72883605957/0.656265258789
+MAX/MIN used capacity deviation:1.0413880814/0.93769622093
+MAX/MIN used osd id:314/178
+MAX/MIN pg osd's used deviation:0.993335755814/0.955094476744
+========== stop logging at Thu May 23 10:45:55 2024 ==========
+========== start logging at Thu May 23 10:47:00 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/4.14335492553e+31/215.0
+MAX/MIN used capacity:0.726181030273/0.663665771484
+MAX/MIN used capacity deviation:1.03759447674/0.948270348837
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.977332848837/0.97554505814
+========== stop logging at Thu May 23 10:47:54 2024 ==========
+========== start logging at Thu May 23 10:49:09 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.77959520147e+30/215.0
+MAX/MIN used capacity:0.724822998047/0.661987304688
+MAX/MIN used capacity deviation:1.03565406977/0.945872093023
+MAX/MIN used osd id:354/306
+MAX/MIN pg osd's used deviation:0.984462209302/0.967674418605
+========== stop logging at Thu May 23 10:50:00 2024 ==========
+========== start logging at Thu May 23 10:50:18 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/8.16122404675e+30/215.0
+MAX/MIN used capacity:0.725326538086/0.662841796875
+MAX/MIN used capacity deviation:1.03637354651/0.947093023256
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.981584302326/0.970770348837
+========== stop logging at Thu May 23 10:51:10 2024 ==========
+========== start logging at Thu May 23 10:52:44 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/4.74849904488e+30/215.0
+MAX/MIN used capacity:0.725067138672/0.662399291992
+MAX/MIN used capacity deviation:1.03600290698/0.946460755814
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.982914244186/0.969222383721
+========== stop logging at Thu May 23 10:53:34 2024 ==========
+========== start logging at Thu May 23 11:03:09 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.20165859896e+32/215.0
+MAX/MIN used capacity:0.727279663086/0.663940429688
+MAX/MIN used capacity deviation:1.03916424419/0.948662790698
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.974236918605/0.978771802326
+========== stop logging at Thu May 23 11:04:01 2024 ==========
+========== start logging at Thu May 23 11:05:38 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/7.07800697925e+31/215.0
+MAX/MIN used capacity:0.72673034668/0.663635253906
+MAX/MIN used capacity deviation:1.03837936047/0.948226744186
+MAX/MIN used osd id:303/306
+MAX/MIN pg osd's used deviation:0.975610465116/0.977005813953
+========== stop logging at Thu May 23 11:06:33 2024 ==========
+========== start logging at Thu May 23 11:07:08 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.85347539684e+29/215.0
+MAX/MIN used capacity:0.726531982422/0.66032409668
+MAX/MIN used capacity deviation:1.03809593023/0.943495639535
+MAX/MIN used osd id:314/306
+MAX/MIN pg osd's used deviation:0.990806686047/0.959433139535
+========== stop logging at Thu May 23 11:08:00 2024 ==========
+========== start logging at Mon May 27 15:00:45 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/9.91778331306e+22/76.5
+MAX/MIN used capacity:0.998657226562/0.272705078125
+MAX/MIN used capacity deviation:1.67095588235/0.456290849673
+MAX/MIN used osd id:102/41
+MAX/MIN pg osd's used deviation:0.456290849673/1.54411764706
+========== stop logging at Mon May 27 15:01:05 2024 ==========
+========== start logging at Wed May 29 09:54:08 2024 ==========
+========== stop logging at Wed May 29 09:54:10 2024 ==========
+========== start logging at Wed May 29 09:54:30 2024 ==========
+========== stop logging at Wed May 29 09:54:33 2024 ==========
+========== start logging at Wed May 29 09:55:06 2024 ==========
+========== stop logging at Wed May 29 09:55:09 2024 ==========
+========== start logging at Wed May 29 10:04:25 2024 ==========
+========== stop logging at Wed May 29 10:04:25 2024 ==========
+========== start logging at Wed May 29 10:04:41 2024 ==========
+========== stop logging at Wed May 29 10:04:44 2024 ==========
+========== start logging at Wed May 29 10:05:10 2024 ==========
+========== stop logging at Wed May 29 10:05:12 2024 ==========
+========== start logging at Wed May 29 10:06:15 2024 ==========
+========== stop logging at Wed May 29 10:06:18 2024 ==========
+========== start logging at Wed May 29 10:07:10 2024 ==========
+========== stop logging at Wed May 29 10:07:13 2024 ==========
+========== start logging at Wed May 29 10:10:46 2024 ==========
+========== stop logging at Wed May 29 10:10:49 2024 ==========
+========== start logging at Wed May 29 10:10:56 2024 ==========
+========== stop logging at Wed May 29 10:10:59 2024 ==========
+========== start logging at Wed May 29 10:11:12 2024 ==========
+========== stop logging at Wed May 29 10:11:15 2024 ==========
+========== start logging at Wed May 29 10:11:34 2024 ==========
+========== stop logging at Wed May 29 10:11:38 2024 ==========
+========== start logging at Wed May 29 10:12:24 2024 ==========
+========== stop logging at Wed May 29 10:12:28 2024 ==========
+========== start logging at Wed May 29 10:12:48 2024 ==========
+========== stop logging at Wed May 29 10:12:51 2024 ==========
+========== start logging at Wed May 29 10:19:55 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 2738622388.36/7464027776.83/76.5
+MAX/MIN used capacity:0.653076171875/0.538818359375
+MAX/MIN used capacity deviation:1.09272875817/0.901552287582
+MAX/MIN used osd id:295/41
+MAX/MIN pg osd's used deviation:0.901552287582/0.962418300654
+========== stop logging at Wed May 29 10:20:17 2024 ==========
+========== start logging at Wed May 29 10:20:34 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 616015630.876/1732865753.07/76.5
+MAX/MIN used capacity:0.651489257812/0.556396484375
+MAX/MIN used capacity deviation:1.09007352941/0.930964052288
+MAX/MIN used osd id:110/262
+MAX/MIN pg osd's used deviation:0.935253267974/0.930964052288
+========== stop logging at Wed May 29 10:20:54 2024 ==========
+========== start logging at Wed May 29 10:24:06 2024 ==========
+========== stop logging at Wed May 29 10:24:25 2024 ==========
+========== start logging at Wed May 29 10:24:26 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 616015630.876/1686602482.13/76.5
+MAX/MIN used capacity:0.659790039062/0.5400390625
+MAX/MIN used capacity deviation:1.1039624183/0.903594771242
+MAX/MIN used osd id:374/352
+MAX/MIN pg osd's used deviation:0.933006535948/0.932189542484
+========== stop logging at Wed May 29 10:24:49 2024 ==========
+========== start logging at Wed May 29 10:25:22 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 616015630.876/1686602482.13/76.5
+MAX/MIN used capacity:0.651245117188/0.55712890625
+MAX/MIN used capacity deviation:1.08966503268/0.932189542484
+MAX/MIN used osd id:110/262
+MAX/MIN pg osd's used deviation:0.933006535948/0.932189542484
+========== stop logging at Wed May 29 10:25:45 2024 ==========
+========== start logging at Wed May 29 10:28:06 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 616015630.876/1686602482.13/76.5
+MAX/MIN used capacity:0.651245117188/0.55712890625
+MAX/MIN used capacity deviation:1.08966503268/0.932189542484
+MAX/MIN used osd id:110/262
+MAX/MIN pg osd's used deviation:0.933006535948/0.932189542484
+========== stop logging at Wed May 29 10:28:26 2024 ==========
+========== start logging at Wed May 29 10:34:58 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 616015630.876/1686602482.13/76.5
+MAX/MIN used capacity:0.651245117188/0.55712890625
+MAX/MIN used capacity deviation:1.08966503268/0.932189542484
+MAX/MIN used osd id:110/262
+MAX/MIN pg osd's used deviation:0.933006535948/0.932189542484
+========== stop logging at Wed May 29 10:35:17 2024 ==========
+========== start logging at Wed May 29 10:35:46 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 759752611.414/1950716164.44/89.5
+MAX/MIN used capacity:0.7607421875/0.649047851562
+MAX/MIN used capacity deviation:1.08798882682/0.928247206704
+MAX/MIN used osd id:110/41
+MAX/MIN pg osd's used deviation:0.928247206704/0.932087988827
+========== stop logging at Wed May 29 10:36:08 2024 ==========
+========== start logging at Wed May 29 10:37:22 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 3298094049.63/6439195596.4/358.0
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Wed May 29 10:38:48 2024 ==========
+========== start logging at Wed May 29 10:39:05 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 14008475318.1/24055373453.0/1433.5
+MAX/MIN used capacity:0.748123168945/0.649047851562
+MAX/MIN used capacity deviation:1.06882193931/0.927275898151
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.93101456226/0.927275898151
+========== stop logging at Wed May 29 10:44:57 2024 ==========
+========== start logging at Wed May 29 10:52:35 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 3298094049.63/6439195596.4/358.0
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Wed May 29 10:54:10 2024 ==========
+========== start logging at Wed May 29 10:55:19 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+objects in PGs MIN/MAX/AVG objects number: 3298094049.63/6439195596.4/358.0
+MAX/MIN used capacity:0.765930175781/0.630432128906
+MAX/MIN used capacity deviation:1.09540851955/0.901623603352
+MAX/MIN used osd id:366/352
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Wed May 29 10:56:49 2024 ==========
+========== start logging at Wed May 29 11:04:02 2024 ==========
+========== stop logging at Wed May 29 11:04:14 2024 ==========
+========== start logging at Wed May 29 11:04:18 2024 ==========
+========== stop logging at Wed May 29 11:04:23 2024 ==========
+========== start logging at Wed May 29 11:04:34 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 1.20000508028e+12/1.58391923757e+12/860.0
+MAX/MIN used capacity:0.772529602051/0.590476989746
+MAX/MIN used capacity deviation:1.1038190407/0.843695494186
+MAX/MIN used osd id:149/15
+MAX/MIN pg osd's used deviation:1.09784520349/0.843695494186
+========== stop logging at Wed May 29 11:08:28 2024 ==========
+========== start logging at Wed May 29 11:09:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.85746857306e+31/860.0
+MAX/MIN used capacity:0.723613739014/0.664791107178
+MAX/MIN used capacity deviation:1.03392623547/0.949878270349
+MAX/MIN used osd id:303/178
+MAX/MIN pg osd's used deviation:0.981311773256/0.967483648256
+========== stop logging at Wed May 29 11:13:45 2024 ==========
+========== start logging at Wed May 29 11:16:51 2024 ==========
+pg num in osd , MAX/MIN/AVG:249/167/213.333333333
+pg num in osd deviation, MAX/MIN:1.1671875/0.7828125
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 1.20000508028e+12/1.58391923757e+12/860.0
+MAX/MIN used capacity:0.783737182617/0.587181091309
+MAX/MIN used capacity deviation:1.11983284884/0.83898619186
+MAX/MIN used osd id:354/15
+MAX/MIN pg osd's used deviation:1.10684411337/0.83898619186
+========== stop logging at Wed May 29 11:20:49 2024 ==========
+========== start logging at Wed May 29 11:23:14 2024 ==========
+pg num in osd , MAX/MIN/AVG:249/167/213.333333333
+pg num in osd deviation, MAX/MIN:1.1671875/0.7828125
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/2.85746857306e+31/860.0
+MAX/MIN used capacity:0.757797241211/0.668148040771
+MAX/MIN used capacity deviation:1.08276889535/0.954674781977
+MAX/MIN used osd id:354/306
+MAX/MIN pg osd's used deviation:0.98953125/0.962534520349
+========== stop logging at Wed May 29 11:27:18 2024 ==========
+========== start logging at Wed May 29 11:29:05 2024 ==========
+pg num in osd , MAX/MIN/AVG:247/168/213.333333333
+pg num in osd deviation, MAX/MIN:1.1578125/0.7875
+pg num in osd  MAX/MIN osd id:170/15
+objects in PGs MIN/MAX/AVG objects number: 9223372036854775807/1.08924029002e+32/3440.5
+MAX/MIN used capacity:0.724638938904/0.665312767029
+MAX/MIN used capacity deviation:1.0352406082/0.950485485395
+MAX/MIN used osd id:12/178
+MAX/MIN pg osd's used deviation:0.979655482488/0.965130431623
+========== stop logging at Wed May 29 11:44:36 2024 ==========
+========== start logging at Wed May 29 18:41:34 2024 ==========
+========== stop logging at Wed May 29 18:41:37 2024 ==========
+========== start logging at Fri May 31 09:40:37 2024 ==========
+========== stop logging at Fri May 31 09:40:40 2024 ==========
+========== start logging at Fri May 31 09:54:22 2024 ==========
+========== stop logging at Fri May 31 09:54:25 2024 ==========
+========== start logging at Fri May 31 10:04:21 2024 ==========
+========== stop logging at Fri May 31 10:04:24 2024 ==========
+========== start logging at Fri May 31 10:06:44 2024 ==========
+========== stop logging at Fri May 31 10:06:46 2024 ==========
+========== start logging at Fri May 31 10:07:06 2024 ==========
+========== stop logging at Fri May 31 10:07:09 2024 ==========
+========== start logging at Fri May 31 10:10:00 2024 ==========
+========== stop logging at Fri May 31 10:10:02 2024 ==========
+========== start logging at Fri May 31 10:24:24 2024 ==========
+========== stop logging at Fri May 31 10:24:27 2024 ==========
+========== start logging at Fri May 31 10:54:36 2024 ==========
+========== stop logging at Fri May 31 10:54:39 2024 ==========
+========== start logging at Fri May 31 11:01:13 2024 ==========
+========== stop logging at Fri May 31 11:01:16 2024 ==========
+========== start logging at Fri May 31 11:05:15 2024 ==========
+========== stop logging at Fri May 31 11:05:18 2024 ==========
+========== start logging at Fri May 31 11:06:52 2024 ==========
+========== stop logging at Fri May 31 11:06:55 2024 ==========
+========== start logging at Fri May 31 11:13:36 2024 ==========
+========== stop logging at Fri May 31 11:13:39 2024 ==========
+========== start logging at Fri May 31 11:14:28 2024 ==========
+========== stop logging at Fri May 31 11:14:31 2024 ==========
+========== start logging at Fri May 31 11:15:13 2024 ==========
+========== stop logging at Fri May 31 11:15:16 2024 ==========
+========== start logging at Fri May 31 15:38:05 2024 ==========
+========== stop logging at Fri May 31 15:38:08 2024 ==========
