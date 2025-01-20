@@ -14,6 +14,8 @@ class Node:
     def compute_weighted_score(self, key):
         score = hash_to_unit_interval("%d: %s" % (self.id, key))
         log_score = 1.0 / -math.log(score)
+        print("hash:", score)
+        print("value:", self.weight * log_score)
         return self.weight * log_score
 
 def hash_to_unit_interval(id):
@@ -26,8 +28,11 @@ def determine_responsible_node(nodes, key):
 
 pg_Rendezvous_node = {}
 
-for pgid in range(200):
-    pg_Rendezvous_node[pgid] = Node(pgid, pgid)
+# for pgid in range(200):
+#     pg_Rendezvous_node[pgid] = Node(pgid, pgid)
+pg_Rendezvous_node[0] = Node(0, 0.73)
+pg_Rendezvous_node[1] = Node(1, 0.90)
+pg_Rendezvous_node[2] = Node(2, 1.07)
 
 # node1 = Node(1, 100.5)
 # node2 = Node(2, 200.1)
@@ -39,6 +44,7 @@ out = determine_responsible_node(pg_Rendezvous_node.values(), "bar")
 print(out.id, out.weight)
 out = determine_responsible_node(pg_Rendezvous_node.values(), "hello")
 print(out.id, out.weight)
+exit()
 
 obj_num = 1000000
 c = Crush()

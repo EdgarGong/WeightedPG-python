@@ -1,3 +1,4 @@
+# test conventional ceph. raw crush
 from __future__ import division
 
 import copy

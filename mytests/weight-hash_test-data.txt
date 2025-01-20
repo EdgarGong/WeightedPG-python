@@ -1,0 +1,2714 @@
+========== start logging at Mon Dec 30 17:40:48 2024 ==========
+========== stop logging at Mon Dec 30 17:40:48 2024 ==========
+========== start logging at Mon Dec 30 17:41:20 2024 ==========
+pg num in osd , MAX/MIN/AVG:63 / 34 / 49.875
+pg num in osd deviation, MAX/MIN:1.26315789474 / 0.681704260652
+pg num in osd  MAX/MIN osd id:11 / 10
+MAX/MIN used capacity: 0.557403564453 / 0.457214355469
+MAX/MIN used capacity deviation: 1.13250248016 / 0.928943452381
+MAX/MIN used osd id: 14 / 8
+MAX/MIN pg osd's used deviation: 0.967540922619 / 0.93005952381
+standard deviation: -6219.23950335
+========== stop logging at Mon Dec 30 17:41:29 2024 ==========
+========== start logging at Mon Dec 30 17:42:20 2024 ==========
+pg num in osd , MAX/MIN/AVG:63 / 34 / 49.875
+pg num in osd deviation, MAX/MIN:1.26315789474 / 0.681704260652
+pg num in osd  MAX/MIN osd id:11 / 10
+MAX/MIN used capacity: 0.557403564453 / 0.457214355469
+MAX/MIN used capacity deviation: 1.13250248016 / 0.928943452381
+MAX/MIN used osd id: 14 / 8
+MAX/MIN pg osd's used deviation: 0.967540922619 / 0.93005952381
+standard deviation: -6219.23950335
+========== stop logging at Mon Dec 30 17:42:29 2024 ==========
+========== start logging at Mon Dec 30 17:42:33 2024 ==========
+pg num in osd , MAX/MIN/AVG:110 / 71 / 90.0
+pg num in osd deviation, MAX/MIN:1.22222222222 / 0.788888888889
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.9267578125 / 0.847122192383
+MAX/MIN used capacity deviation: 1.04057017544 / 0.951154742325
+MAX/MIN used osd id: 14 / 5
+MAX/MIN pg osd's used deviation: 1.02225534539 / 0.951154742325
+standard deviation: -5205.46827865
+========== stop logging at Mon Dec 30 17:42:48 2024 ==========
+========== start logging at Mon Dec 30 17:42:59 2024 ==========
+pg num in osd , MAX/MIN/AVG:389 / 312 / 360.0
+pg num in osd deviation, MAX/MIN:1.08055555556 / 0.866666666667
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.906234741211 / 0.873291015625
+MAX/MIN used capacity deviation: 1.01752672697 / 0.980537280702
+MAX/MIN used osd id: 14 / 8
+MAX/MIN pg osd's used deviation: 1.01752672697 / 0.985574287281
+standard deviation: -2136.40679647
+pg num in osd , MAX/MIN/AVG:386 / 338 / 360.0
+pg num in osd deviation, MAX/MIN:1.07222222222 / 0.938888888889
+pg num in osd  MAX/MIN osd id:4 / 10
+MAX/MIN used capacity: 0.918998718262 / 0.871337890625
+MAX/MIN used capacity deviation: 1.02511403867 / 0.971949891068
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02511403867 / 0.971949891068
+standard deviation: -3226.81139052
+pg num in osd , MAX/MIN/AVG:405 / 321 / 360.0
+pg num in osd deviation, MAX/MIN:1.125 / 0.891666666667
+pg num in osd  MAX/MIN osd id:37 / 20
+MAX/MIN used capacity: 0.910949707031 / 0.885665893555
+MAX/MIN used capacity deviation: 1.01392663043 / 0.985784646739
+MAX/MIN used osd id: 16 / 13
+MAX/MIN pg osd's used deviation: 0.990336277174 / 1.00348165761
+standard deviation: -1501.88037695
+========== stop logging at Mon Dec 30 17:44:17 2024 ==========
+========== start logging at Mon Dec 30 17:45:04 2024 ==========
+========== stop logging at Mon Dec 30 17:45:04 2024 ==========
+========== start logging at Mon Dec 30 17:45:11 2024 ==========
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.909149169922 / 0.875381469727
+MAX/MIN used capacity deviation: 1.02079906798 / 0.982884457237
+MAX/MIN used osd id: 1 / 5
+MAX/MIN pg osd's used deviation: 1.02079906798 / 0.982884457237
+standard deviation: -2814.23346579
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.924621582031 / 0.855049133301
+MAX/MIN used capacity deviation: 1.03138616558 / 0.953780296841
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02576508034 / 0.953780296841
+standard deviation: -4935.0408433
+========== stop logging at Mon Dec 30 17:46:04 2024 ==========
+========== start logging at Mon Dec 30 17:49:45 2024 ==========
+========== stop logging at Mon Dec 30 17:49:52 2024 ==========
+========== start logging at Mon Dec 30 17:50:01 2024 ==========
+pg num in osd , MAX/MIN/AVG:110 / 73 / 96.0
+pg num in osd deviation, MAX/MIN:1.14583333333 / 0.760416666667
+pg num in osd  MAX/MIN osd id:11 / 10
+MAX/MIN used capacity: 0.941829681396 / 0.800926208496
+MAX/MIN used capacity deviation: 1.05058125681 / 0.893407883987
+MAX/MIN used osd id: 1 / 10
+MAX/MIN pg osd's used deviation: 1.04135603894 / 0.893407883987
+standard deviation: -9111.26289271
+========== stop logging at Mon Dec 30 17:50:29 2024 ==========
+========== start logging at Mon Dec 30 17:50:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:412 / 339 / 384.0
+pg num in osd deviation, MAX/MIN:1.07291666667 / 0.8828125
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.901443481445 / 0.87370300293
+MAX/MIN used capacity deviation: 1.01214706689 / 0.980999862939
+MAX/MIN used osd id: 1 / 5
+MAX/MIN pg osd's used deviation: 1.01153029057 / 0.980999862939
+standard deviation: -1974.84632314
+========== stop logging at Mon Dec 30 17:51:16 2024 ==========
+========== start logging at Mon Dec 30 17:51:17 2024 ==========
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.909149169922 / 0.875381469727
+MAX/MIN used capacity deviation: 1.02079906798 / 0.982884457237
+MAX/MIN used osd id: 1 / 5
+MAX/MIN pg osd's used deviation: 1.02079906798 / 0.982884457237
+standard deviation: -2814.23346579
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.924621582031 / 0.855049133301
+MAX/MIN used capacity deviation: 1.03138616558 / 0.953780296841
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02576508034 / 0.953780296841
+standard deviation: -4935.0408433
+pg num in osd , MAX/MIN/AVG:298 / 218 / 256.0
+pg num in osd deviation, MAX/MIN:1.1640625 / 0.8515625
+pg num in osd  MAX/MIN osd id:37 / 2
+MAX/MIN used capacity: 0.913116455078 / 0.884033203125
+MAX/MIN used capacity deviation: 1.01633831522 / 0.983967391304
+MAX/MIN used osd id: 16 / 21
+MAX/MIN pg osd's used deviation: 0.987313179348 / 1.009765625
+standard deviation: -1748.97894022
+========== stop logging at Mon Dec 30 17:53:03 2024 ==========
+========== start logging at Mon Dec 30 17:53:17 2024 ==========
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.924621582031 / 0.855049133301
+MAX/MIN used capacity deviation: 1.03138616558 / 0.953780296841
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02576508034 / 0.953780296841
+standard deviation: -4935.0408433
+========== stop logging at Mon Dec 30 17:53:56 2024 ==========
+========== start logging at Mon Dec 30 17:54:50 2024 ==========
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.927822113037 / 0.849990844727
+MAX/MIN used capacity deviation: 1.03495625681 / 0.94813793573
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.03028833061 / 0.94813793573
+standard deviation: -5576.50989643
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.927272796631 / 0.851001739502
+MAX/MIN used capacity deviation: 1.03434351171 / 0.949265556917
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02942027505 / 0.949265556917
+standard deviation: -5449.71580681
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.926586151123 / 0.852062225342
+MAX/MIN used capacity deviation: 1.03357758034 / 0.95044849537
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02857349537 / 0.95044849537
+standard deviation: -5319.41970519
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.926040649414 / 0.853092193604
+MAX/MIN used capacity deviation: 1.03296909041 / 0.951597392429
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02757778459 / 0.951597392429
+standard deviation: -5192.87765839
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.925361633301 / 0.854103088379
+MAX/MIN used capacity deviation: 1.03221166939 / 0.952725013617
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02669696351 / 0.952725013617
+standard deviation: -5065.81189199
+========== stop logging at Mon Dec 30 17:56:18 2024 ==========
+========== start logging at Mon Dec 30 17:56:38 2024 ==========
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.921455383301 / 0.859954833984
+MAX/MIN used capacity deviation: 1.02785437092 / 0.95925245098
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.02133969907 / 0.95925245098
+standard deviation: -4317.59538111
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.918548583984 / 0.864845275879
+MAX/MIN used capacity deviation: 1.0246119281 / 0.964707584423
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.01721218001 / 0.964707584423
+standard deviation: -3735.33028995
+========== stop logging at Mon Dec 30 17:57:14 2024 ==========
+========== start logging at Mon Dec 30 17:57:24 2024 ==========
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.91576385498 / 0.86967086792
+MAX/MIN used capacity deviation: 1.02150565087 / 0.970090379902
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.01296126089 / 0.970090379902
+standard deviation: -3161.7616134
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.912841796875 / 0.874561309814
+MAX/MIN used capacity deviation: 1.01824618736 / 0.975545513344
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.00836567266 / 0.975545513344
+standard deviation: -2619.30179151
+========== stop logging at Mon Dec 30 17:57:58 2024 ==========
+========== start logging at Mon Dec 30 17:58:09 2024 ==========
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.910121917725 / 0.879379272461
+MAX/MIN used capacity deviation: 1.01521224809 / 0.980919798475
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 1.00419985703 / 0.980919798475
+standard deviation: -2130.85185431
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.907424926758 / 0.884243011475
+MAX/MIN used capacity deviation: 1.01220383987 / 0.986345145697
+MAX/MIN used osd id: 4 / 10
+MAX/MIN pg osd's used deviation: 0.999868089597 / 0.986345145697
+standard deviation: -1711.32335489
+========== stop logging at Mon Dec 30 17:58:43 2024 ==========
+========== start logging at Mon Dec 30 17:59:03 2024 ==========
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.905284881592 / 0.889144897461
+MAX/MIN used capacity deviation: 1.00981668709 / 0.991813044662
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.995344839325 / 0.991813044662
+standard deviation: -1447.81965382
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.905502319336 / 0.886814117432
+MAX/MIN used capacity deviation: 1.01005923203 / 0.98921313317
+MAX/MIN used osd id: 14 / 11
+MAX/MIN pg osd's used deviation: 0.991264127179 / 0.997255412582
+standard deviation: -1440.62538503
+========== stop logging at Mon Dec 30 17:59:38 2024 ==========
+========== start logging at Mon Dec 30 18:01:08 2024 ==========
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.921371459961 / 0.86393737793
+MAX/MIN used capacity deviation: 1.03452234101 / 0.970034950658
+MAX/MIN used osd id: 1 / 5
+MAX/MIN pg osd's used deviation: 1.03452234101 / 0.970034950658
+standard deviation: -4323.30221012
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.907592773438 / 0.876617431641
+MAX/MIN used capacity deviation: 1.01905153509 / 0.984272203947
+MAX/MIN used osd id: 1 / 8
+MAX/MIN pg osd's used deviation: 1.01905153509 / 0.984614857456
+standard deviation: -2661.82080539
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.89875793457 / 0.88069152832
+MAX/MIN used capacity deviation: 1.00913171601 / 0.988846628289
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 1.00486567982 / 0.998869243421
+standard deviation: -1379.53977833
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.902008056641 / 0.88215637207
+MAX/MIN used capacity deviation: 1.01278097588 / 0.990491365132
+MAX/MIN used osd id: 5 / 10
+MAX/MIN pg osd's used deviation: 0.990594161184 / 1.01278097588
+standard deviation: -1639.12903702
+========== stop logging at Mon Dec 30 18:01:42 2024 ==========
+========== start logging at Mon Dec 30 18:02:34 2024 ==========
+pg num in osd , MAX/MIN/AVG:298 / 218 / 256.0
+pg num in osd deviation, MAX/MIN:1.1640625 / 0.8515625
+pg num in osd  MAX/MIN osd id:37 / 2
+MAX/MIN used capacity: 0.913070678711 / 0.872085571289
+MAX/MIN used capacity deviation: 1.01628736413 / 0.970669157609
+MAX/MIN used osd id: 16 / 21
+MAX/MIN pg osd's used deviation: 1.00619904891 / 0.992221467391
+standard deviation: -2295.58852294
+pg num in osd , MAX/MIN/AVG:298 / 218 / 256.0
+pg num in osd deviation, MAX/MIN:1.1640625 / 0.8515625
+pg num in osd  MAX/MIN osd id:37 / 2
+MAX/MIN used capacity: 0.913269042969 / 0.884750366211
+MAX/MIN used capacity deviation: 1.01650815217 / 0.984765625
+MAX/MIN used osd id: 16 / 37
+MAX/MIN pg osd's used deviation: 0.984765625 / 1.01171875
+standard deviation: -1801.24512491
+pg num in osd , MAX/MIN/AVG:298 / 218 / 256.0
+pg num in osd deviation, MAX/MIN:1.1640625 / 0.8515625
+pg num in osd  MAX/MIN osd id:37 / 2
+MAX/MIN used capacity: 0.926406860352 / 0.865356445312
+MAX/MIN used capacity deviation: 1.03113111413 / 0.963179347826
+MAX/MIN used osd id: 2 / 37
+MAX/MIN pg osd's used deviation: 0.963179347826 / 1.03113111413
+standard deviation: -3058.53788598
+========== stop logging at Mon Dec 30 18:04:02 2024 ==========
+========== start logging at Mon Dec 30 18:05:48 2024 ==========
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.919872283936 / 0.867786407471
+MAX/MIN used capacity deviation: 1.02385784647 / 0.965884001359
+MAX/MIN used osd id: 11 / 37
+MAX/MIN pg osd's used deviation: 0.975348165761 / 1.01980298913
+standard deviation: -3064.93590199
+========== stop logging at Mon Dec 30 18:06:46 2024 ==========
+========== start logging at Mon Dec 30 18:08:06 2024 ==========
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.915203094482 / 0.884475708008
+MAX/MIN used capacity deviation: 1.0186608356 / 0.984459918478
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.999554177989 / 0.984459918478
+standard deviation: -1846.93524295
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.915271759033 / 0.882061004639
+MAX/MIN used capacity deviation: 1.01873726223 / 0.981772248641
+MAX/MIN used osd id: 47 / 37
+MAX/MIN pg osd's used deviation: 0.993244735054 / 0.993440047554
+standard deviation: -1837.77720131
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.915271759033 / 0.877391815186
+MAX/MIN used capacity deviation: 1.01873726223 / 0.976575237772
+MAX/MIN used osd id: 47 / 37
+MAX/MIN pg osd's used deviation: 0.987224014946 / 1.00232252038
+standard deviation: -2095.5683696
+========== stop logging at Mon Dec 30 18:11:08 2024 ==========
+========== start logging at Mon Dec 30 18:11:40 2024 ==========
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.917407989502 / 0.860664367676
+MAX/MIN used capacity deviation: 1.02111497962 / 0.957956861413
+MAX/MIN used osd id: 5 / 27
+MAX/MIN pg osd's used deviation: 1.01869480299 / 0.957956861413
+standard deviation: -3116.05072568
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.915699005127 / 0.868381500244
+MAX/MIN used capacity deviation: 1.01921280571 / 0.966546365489
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 1.01228345788 / 0.966546365489
+standard deviation: -2565.26323373
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.91540145874 / 0.876388549805
+MAX/MIN used capacity deviation: 1.01888162364 / 0.975458559783
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 1.00586786685 / 0.975458559783
+standard deviation: -2101.81912281
+========== stop logging at Mon Dec 30 18:14:29 2024 ==========
+========== start logging at Mon Dec 30 18:17:28 2024 ==========
+pg num in osd , MAX/MIN/AVG:297 / 209 / 256.0
+pg num in osd deviation, MAX/MIN:1.16015625 / 0.81640625
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.918350219727 / 0.859588623047
+MAX/MIN used capacity deviation: 1.02216372283 / 0.95675951087
+MAX/MIN used osd id: 17 / 5
+MAX/MIN pg osd's used deviation: 1.01565896739 / 0.95675951087
+standard deviation: -3621.80857215
+pg num in osd , MAX/MIN/AVG:297 / 209 / 256.0
+pg num in osd deviation, MAX/MIN:1.16015625 / 0.81640625
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.911361694336 / 0.879379272461
+MAX/MIN used capacity deviation: 1.01438519022 / 0.97878736413
+MAX/MIN used osd id: 19 / 5
+MAX/MIN pg osd's used deviation: 0.996280570652 / 0.97878736413
+standard deviation: -2224.38336024
+pg num in osd , MAX/MIN/AVG:297 / 209 / 256.0
+pg num in osd deviation, MAX/MIN:1.16015625 / 0.81640625
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.913848876953 / 0.876815795898
+MAX/MIN used capacity deviation: 1.01715353261 / 0.975934103261
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.975934103261 / 1.00025475543
+standard deviation: -2242.47274231
+pg num in osd , MAX/MIN/AVG:297 / 209 / 256.0
+pg num in osd deviation, MAX/MIN:1.16015625 / 0.81640625
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.919174194336 / 0.859802246094
+MAX/MIN used capacity deviation: 1.02308084239 / 0.956997282609
+MAX/MIN used osd id: 5 / 14
+MAX/MIN pg osd's used deviation: 0.956997282609 / 1.02308084239
+standard deviation: -3589.10388073
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.962871551514 / 0.840419769287
+MAX/MIN used capacity deviation: 1.07171790082 / 0.935423743207
+MAX/MIN used osd id: 23 / 9
+MAX/MIN pg osd's used deviation: 1.07171790082 / 0.935423743207
+standard deviation: -8804.11672647
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.960716247559 / 0.842683792114
+MAX/MIN used capacity deviation: 1.0693189538 / 0.937943699049
+MAX/MIN used osd id: 23 / 9
+MAX/MIN pg osd's used deviation: 1.0693189538 / 0.937943699049
+standard deviation: -8460.91566533
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.958408355713 / 0.845045089722
+MAX/MIN used capacity deviation: 1.06675016984 / 0.940571925951
+MAX/MIN used osd id: 23 / 9
+MAX/MIN pg osd's used deviation: 1.06675016984 / 0.940571925951
+standard deviation: -8111.31272257
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.956201553345 / 0.847270965576
+MAX/MIN used capacity deviation: 1.06429390285 / 0.943049422554
+MAX/MIN used osd id: 23 / 9
+MAX/MIN pg osd's used deviation: 1.06429390285 / 0.943049422554
+standard deviation: -7779.04694248
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.953802108765 / 0.849670410156
+MAX/MIN used capacity deviation: 1.06162321671 / 0.945720108696
+MAX/MIN used osd id: 23 / 9
+MAX/MIN pg osd's used deviation: 1.06162321671 / 0.945720108696
+standard deviation: -7427.68057393
+========== stop logging at Mon Dec 30 18:21:12 2024 ==========
+========== start logging at Mon Dec 30 18:22:48 2024 ==========
+========== stop logging at Mon Dec 30 18:22:52 2024 ==========
+========== start logging at Mon Dec 30 18:22:57 2024 ==========
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.940277099609 / 0.861948013306
+MAX/MIN used capacity deviation: 1.04656929348 / 0.95938561481
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.04656929348 / 0.961474609375
+standard deviation: -5418.47953381
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.938095092773 / 0.863340377808
+MAX/MIN used capacity deviation: 1.044140625 / 0.960935377038
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.044140625 / 0.964047639266
+standard deviation: -5097.88933244
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.935819625854 / 0.864593505859
+MAX/MIN used capacity deviation: 1.04160793139 / 0.962330163043
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.04160793139 / 0.96669921875
+standard deviation: -4785.32386138
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.933584213257 / 0.866052627563
+MAX/MIN used capacity deviation: 1.03911981997 / 0.96395422894
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.03911981997 / 0.969429347826
+standard deviation: -4467.74012832
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.931253433228 / 0.867290496826
+MAX/MIN used capacity deviation: 1.03652556046 / 0.96533203125
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.03652556046 / 0.972140370245
+standard deviation: -4166.03097734
+========== stop logging at Mon Dec 30 18:25:43 2024 ==========
+========== start logging at Mon Dec 30 18:26:41 2024 ==========
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.929021835327 / 0.868621826172
+MAX/MIN used capacity deviation: 1.03404169497 / 0.966813858696
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.03404169497 / 0.974605129076
+standard deviation: -3877.62288114
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.926755905151 / 0.870037078857
+MAX/MIN used capacity deviation: 1.03151961617 / 0.968389096467
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.03151961617 / 0.977309782609
+standard deviation: -3592.02058098
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.924686431885 / 0.871368408203
+MAX/MIN used capacity deviation: 1.02921620245 / 0.969870923913
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.02921620245 / 0.979863705842
+standard deviation: -3334.93580648
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.922500610352 / 0.872520446777
+MAX/MIN used capacity deviation: 1.02678328804 / 0.971153192935
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.02678328804 / 0.982536514946
+standard deviation: -3094.3123765
+========== stop logging at Mon Dec 30 18:28:52 2024 ==========
+========== start logging at Mon Dec 30 18:29:53 2024 ==========
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.922500610352 / 0.872520446777
+MAX/MIN used capacity deviation: 1.02678328804 / 0.971153192935
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.02678328804 / 0.982536514946
+standard deviation: -3094.3123765
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.92028427124 / 0.873725891113
+MAX/MIN used capacity deviation: 1.02431640625 / 0.972494904891
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.02431640625 / 0.984975798234
+standard deviation: -2876.91765393
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.918132781982 / 0.874996185303
+MAX/MIN used capacity deviation: 1.02192170516 / 0.973908797554
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.02192170516 / 0.987654976223
+standard deviation: -2685.9494752
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.916120529175 / 0.876066207886
+MAX/MIN used capacity deviation: 1.0196819803 / 0.975099779212
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.0196819803 / 0.990094259511
+standard deviation: -2540.47279474
+========== stop logging at Mon Dec 30 18:32:06 2024 ==========
+========== start logging at Mon Dec 30 18:33:22 2024 ==========
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.91411781311 / 0.877321243286
+MAX/MIN used capacity deviation: 1.01745287024 / 0.976496688179
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.01745287024 / 0.992688519022
+standard deviation: -2429.61407686
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.912052154541 / 0.878583908081
+MAX/MIN used capacity deviation: 1.01515370245 / 0.977902088995
+MAX/MIN used osd id: 23 / 12
+MAX/MIN pg osd's used deviation: 1.01515370245 / 0.995221212636
+standard deviation: -2360.74297097
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.912414550781 / 0.880016326904
+MAX/MIN used capacity deviation: 1.01555706522 / 0.979496433424
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01275900136 / 0.997917374321
+standard deviation: -2330.37176487
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.914386749268 / 0.881193161011
+MAX/MIN used capacity deviation: 1.01775220788 / 0.980806300951
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01038128397 / 1.00041397758
+standard deviation: -2362.49866402
+========== stop logging at Mon Dec 30 18:37:06 2024 ==========
+========== start logging at Mon Dec 30 18:37:25 2024 ==========
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.916658401489 / 0.882537841797
+MAX/MIN used capacity deviation: 1.02028065557 / 0.98230298913
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.00800568954 / 1.00291907269
+standard deviation: -2450.71283848
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.91863822937 / 0.883684158325
+MAX/MIN used capacity deviation: 1.02248429008 / 0.983578889266
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.0057532269 / 1.00547511889
+standard deviation: -2572.67146335
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.920679092407 / 0.883710861206
+MAX/MIN used capacity deviation: 1.02475585937 / 0.983608610734
+MAX/MIN used osd id: 8 / 20
+MAX/MIN pg osd's used deviation: 1.00344556726 / 1.00801205842
+standard deviation: -2739.56221031
+========== stop logging at Mon Dec 30 18:41:07 2024 ==========
+========== start logging at Mon Dec 30 18:41:19 2024 ==========
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.936737060547 / 0.829696655273
+MAX/MIN used capacity deviation: 1.04137138118 / 0.922374472256
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.922374472256 / 1.01517806657
+standard deviation: -5881.85536355
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.939115524292 / 0.825399398804
+MAX/MIN used capacity deviation: 1.04401552134 / 0.91759720861
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.91759720861 / 1.01756139739
+standard deviation: -6273.42001277
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.941486358643 / 0.820972442627
+MAX/MIN used capacity deviation: 1.04665117989 / 0.91267575769
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.91267575769 / 1.01999561784
+standard deviation: -6675.02823733
+========== stop logging at Mon Dec 30 18:48:00 2024 ==========
+========== start logging at Mon Dec 30 18:48:08 2024 ==========
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.926746368408 / 0.878135681152
+MAX/MIN used capacity deviation: 1.0302647203 / 0.976224178227
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 1.00268254297 / 0.976224178227
+standard deviation: -2372.22633148
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.926441192627 / 0.880393981934
+MAX/MIN used capacity deviation: 1.02992545612 / 0.978734733112
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.99750028272 / 0.978734733112
+standard deviation: -2160.07328283
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.92628288269 / 0.882572174072
+MAX/MIN used capacity deviation: 1.02974946283 / 0.981156231152
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992561868592 / 0.981156231152
+standard deviation: -2027.20054056
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.926132202148 / 0.884704589844
+MAX/MIN used capacity deviation: 1.02958195115 / 0.983526839566
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.987358404328 / 0.983526839566
+standard deviation: -1978.33102105
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.92600440979 / 0.883441925049
+MAX/MIN used capacity deviation: 1.02943988427 / 0.982123134047
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.982123134047 / 0.985967421215
+standard deviation: -2022.49013793
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925868988037 / 0.878820419312
+MAX/MIN used capacity deviation: 1.0292893358 / 0.976985402217
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.976985402217 / 0.988607320567
+standard deviation: -2153.36830073
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925699234009 / 0.874202728271
+MAX/MIN used capacity deviation: 1.0291006201 / 0.971851911188
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.971851911188 / 0.990893112937
+standard deviation: -2359.59772136
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925765991211 / 0.869594573975
+MAX/MIN used capacity deviation: 1.02917483414 / 0.966729022165
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.966729022165 / 0.993357018999
+standard deviation: -2623.54685778
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925712585449 / 0.865146636963
+MAX/MIN used capacity deviation: 1.02911546291 / 0.961784246834
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.961784246834 / 0.995825165862
+standard deviation: -2920.42550357
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925561904907 / 0.860509872437
+MAX/MIN used capacity deviation: 1.02894795122 / 0.956629551794
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.956629551794 / 0.998284831122
+standard deviation: -3243.06259635
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925510406494 / 0.856067657471
+MAX/MIN used capacity deviation: 1.02889070039 / 0.951691137666
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.951691137666 / 1.00079326561
+standard deviation: -3594.59480172
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.925436019897 / 0.851488113403
+MAX/MIN used capacity deviation: 1.02880800475 / 0.946600054659
+MAX/MIN used osd id: 46 / 69
+MAX/MIN pg osd's used deviation: 0.946600054659 / 1.00314267001
+standard deviation: -3961.07566984
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.926704406738 / 0.847082138062
+MAX/MIN used capacity deviation: 1.03021807147 / 0.941701928151
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.941701928151 / 1.00532880353
+standard deviation: -4334.42617594
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.92925453186 / 0.842685699463
+MAX/MIN used capacity deviation: 1.03305304772 / 0.936814403649
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.936814403649 / 1.00757642868
+standard deviation: -4719.32525158
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.931928634644 / 0.838315963745
+MAX/MIN used capacity deviation: 1.03602585005 / 0.931956564762
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.931956564762 / 1.010152716
+standard deviation: -5109.23897257
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.934350967407 / 0.833902359009
+MAX/MIN used capacity deviation: 1.03871875942 / 0.92704995665
+MAX/MIN used osd id: 56 / 69
+MAX/MIN pg osd's used deviation: 0.92704995665 / 1.01271840131
+standard deviation: -5498.61584449
+========== stop logging at Mon Dec 30 19:15:53 2024 ==========
+========== start logging at Mon Dec 30 20:21:54 2024 ==========
+pg num in osd , MAX/MIN/AVG:385 / 301 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.1279296875 / 0.8818359375
+pg num in osd  MAX/MIN osd id:32 / 22
+MAX/MIN used capacity: 0.91569519043 / 0.880584716797
+MAX/MIN used capacity deviation: 1.01920855978 / 0.980129076087
+MAX/MIN used osd id: 51 / 22
+MAX/MIN pg osd's used deviation: 1.01356997283 / 0.980129076087
+standard deviation: -1673.34289506
+pg num in osd , MAX/MIN/AVG:385 / 301 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.1279296875 / 0.8818359375
+pg num in osd  MAX/MIN osd id:32 / 22
+MAX/MIN used capacity: 0.911849975586 / 0.887771606445
+MAX/MIN used capacity deviation: 1.01492866848 / 0.988128396739
+MAX/MIN used osd id: 51 / 17
+MAX/MIN pg osd's used deviation: 0.996297554348 / 0.994769021739
+standard deviation: -1381.95738799
+pg num in osd , MAX/MIN/AVG:385 / 301 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.1279296875 / 0.8818359375
+pg num in osd  MAX/MIN osd id:32 / 22
+MAX/MIN used capacity: 0.915115356445 / 0.878875732422
+MAX/MIN used capacity deviation: 1.01856317935 / 0.978226902174
+MAX/MIN used osd id: 5 / 63
+MAX/MIN pg osd's used deviation: 0.98058763587 / 1.00840692935
+standard deviation: -2313.12794477
+========== stop logging at Mon Dec 30 20:24:01 2024 ==========
+========== start logging at Mon Dec 30 20:25:02 2024 ==========
+pg num in osd , MAX/MIN/AVG:225 / 169 / 192.0
+pg num in osd deviation, MAX/MIN:1.171875 / 0.880208333333
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.923477172852 / 0.872833251953
+MAX/MIN used capacity deviation: 1.03010961329 / 0.97361791939
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 1.01651007625 / 0.987098311547
+standard deviation: -3108.18693132
+pg num in osd , MAX/MIN/AVG:225 / 169 / 192.0
+pg num in osd deviation, MAX/MIN:1.171875 / 0.880208333333
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.913482666016 / 0.883056640625
+MAX/MIN used capacity deviation: 1.01896105664 / 0.985021786492
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.994944852941 / 1.00226375272
+standard deviation: -1934.03567702
+pg num in osd , MAX/MIN/AVG:225 / 169 / 192.0
+pg num in osd deviation, MAX/MIN:1.171875 / 0.880208333333
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.912384033203 / 0.873153686523
+MAX/MIN used capacity deviation: 1.01773556645 / 0.973975354031
+MAX/MIN used osd id: 5 / 14
+MAX/MIN pg osd's used deviation: 0.973975354031 / 1.01773556645
+standard deviation: -2494.75068895
+========== stop logging at Mon Dec 30 20:25:55 2024 ==========
+========== start logging at Mon Dec 30 20:26:22 2024 ==========
+pg num in osd , MAX/MIN/AVG:291 / 225 / 256.0
+pg num in osd deviation, MAX/MIN:1.13671875 / 0.87890625
+pg num in osd  MAX/MIN osd id:32 / 92
+MAX/MIN used capacity: 0.916915893555 / 0.878005981445
+MAX/MIN used capacity deviation: 1.02056725543 / 0.977258831522
+MAX/MIN used osd id: 41 / 22
+MAX/MIN pg osd's used deviation: 1.00964673913 / 0.984205163043
+standard deviation: -1871.80661394
+pg num in osd , MAX/MIN/AVG:291 / 225 / 256.0
+pg num in osd deviation, MAX/MIN:1.13671875 / 0.87890625
+pg num in osd  MAX/MIN osd id:32 / 92
+MAX/MIN used capacity: 0.911636352539 / 0.88117980957
+MAX/MIN used capacity deviation: 1.01469089674 / 0.980791440217
+MAX/MIN used osd id: 85 / 77
+MAX/MIN pg osd's used deviation: 0.993036684783 / 0.999745244565
+standard deviation: -1553.31849063
+pg num in osd , MAX/MIN/AVG:291 / 225 / 256.0
+pg num in osd deviation, MAX/MIN:1.13671875 / 0.87890625
+pg num in osd  MAX/MIN osd id:32 / 92
+MAX/MIN used capacity: 0.923034667969 / 0.870254516602
+MAX/MIN used capacity deviation: 1.02737771739 / 0.96863111413
+MAX/MIN used osd id: 27 / 77
+MAX/MIN pg osd's used deviation: 0.976732336957 / 1.01518342391
+standard deviation: -2670.30878364
+========== stop logging at Mon Dec 30 20:29:08 2024 ==========
+========== start logging at Mon Dec 30 20:29:43 2024 ==========
+pg num in osd , MAX/MIN/AVG:235 / 157 / 192.0
+pg num in osd deviation, MAX/MIN:1.22395833333 / 0.817708333333
+pg num in osd  MAX/MIN osd id:237 / 214
+MAX/MIN used capacity: 0.923294067383 / 0.876022338867
+MAX/MIN used capacity deviation: 1.02655062432 / 0.973992263844
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.989057410423 / 0.980252442997
+standard deviation: -2228.91422558
+pg num in osd , MAX/MIN/AVG:235 / 157 / 192.0
+pg num in osd deviation, MAX/MIN:1.22395833333 / 0.817708333333
+pg num in osd  MAX/MIN osd id:237 / 214
+MAX/MIN used capacity: 0.924118041992 / 0.863571166992
+MAX/MIN used capacity deviation: 1.0274667481 / 0.960148615635
+MAX/MIN used osd id: 220 / 237
+MAX/MIN pg osd's used deviation: 0.960148615635 / 1.00351180782
+standard deviation: -2480.62834782
+pg num in osd , MAX/MIN/AVG:235 / 157 / 192.0
+pg num in osd deviation, MAX/MIN:1.22395833333 / 0.817708333333
+pg num in osd  MAX/MIN osd id:237 / 214
+MAX/MIN used capacity: 0.931900024414 / 0.837265014648
+MAX/MIN used capacity deviation: 1.03611902823 / 0.930900515744
+MAX/MIN used osd id: 46 / 237
+MAX/MIN pg osd's used deviation: 0.930900515744 / 1.02814535831
+standard deviation: -4251.55017317
+pg num in osd , MAX/MIN/AVG:282 / 216 / 256.0
+pg num in osd deviation, MAX/MIN:1.1015625 / 0.84375
+pg num in osd  MAX/MIN osd id:38 / 30
+MAX/MIN used capacity: 0.918518066406 / 0.873748779297
+MAX/MIN used capacity deviation: 1.02235054348 / 0.972520380435
+MAX/MIN used osd id: 24 / 30
+MAX/MIN pg osd's used deviation: 1.01233016304 / 0.972520380435
+standard deviation: -2421.44103101
+pg num in osd , MAX/MIN/AVG:282 / 216 / 256.0
+pg num in osd deviation, MAX/MIN:1.1015625 / 0.84375
+pg num in osd  MAX/MIN osd id:38 / 30
+MAX/MIN used capacity: 0.909866333008 / 0.883850097656
+MAX/MIN used capacity deviation: 1.01272078804 / 0.983763586957
+MAX/MIN used osd id: 24 / 5
+MAX/MIN pg osd's used deviation: 1.00108695652 / 0.990455163043
+standard deviation: -1486.71472269
+pg num in osd , MAX/MIN/AVG:282 / 216 / 256.0
+pg num in osd deviation, MAX/MIN:1.1015625 / 0.84375
+pg num in osd  MAX/MIN osd id:38 / 30
+MAX/MIN used capacity: 0.912170410156 / 0.880722045898
+MAX/MIN used capacity deviation: 1.01528532609 / 0.980281929348
+MAX/MIN used osd id: 8 / 47
+MAX/MIN pg osd's used deviation: 0.988213315217 / 1.00917119565
+standard deviation: -1981.15892009
+pg num in osd , MAX/MIN/AVG:386 / 296 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.130859375 / 0.8671875
+pg num in osd  MAX/MIN osd id:48 / 140
+MAX/MIN used capacity: 0.918579101562 / 0.885055541992
+MAX/MIN used capacity deviation: 1.02093885673 / 0.983679676194
+MAX/MIN used osd id: 51 / 96
+MAX/MIN pg osd's used deviation: 1.00167329957 / 0.986732317294
+standard deviation: -1728.60920331
+pg num in osd , MAX/MIN/AVG:386 / 296 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.130859375 / 0.8671875
+pg num in osd  MAX/MIN osd id:48 / 140
+MAX/MIN used capacity: 0.917114257812 / 0.883575439453
+MAX/MIN used capacity deviation: 1.01931078148 / 0.982034641823
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 0.98406973589 / 1.00479377713
+standard deviation: -1706.9555745
+pg num in osd , MAX/MIN/AVG:386 / 296 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.130859375 / 0.8671875
+pg num in osd  MAX/MIN osd id:48 / 140
+MAX/MIN used capacity: 0.927124023438 / 0.869857788086
+MAX/MIN used capacity deviation: 1.03043596237 / 0.966788395441
+MAX/MIN used osd id: 20 / 48
+MAX/MIN pg osd's used deviation: 0.966788395441 / 1.02373711107
+standard deviation: -2899.0105975
+pg num in osd , MAX/MIN/AVG:306 / 203 / 256.0
+pg num in osd deviation, MAX/MIN:1.1953125 / 0.79296875
+pg num in osd  MAX/MIN osd id:141 / 106
+MAX/MIN used capacity: 0.918365478516 / 0.855163574219
+MAX/MIN used capacity deviation: 1.0205168204 / 0.950284861639
+MAX/MIN used osd id: 270 / 106
+MAX/MIN pg osd's used deviation: 1.00462900163 / 0.950284861639
+standard deviation: -1953.81739594
+pg num in osd , MAX/MIN/AVG:306 / 203 / 256.0
+pg num in osd deviation, MAX/MIN:1.1953125 / 0.79296875
+pg num in osd  MAX/MIN osd id:141 / 106
+MAX/MIN used capacity: 0.918304443359 / 0.877075195312
+MAX/MIN used capacity deviation: 1.0204489962 / 0.974633749322
+MAX/MIN used osd id: 260 / 106
+MAX/MIN pg osd's used deviation: 0.979449267499 / 0.974633749322
+standard deviation: -1819.26738918
+pg num in osd , MAX/MIN/AVG:306 / 203 / 256.0
+pg num in osd deviation, MAX/MIN:1.1953125 / 0.79296875
+pg num in osd  MAX/MIN osd id:141 / 106
+MAX/MIN used capacity: 0.926971435547 / 0.858383178711
+MAX/MIN used capacity deviation: 1.03008003256 / 0.953862588171
+MAX/MIN used osd id: 260 / 237
+MAX/MIN pg osd's used deviation: 0.954693434617 / 0.999762615301
+standard deviation: -3128.73961578
+========== stop logging at Mon Dec 30 20:55:32 2024 ==========
+========== start logging at Mon Dec 30 20:56:15 2024 ==========
+pg num in osd , MAX/MIN/AVG:235 / 157 / 192.0
+pg num in osd deviation, MAX/MIN:1.22395833333 / 0.817708333333
+pg num in osd  MAX/MIN osd id:237 / 214
+MAX/MIN used capacity: 0.940612792969 / 0.857162475586
+MAX/MIN used capacity deviation: 1.04580618893 / 0.953023208469
+MAX/MIN used osd id: 120 / 236
+MAX/MIN pg osd's used deviation: 1.02040920195 / 0.956009093377
+standard deviation: -3810.92505174
+========== stop logging at Mon Dec 30 20:59:15 2024 ==========
+========== start logging at Mon Dec 30 21:00:03 2024 ==========
+pg num in osd , MAX/MIN/AVG:224 / 174 / 192.0
+pg num in osd deviation, MAX/MIN:1.16666666667 / 0.90625
+pg num in osd  MAX/MIN osd id:20 / 10
+MAX/MIN used capacity: 0.950859069824 / 0.866607666016
+MAX/MIN used capacity deviation: 1.05719835776 / 0.963524701412
+MAX/MIN used osd id: 20 / 9
+MAX/MIN pg osd's used deviation: 1.05719835776 / 0.968537934311
+standard deviation: -5581.94983854
+pg num in osd , MAX/MIN/AVG:224 / 174 / 192.0
+pg num in osd deviation, MAX/MIN:1.16666666667 / 0.90625
+pg num in osd  MAX/MIN osd id:20 / 10
+MAX/MIN used capacity: 0.934543609619 / 0.873092651367
+MAX/MIN used capacity deviation: 1.03905825869 / 0.970734934853
+MAX/MIN used osd id: 20 / 9
+MAX/MIN pg osd's used deviation: 1.03905825869 / 0.979616245928
+standard deviation: -4196.52542289
+pg num in osd , MAX/MIN/AVG:224 / 174 / 192.0
+pg num in osd deviation, MAX/MIN:1.16666666667 / 0.90625
+pg num in osd  MAX/MIN osd id:20 / 10
+MAX/MIN used capacity: 0.927188873291 / 0.873466491699
+MAX/MIN used capacity deviation: 1.0308810057 / 0.971150583605
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 1.02110901873 / 0.990427354777
+standard deviation: -3028.04535757
+pg num in osd , MAX/MIN/AVG:224 / 174 / 192.0
+pg num in osd deviation, MAX/MIN:1.16666666667 / 0.90625
+pg num in osd  MAX/MIN osd id:20 / 10
+MAX/MIN used capacity: 0.921714782715 / 0.869346618652
+MAX/MIN used capacity deviation: 1.02479472041 / 0.966569964712
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 1.00338880972 / 1.00114515472
+standard deviation: -2396.60125229
+pg num in osd , MAX/MIN/AVG:289 / 220 / 256.0
+pg num in osd deviation, MAX/MIN:1.12890625 / 0.859375
+pg num in osd  MAX/MIN osd id:81 / 27
+MAX/MIN used capacity: 0.926063537598 / 0.857620239258
+MAX/MIN used capacity deviation: 1.02962981813 / 0.953532166124
+MAX/MIN used osd id: 71 / 27
+MAX/MIN pg osd's used deviation: 1.02460386129 / 0.953532166124
+standard deviation: -3724.63187219
+pg num in osd , MAX/MIN/AVG:289 / 220 / 256.0
+pg num in osd deviation, MAX/MIN:1.12890625 / 0.859375
+pg num in osd  MAX/MIN osd id:81 / 27
+MAX/MIN used capacity: 0.917922973633 / 0.872234344482
+MAX/MIN used capacity deviation: 1.02057885451 / 0.969780639251
+MAX/MIN used osd id: 66 / 27
+MAX/MIN pg osd's used deviation: 1.00803728963 / 0.969780639251
+standard deviation: -2523.66256246
+pg num in osd , MAX/MIN/AVG:289 / 220 / 256.0
+pg num in osd deviation, MAX/MIN:1.12890625 / 0.859375
+pg num in osd  MAX/MIN osd id:81 / 27
+MAX/MIN used capacity: 0.917362213135 / 0.882415771484
+MAX/MIN used capacity deviation: 1.01995538138 / 0.981100705755
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 0.990507939739 / 0.986474450326
+standard deviation: -1838.14634324
+pg num in osd , MAX/MIN/AVG:289 / 220 / 256.0
+pg num in osd deviation, MAX/MIN:1.12890625 / 0.859375
+pg num in osd  MAX/MIN osd id:81 / 27
+MAX/MIN used capacity: 0.917533874512 / 0.876083374023
+MAX/MIN used capacity deviation: 1.0201462405 / 0.974060124864
+MAX/MIN used osd id: 4 / 81
+MAX/MIN pg osd's used deviation: 0.974060124864 / 1.00287985206
+standard deviation: -2179.3480103
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.937328338623 / 0.837768554688
+MAX/MIN used capacity deviation: 1.04173026048 / 0.931081264415
+MAX/MIN used osd id: 41 / 37
+MAX/MIN pg osd's used deviation: 1.02286409578 / 0.931081264415
+standard deviation: -4197.44532238
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.926380157471 / 0.86181640625
+MAX/MIN used capacity deviation: 1.02956264415 / 0.957807624474
+MAX/MIN used osd id: 41 / 37
+MAX/MIN pg osd's used deviation: 0.994662359246 / 0.957807624474
+standard deviation: -3006.93414253
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.929504394531 / 0.86181640625
+MAX/MIN used capacity deviation: 1.03303486637 / 0.957807624474
+MAX/MIN used osd id: 249 / 175
+MAX/MIN pg osd's used deviation: 0.966486060236 / 0.98441951567
+standard deviation: -3185.56844049
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.936965942383 / 0.840103149414
+MAX/MIN used capacity deviation: 1.04132749966 / 0.933675892009
+MAX/MIN used osd id: 249 / 175
+MAX/MIN pg osd's used deviation: 0.940204856872 / 1.01077703161
+standard deviation: -4557.69561686
+========== stop logging at Mon Dec 30 21:30:36 2024 ==========
+========== start logging at Mon Dec 30 21:39:15 2024 ==========
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.925926208496 / 0.870262145996
+MAX/MIN used capacity deviation: 1.02905813322 / 0.967194071361
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 0.98064628273 / 0.97123015873
+standard deviation: -2899.27234944
+========== stop logging at Mon Dec 30 21:44:39 2024 ==========
+========== start logging at Mon Dec 30 21:45:29 2024 ==========
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.92525100708 / 0.869121551514
+MAX/MIN used capacity deviation: 1.02830772622 / 0.965926434676
+MAX/MIN used osd id: 239 / 37
+MAX/MIN pg osd's used deviation: 0.986361246778 / 0.965926434676
+standard deviation: -2893.24868228
+========== stop logging at Mon Dec 30 21:50:50 2024 ==========
+========== start logging at Mon Dec 30 21:52:30 2024 ==========
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.926662445068 / 0.869159698486
+MAX/MIN used capacity deviation: 1.02987637363 / 0.965968830552
+MAX/MIN used osd id: 249 / 82
+MAX/MIN pg osd's used deviation: 0.977759123592 / 0.973812067562
+standard deviation: -2927.87778039
+========== stop logging at Mon Dec 30 21:58:00 2024 ==========
+========== start logging at Mon Dec 30 22:11:25 2024 ==========
+========== stop logging at Mon Dec 30 22:11:28 2024 ==========
+========== start logging at Mon Dec 30 22:11:58 2024 ==========
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.92579460144 / 0.863098144531
+MAX/MIN used capacity deviation: 1.03044964334 / 0.96066576087
+MAX/MIN used osd id: 0 / 33
+MAX/MIN pg osd's used deviation: 1.02627165421 / 0.96066576087
+standard deviation: -3948.85852441
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.923685073853 / 0.865549087524
+MAX/MIN used capacity deviation: 1.02810164742 / 0.963393766984
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.02133789062 / 0.963393766984
+standard deviation: -3634.82754491
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.92208480835 / 0.868183135986
+MAX/MIN used capacity deviation: 1.02632048234 / 0.966325577446
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.01625764266 / 0.966325577446
+standard deviation: -3351.51491711
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.920427322388 / 0.870571136475
+MAX/MIN used capacity deviation: 1.0244756284 / 0.968983525815
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.01119013247 / 0.96925951087
+standard deviation: -3104.5730215
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.918830871582 / 0.869806289673
+MAX/MIN used capacity deviation: 1.02269870924 / 0.968132218071
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 1.00623938519 / 0.972195567255
+standard deviation: -2898.90159155
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.919889450073 / 0.869115829468
+MAX/MIN used capacity deviation: 1.02387695313 / 0.967363705842
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 1.00128439198 / 0.975273862092
+standard deviation: -2749.63814854
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.921041488647 / 0.868532180786
+MAX/MIN used capacity deviation: 1.02515922215 / 0.966714079484
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.996276324728 / 0.978350033967
+standard deviation: -2671.95857861
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.922046661377 / 0.867521286011
+MAX/MIN used capacity deviation: 1.0262780231 / 0.965588909647
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.991176970109 / 0.981396484375
+standard deviation: -2664.42096782
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.92307472229 / 0.866691589355
+MAX/MIN used capacity deviation: 1.02742229959 / 0.964665421196
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.986398182745 / 0.984372877038
+standard deviation: -2738.41669583
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.924112319946 / 0.865980148315
+MAX/MIN used capacity deviation: 1.0285771909 / 0.963873556386
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.981600288723 / 0.987495754076
+standard deviation: -2866.54868883
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.925168991089 / 0.865255355835
+MAX/MIN used capacity deviation: 1.02975331182 / 0.963066830842
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.976838485054 / 0.990359629755
+standard deviation: -3050.62452281
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.926187515259 / 0.864486694336
+MAX/MIN used capacity deviation: 1.03088697351 / 0.962211277174
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.971989639946 / 0.993580163043
+standard deviation: -3282.57777104
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.9271068573 / 0.863683700562
+MAX/MIN used capacity deviation: 1.03191024117 / 0.96131751019
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.967125934103 / 0.996539572011
+standard deviation: -3552.88499702
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.928115844727 / 0.863168716431
+MAX/MIN used capacity deviation: 1.03303328804 / 0.960744310462
+MAX/MIN used osd id: 4 / 30
+MAX/MIN pg osd's used deviation: 0.962353515625 / 0.999479874321
+standard deviation: -3852.15165119
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.929103851318 / 0.860206604004
+MAX/MIN used capacity deviation: 1.03413298234 / 0.957447350543
+MAX/MIN used osd id: 4 / 43
+MAX/MIN pg osd's used deviation: 0.957447350543 / 1.00238408628
+standard deviation: -4176.33232733
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.930429458618 / 0.856008529663
+MAX/MIN used capacity deviation: 1.0356084409 / 0.952774711277
+MAX/MIN used osd id: 2 / 43
+MAX/MIN pg osd's used deviation: 0.952774711277 / 1.00518851902
+standard deviation: -4518.14850192
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.930494308472 / 0.862066268921
+MAX/MIN used capacity deviation: 1.03443130843 / 0.95835979908
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.993214952126 / 0.969351958308
+standard deviation: -3046.54730181
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.929862976074 / 0.865428924561
+MAX/MIN used capacity deviation: 1.03372945567 / 0.962098066194
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.986692598387 / 0.974945576372
+standard deviation: -2878.83934892
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.929389953613 / 0.868566513062
+MAX/MIN used capacity deviation: 1.0332035962 / 0.96558612598
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.980282625905 / 0.980401368366
+standard deviation: -2785.71264827
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928785324097 / 0.871778488159
+MAX/MIN used capacity deviation: 1.03253142906 / 0.969156881408
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.973719984545 / 0.986166738917
+standard deviation: -2769.42438746
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928129196167 / 0.870164871216
+MAX/MIN used capacity deviation: 1.03180201108 / 0.96736302209
+MAX/MIN used osd id: 38 / 75
+MAX/MIN pg osd's used deviation: 0.96736302209 / 0.99206993554
+standard deviation: -2840.78926344
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928157806396 / 0.864393234253
+MAX/MIN used capacity deviation: 1.0318338171 / 0.960946688405
+MAX/MIN used osd id: 38 / 75
+MAX/MIN pg osd's used deviation: 0.960946688405 / 0.997701720823
+standard deviation: -2983.91624142
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928316116333 / 0.858884811401
+MAX/MIN used capacity deviation: 1.03200981039 / 0.954822970069
+MAX/MIN used osd id: 38 / 75
+MAX/MIN pg osd's used deviation: 0.954822970069 / 1.00335683052
+standard deviation: -3189.65096984
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.92831993103 / 0.853254318237
+MAX/MIN used capacity deviation: 1.03201405119 / 0.948563546065
+MAX/MIN used osd id: 38 / 75
+MAX/MIN pg osd's used deviation: 0.948563546065 / 1.00908191345
+standard deviation: -3453.87150031
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.930797576904 / 0.847784042358
+MAX/MIN used capacity deviation: 1.0347684522 / 0.942482235751
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.942482235751 / 1.01506144451
+standard deviation: -3762.02997946
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.933710098267 / 0.842323303223
+MAX/MIN used capacity deviation: 1.03800630466 / 0.936411527443
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.936411527443 / 1.02076744383
+standard deviation: -4097.52293826
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.936643600464 / 0.836811065674
+MAX/MIN used capacity deviation: 1.04126748153 / 0.930283568305
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.930283568305 / 1.02664307524
+standard deviation: -4461.40382199
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.939388275146 / 0.83130645752
+MAX/MIN used capacity deviation: 1.04431873869 / 0.924164090772
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.924164090772 / 1.03253142906
+standard deviation: -4843.29939019
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.942237854004 / 0.825834274292
+MAX/MIN used capacity deviation: 1.04748661791 / 0.918080660057
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.918080660057 / 1.03814625113
+standard deviation: -5236.05464415
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.945098876953 / 0.820680618286
+MAX/MIN used capacity deviation: 1.05066721954 / 0.912351336324
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.912351336324 / 1.04359780232
+standard deviation: -5635.44207422
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.947994232178 / 0.815196990967
+MAX/MIN used capacity deviation: 1.05388598839 / 0.906255183203
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.906255183203 / 1.04966214943
+standard deviation: -6052.10560211
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.950723648071 / 0.809825897217
+MAX/MIN used capacity deviation: 1.05692028234 / 0.900284133745
+MAX/MIN used osd id: 120 / 75
+MAX/MIN pg osd's used deviation: 0.900284133745 / 1.05548265041
+standard deviation: -6471.51012079
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.939182281494 / 0.8596534729
+MAX/MIN used capacity deviation: 1.04369630341 / 0.955317375085
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.994245986887 / 0.997573762152
+standard deviation: -3401.26495228
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.941951751709 / 0.863248825073
+MAX/MIN used capacity deviation: 1.04677396563 / 0.959312825006
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.986823140402 / 1.00583597106
+standard deviation: -3330.08235842
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.944385528564 / 0.858772277832
+MAX/MIN used capacity deviation: 1.04947857789 / 0.954338118924
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.979756387068 / 1.01390105697
+standard deviation: -3360.92782709
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.946981430054 / 0.854032516479
+MAX/MIN used capacity deviation: 1.05236335632 / 0.949070907755
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.972409846258 / 1.02212935225
+standard deviation: -3492.45277659
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.949680328369 / 0.84921836853
+MAX/MIN used capacity deviation: 1.05536259326 / 0.943721032105
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.964974282161 / 1.0305356941
+standard deviation: -3712.24360413
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.952606201172 / 0.84462928772
+MAX/MIN used capacity deviation: 1.05861406285 / 0.9386212695
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.958058020574 / 1.03877246778
+standard deviation: -4009.85018791
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.955303192139 / 0.840087890625
+MAX/MIN used capacity deviation: 1.06161118019 / 0.933574496948
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.950881047931 / 1.04687358693
+standard deviation: -4363.7774808
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.957990646362 / 0.835260391235
+MAX/MIN used capacity deviation: 1.06459769953 / 0.928209784083
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.943780380963 / 1.0548920416
+standard deviation: -4762.58677109
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.960544586182 / 0.830513000488
+MAX/MIN used capacity deviation: 1.06743584671 / 0.922934094506
+MAX/MIN used osd id: 201 / 315
+MAX/MIN pg osd's used deviation: 0.936781454895 / 1.063039792
+standard deviation: -5199.42680205
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.963722229004 / 0.825717926025
+MAX/MIN used capacity deviation: 1.07096710378 / 0.917605414877
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.929837638481 / 1.07096710378
+standard deviation: -5652.67278856
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.971158981323 / 0.820947647095
+MAX/MIN used capacity deviation: 1.07923143229 / 0.912304290075
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.923023117793 / 1.07923143229
+standard deviation: -6124.00549958
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.978397369385 / 0.816213607788
+MAX/MIN used capacity deviation: 1.08727532218 / 0.907043437712
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.916350610445 / 1.08727532218
+standard deviation: -6612.36541635
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.985712051392 / 0.811670303345
+MAX/MIN used capacity deviation: 1.09540399616 / 0.901994545557
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.909506415329 / 1.09540399616
+standard deviation: -7112.58495598
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.99308013916 / 0.807033538818
+MAX/MIN used capacity deviation: 1.10359201899 / 0.896841792901
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.903081901424 / 1.10359201899
+standard deviation: -7617.99841835
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 1.0001373291 / 0.802457809448
+MAX/MIN used capacity deviation: 1.11143454669 / 0.891756867511
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.896428470495 / 1.11143454669
+standard deviation: -8131.57907455
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 1.00750350952 / 0.798070907593
+MAX/MIN used capacity deviation: 1.11962044992 / 0.886881782727
+MAX/MIN used osd id: 48 / 315
+MAX/MIN pg osd's used deviation: 0.889758082749 / 1.11962044992
+standard deviation: -8649.66500387
+========== stop logging at Tue Dec 31 02:02:39 2024 ==========
+========== start logging at Tue Dec 31 11:43:20 2024 ==========
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.92208480835 / 0.868183135986
+MAX/MIN used capacity deviation: 1.02632048234 / 0.966325577446
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.01625764266 / 0.966325577446
+standard deviation: -3351.51491711
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.921722412109 / 0.868770599365
+MAX/MIN used capacity deviation: 1.02591711957 / 0.966979449728
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.01526834239 / 0.966979449728
+standard deviation: -3297.30653811
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.921287536621 / 0.869218826294
+MAX/MIN used capacity deviation: 1.02543308424 / 0.967478345788
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.01415591033 / 0.967478345788
+standard deviation: -3245.03045216
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.92098236084 / 0.869699478149
+MAX/MIN used capacity deviation: 1.02509341033 / 0.968013332201
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.01316661005 / 0.968013332201
+standard deviation: -3198.17385394
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.920652389526 / 0.870292663574
+MAX/MIN used capacity deviation: 1.02472613791 / 0.96867357337
+MAX/MIN used osd id: 47 / 33
+MAX/MIN pg osd's used deviation: 1.01219004755 / 0.96867357337
+standard deviation: -3149.88420422
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.920427322388 / 0.870571136475
+MAX/MIN used capacity deviation: 1.0244756284 / 0.968983525815
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.01119013247 / 0.96925951087
+standard deviation: -3104.5730215
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.920087814331 / 0.870338439941
+MAX/MIN used capacity deviation: 1.02409774117 / 0.968724524457
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.0103069803 / 0.969860309103
+standard deviation: -3059.35193641
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.919628143311 / 0.870140075684
+MAX/MIN used capacity deviation: 1.02358610734 / 0.968503736413
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.00933890965 / 0.970473845109
+standard deviation: -3015.02025802
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.919322967529 / 0.87006187439
+MAX/MIN used capacity deviation: 1.02324643342 / 0.968416694973
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.00829016644 / 0.971008831522
+standard deviation: -2973.82541238
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.91900062561 / 0.869897842407
+MAX/MIN used capacity deviation: 1.02288765285 / 0.968234120245
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.00724779212 / 0.97166907269
+standard deviation: -2933.33753314
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.929389953613 / 0.868566513062
+MAX/MIN used capacity deviation: 1.0332035962 / 0.96558612598
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.980282625905 / 0.980401368366
+standard deviation: -2785.71264827
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.929285049438 / 0.869220733643
+MAX/MIN used capacity deviation: 1.03308697414 / 0.966313423552
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.978948893622 / 0.981624839792
+standard deviation: -2776.6669481
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.929126739502 / 0.869913101196
+MAX/MIN used capacity deviation: 1.03291098085 / 0.967083129147
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.977625763344 / 0.982810143999
+standard deviation: -2770.33579625
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928941726685 / 0.870597839355
+MAX/MIN used capacity deviation: 1.03270530195 / 0.967844353136
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.976338679885 / 0.984048458233
+standard deviation: -2765.65065312
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928825378418 / 0.871194839478
+MAX/MIN used capacity deviation: 1.03257595748 / 0.968508038676
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.975087643245 / 0.985131983188
+standard deviation: -2766.18155832
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928785324097 / 0.871778488159
+MAX/MIN used capacity deviation: 1.03253142906 / 0.969156881408
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.973719984545 / 0.986166738917
+standard deviation: -2769.42438746
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928567886353 / 0.872463226318
+MAX/MIN used capacity deviation: 1.03228970333 / 0.969918105398
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.972415937877 / 0.987309635103
+standard deviation: -2775.90528346
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928480148315 / 0.873123168945
+MAX/MIN used capacity deviation: 1.03219216488 / 0.970651764174
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.971137336022 / 0.988492818908
+standard deviation: -2786.76064442
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928453445435 / 0.87243270874
+MAX/MIN used capacity deviation: 1.03216247927 / 0.969884178981
+MAX/MIN used osd id: 95 / 75
+MAX/MIN pg osd's used deviation: 0.969884178981 / 0.989601788676
+standard deviation: -2799.86726379
+========== stop logging at Tue Dec 31 12:28:39 2024 ==========
+========== start logging at Tue Dec 31 12:28:46 2024 ==========
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.940700531006 / 0.846130371094
+MAX/MIN used capacity deviation: 1.04538350667 / 0.940289396337
+MAX/MIN used osd id: 344 / 316
+MAX/MIN pg osd's used deviation: 1.02412813701 / 0.964791996383
+standard deviation: -4545.41066278
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.937955856323 / 0.849519729614
+MAX/MIN used capacity deviation: 1.04233339928 / 0.944055929234
+MAX/MIN used osd id: 344 / 316
+MAX/MIN pg osd's used deviation: 1.01651664594 / 0.973071162107
+standard deviation: -4161.8705237
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.93528175354 / 0.852981567383
+MAX/MIN used capacity deviation: 1.03936171716 / 0.947903007009
+MAX/MIN used osd id: 344 / 316
+MAX/MIN pg osd's used deviation: 1.00911499548 / 0.981110812797
+standard deviation: -3832.48442248
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.936519622803 / 0.85643196106
+MAX/MIN used capacity deviation: 1.04073733891 / 0.951737367172
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 1.00156073366 / 0.989339108071
+standard deviation: -3571.46894759
+========== stop logging at Tue Dec 31 13:08:40 2024 ==========
+========== start logging at Thu Jan  2 16:05:25 2025 ==========
+pg num in osd , MAX/MIN/AVG:484 / 367 / 426.666666667
+pg num in osd deviation, MAX/MIN:1.134375 / 0.86015625
+pg num in osd  MAX/MIN osd id:82 / 178
+MAX/MIN used capacity: 0.923694610596 / 0.880550384521
+MAX/MIN used capacity deviation: 1.02648513452 / 0.978539735474
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.01383322971 / 0.984841312458
+standard deviation: -1903.96373337
+========== stop logging at Thu Jan  2 16:15:57 2025 ==========
+========== start logging at Thu Jan  2 16:48:14 2025 ==========
+========== stop logging at Thu Jan  2 16:48:24 2025 ==========
+========== start logging at Thu Jan  2 16:48:32 2025 ==========
+MAX/MIN used capacity: 0.417530059814 / 0.380807876587
+MAX/MIN used capacity deviation: 1.04386775425 / 0.952058549052
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.991671028539 / 0.991671028539
+standard deviation: -1530.50806269
+MAX/MIN used capacity: 0.521627426147 / 0.476762771606
+MAX/MIN used capacity deviation: 1.04329740782 / 0.953564438577
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.991537484059 / 0.991537484059
+standard deviation: -1902.85381616
+MAX/MIN used capacity: 0.62614440918 / 0.57202911377
+MAX/MIN used capacity deviation: 1.04361656656 / 0.95342073
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.992195529751 / 0.992195529751
+standard deviation: -2276.18733436
+MAX/MIN used capacity: 0.730966567993 / 0.667400360107
+MAX/MIN used capacity deviation: 1.04428052026 / 0.953467950234
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.992804532011 / 0.992804532011
+standard deviation: -2657.75758203
+MAX/MIN used capacity: 0.835088729858 / 0.763788223267
+MAX/MIN used capacity deviation: 1.04390345368 / 0.954774188225
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.992944174064 / 0.992944174064
+standard deviation: -3027.97538155
+MAX/MIN used capacity: 0.939294815063 / 0.859760284424
+MAX/MIN used capacity deviation: 1.04370343163 / 0.955328130041
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.993218094831 / 0.993218094831
+standard deviation: -3401.61824213
+pg num in osd , MAX/MIN/AVG:253 / 173 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.1859375 / 0.8109375
+pg num in osd  MAX/MIN osd id:82 / 48
+MAX/MIN used capacity: 0.939294815063 / 0.859760284424
+MAX/MIN used capacity deviation: 1.04370343163 / 0.955328130041
+MAX/MIN used osd id: 201 / 316
+MAX/MIN pg osd's used deviation: 0.994260821236 / 0.997552191374
+standard deviation: -3401.61824213
+========== stop logging at Thu Jan  2 16:58:40 2025 ==========
+========== start logging at Thu Jan  2 17:01:11 2025 ==========
+========== stop logging at Thu Jan  2 17:01:15 2025 ==========
+========== start logging at Thu Jan  2 17:01:18 2025 ==========
+========== stop logging at Thu Jan  2 17:01:22 2025 ==========
+========== start logging at Thu Jan  2 17:01:30 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+MAX/MIN used capacity: 0.703903198242 / 0.688598632812
+MAX/MIN used capacity deviation: 1.00952771737 / 0.98757813248
+MAX/MIN used osd id: 12 / 10
+MAX/MIN pg osd's used deviation: 0.997600973835 / 0.997600973835
+standard deviation: -1144.97237958
+MAX/MIN used capacity: 0.803817749023 / 0.78776550293
+MAX/MIN used capacity deviation: 1.00871609096 / 0.988572023538
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.997514304418 / 0.997514304418
+standard deviation: -1230.04245354
+MAX/MIN used capacity: 0.904663085938 / 0.886444091797
+MAX/MIN used capacity deviation: 1.00912631419 / 0.988803536912
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.998011763467 / 0.998011763467
+standard deviation: -1406.78727514
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.904663085938 / 0.886444091797
+MAX/MIN used capacity deviation: 1.00912631419 / 0.988803536912
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 1.00482006406 / 0.998811738787
+standard deviation: -1406.78727514
+MAX/MIN used capacity: 0.403602600098 / 0.394630432129
+MAX/MIN used capacity deviation: 1.01296702534 / 0.990448562138
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00018549967 / 1.00018549967
+standard deviation: -727.201044674
+MAX/MIN used capacity: 0.503921508789 / 0.493457794189
+MAX/MIN used capacity deviation: 1.01179824927 / 0.990788691374
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00100624523 / 1.00100624523
+standard deviation: -867.617274134
+MAX/MIN used capacity: 0.603912353516 / 0.592506408691
+MAX/MIN used capacity deviation: 1.01047014735 / 0.991385644976
+MAX/MIN used osd id: 14 / 3
+MAX/MIN pg osd's used deviation: 1.00244061425 / 1.00244061425
+standard deviation: -998.803150964
+MAX/MIN used capacity: 0.704399108887 / 0.691547393799
+MAX/MIN used capacity deviation: 1.01023479996 / 0.991803132946
+MAX/MIN used osd id: 14 / 3
+MAX/MIN pg osd's used deviation: 1.00188064278 / 1.00188064278
+standard deviation: -1166.50061616
+MAX/MIN used capacity: 0.805324554443 / 0.790409088135
+MAX/MIN used capacity deviation: 1.01060517663 / 0.991887695111
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00052358684 / 1.00052358684
+standard deviation: -1319.71246276
+MAX/MIN used capacity: 0.905281066895 / 0.889141082764
+MAX/MIN used capacity deviation: 1.00981404327 / 0.99181037211
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00122283266 / 1.00122283266
+standard deviation: -1447.70451383
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.905281066895 / 0.889141082764
+MAX/MIN used capacity deviation: 1.00981404327 / 0.99181037211
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.995342172408 / 0.99181037211
+standard deviation: -1447.70451383
+MAX/MIN used capacity: 0.408264160156 / 0.392318725586
+MAX/MIN used capacity deviation: 1.02066380722 / 0.980800087738
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.988353213536 / 0.988353213536
+standard deviation: -1030.38541535
+MAX/MIN used capacity: 0.508728027344 / 0.489654541016
+MAX/MIN used capacity deviation: 1.01745799533 / 0.979310949919
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.988313652637 / 0.988313652637
+standard deviation: -1157.5400371
+MAX/MIN used capacity: 0.612594604492 / 0.588104248047
+MAX/MIN used capacity deviation: 1.02099360401 / 0.980176239462
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.989738438259 / 0.989738438259
+standard deviation: -1357.4574272
+MAX/MIN used capacity: 0.712799072266 / 0.687728881836
+MAX/MIN used capacity deviation: 1.01828605372 / 0.982471437408
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.988858340985 / 0.988858340985
+standard deviation: -1465.26303099
+MAX/MIN used capacity: 0.812713623047 / 0.787796020508
+MAX/MIN used capacity deviation: 1.01589420868 / 0.984747138673
+MAX/MIN used osd id: 16 / 21
+MAX/MIN pg osd's used deviation: 0.989401079323 / 0.989401079323
+standard deviation: -1631.66298731
+MAX/MIN used capacity: 0.914764404297 / 0.886093139648
+MAX/MIN used capacity deviation: 1.0164064015 / 0.984549393515
+MAX/MIN used osd id: 16 / 37
+MAX/MIN pg osd's used deviation: 0.987889377854 / 0.987889377854
+standard deviation: -1799.70778299
+pg num in osd , MAX/MIN/AVG:298 / 218 / 256.0
+pg num in osd deviation, MAX/MIN:1.1640625 / 0.8515625
+pg num in osd  MAX/MIN osd id:37 / 2
+MAX/MIN used capacity: 0.914764404297 / 0.886093139648
+MAX/MIN used capacity deviation: 1.0164064015 / 0.984549393515
+MAX/MIN used osd id: 16 / 37
+MAX/MIN pg osd's used deviation: 0.984549393515 / 1.0116931241
+standard deviation: -1799.70778299
+MAX/MIN used capacity: 0.40731048584 / 0.393142700195
+MAX/MIN used capacity deviation: 1.01827839959 / 0.982858859475
+MAX/MIN used osd id: 47 / 22
+MAX/MIN pg osd's used deviation: 0.993978725865 / 0.993978725865
+standard deviation: -870.383910146
+MAX/MIN used capacity: 0.509651184082 / 0.492156982422
+MAX/MIN used capacity deviation: 1.01930334025 / 0.98431490356
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.992608063324 / 0.992608063324
+standard deviation: -1071.47872169
+MAX/MIN used capacity: 0.611415863037 / 0.591625213623
+MAX/MIN used capacity deviation: 1.01902741022 / 0.986042963069
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.991981180809 / 0.991981180809
+standard deviation: -1264.72234272
+MAX/MIN used capacity: 0.713233947754 / 0.689739227295
+MAX/MIN used capacity deviation: 1.01890661135 / 0.985342692974
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.993364464017 / 0.993364464017
+standard deviation: -1483.66137232
+MAX/MIN used capacity: 0.814384460449 / 0.787910461426
+MAX/MIN used capacity deviation: 1.01798154638 / 0.984889016046
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.99594688029 / 0.99594688029
+standard deviation: -1637.90239331
+MAX/MIN used capacity: 0.916744232178 / 0.886123657227
+MAX/MIN used capacity deviation: 1.01860567384 / 0.984582780334
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.996005690262 / 0.996005690262
+standard deviation: -1851.48486159
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.916744232178 / 0.886123657227
+MAX/MIN used capacity deviation: 1.01860567384 / 0.984582780334
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.999638133234 / 0.984582780334
+standard deviation: -1851.48486159
+MAX/MIN used capacity: 0.406311035156 / 0.389907836914
+MAX/MIN used capacity deviation: 1.01578340025 / 0.974775169993
+MAX/MIN used osd id: 22 / 14
+MAX/MIN pg osd's used deviation: 0.999876021629 / 0.999876021629
+standard deviation: -1021.88665386
+MAX/MIN used capacity: 0.509216308594 / 0.487457275391
+MAX/MIN used capacity deviation: 1.01843650221 / 0.974918269799
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.997348775287 / 0.997348775287
+standard deviation: -1278.5764545
+MAX/MIN used capacity: 0.611709594727 / 0.584182739258
+MAX/MIN used capacity deviation: 1.01952182496 / 0.973643469996
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.994115795798 / 0.994115795798
+standard deviation: -1554.81909451
+MAX/MIN used capacity: 0.712692260742 / 0.68310546875
+MAX/MIN used capacity deviation: 1.01813623978 / 0.975869209809
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.994092643052 / 0.994092643052
+standard deviation: -1762.50995269
+MAX/MIN used capacity: 0.813674926758 / 0.78092956543
+MAX/MIN used capacity deviation: 1.01709705337 / 0.97616521509
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.996497619383 / 0.996497619383
+standard deviation: -2022.89027961
+MAX/MIN used capacity: 0.91535949707 / 0.87841796875
+MAX/MIN used capacity deviation: 1.0170686944 / 0.976022447431
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.994892531228 / 0.994892531228
+standard deviation: -2246.80818051
+pg num in osd , MAX/MIN/AVG:297 / 209 / 256.0
+pg num in osd deviation, MAX/MIN:1.16015625 / 0.81640625
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.91535949707 / 0.87841796875
+MAX/MIN used capacity deviation: 1.0170686944 / 0.976022447431
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.976022447431 / 1.00014834972
+standard deviation: -2246.80818051
+MAX/MIN used capacity: 0.40661239624 / 0.392482757568
+MAX/MIN used capacity deviation: 1.01719686592 / 0.981849630309
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01108935221 / 1.01108935221
+standard deviation: -1048.18206629
+MAX/MIN used capacity: 0.508722305298 / 0.490419387817
+MAX/MIN used capacity deviation: 1.01810906026 / 0.981479319586
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01086021933 / 1.01086021933
+standard deviation: -1310.7728709
+MAX/MIN used capacity: 0.610569000244 / 0.588512420654
+MAX/MIN used capacity deviation: 1.01827956134 / 0.98149458834
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01043523901 / 1.01043523901
+standard deviation: -1581.81098744
+MAX/MIN used capacity: 0.712385177612 / 0.685926437378
+MAX/MIN used capacity deviation: 1.01835772282 / 0.980534838093
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01056793175 / 1.01056793175
+standard deviation: -1853.76918914
+MAX/MIN used capacity: 0.813970565796 / 0.784450531006
+MAX/MIN used capacity deviation: 1.01812766905 / 0.981203527718
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.00927656326 / 1.00927656326
+standard deviation: -2092.50668391
+MAX/MIN used capacity: 0.915342330933 / 0.882171630859
+MAX/MIN used capacity deviation: 1.01771122439 / 0.980830821676
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.0095339584 / 1.0095339584
+standard deviation: -2366.10104853
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.915342330933 / 0.882171630859
+MAX/MIN used capacity deviation: 1.01771122439 / 0.980830821676
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01038858449 / 1.00044904981
+standard deviation: -2366.10104853
+MAX/MIN used capacity: 0.407150268555 / 0.389404296875
+MAX/MIN used capacity deviation: 1.01787825998 / 0.97351321796
+MAX/MIN used osd id: 51 / 52
+MAX/MIN pg osd's used deviation: 1.00658672736 / 1.00658672736
+standard deviation: -846.018386982
+MAX/MIN used capacity: 0.507629394531 / 0.489181518555
+MAX/MIN used capacity deviation: 1.01526008003 / 0.978364281164
+MAX/MIN used osd id: 14 / 52
+MAX/MIN pg osd's used deviation: 1.00305303326 / 1.00305303326
+standard deviation: -1014.45890065
+MAX/MIN used capacity: 0.609237670898 / 0.589828491211
+MAX/MIN used capacity deviation: 1.0153976245 / 0.983048943698
+MAX/MIN used osd id: 14 / 52
+MAX/MIN pg osd's used deviation: 0.997773696988 / 0.997773696988
+standard deviation: -1130.19525108
+MAX/MIN used capacity: 0.708297729492 / 0.689712524414
+MAX/MIN used capacity deviation: 1.01185555353 / 0.985305217152
+MAX/MIN used osd id: 18 / 52
+MAX/MIN pg osd's used deviation: 0.99888556162 / 0.99888556162
+standard deviation: -1146.23711673
+MAX/MIN used capacity: 0.810852050781 / 0.789749145508
+MAX/MIN used capacity deviation: 1.01356603009 / 0.98718737334
+MAX/MIN used osd id: 51 / 31
+MAX/MIN pg osd's used deviation: 0.998726843573 / 0.998726843573
+standard deviation: -1289.90796399
+MAX/MIN used capacity: 0.913238525391 / 0.889587402344
+MAX/MIN used capacity deviation: 1.01471061956 / 0.988431564254
+MAX/MIN used osd id: 51 / 43
+MAX/MIN pg osd's used deviation: 0.999706126693 / 0.999706126693
+standard deviation: -1376.19652989
+pg num in osd , MAX/MIN/AVG:385 / 301 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.1279296875 / 0.8818359375
+pg num in osd  MAX/MIN osd id:32 / 22
+MAX/MIN used capacity: 0.913238525391 / 0.889587402344
+MAX/MIN used capacity deviation: 1.01471061956 / 0.988431564254
+MAX/MIN used osd id: 51 / 43
+MAX/MIN pg osd's used deviation: 0.996213555471 / 0.994806354445
+standard deviation: -1376.19652989
+MAX/MIN used capacity: 0.413091659546 / 0.392751693726
+MAX/MIN used capacity deviation: 1.03340289536 / 0.982519806622
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.991795568486 / 0.991795568486
+standard deviation: -880.069256161
+MAX/MIN used capacity: 0.515525817871 / 0.491495132446
+MAX/MIN used capacity deviation: 1.0317238776 / 0.983631170916
+MAX/MIN used osd id: 46 / 50
+MAX/MIN pg osd's used deviation: 0.993338270932 / 0.993338270932
+standard deviation: -1100.99894237
+MAX/MIN used capacity: 0.617523193359 / 0.590003967285
+MAX/MIN used capacity deviation: 1.02987654234 / 0.98398125338
+MAX/MIN used osd id: 46 / 50
+MAX/MIN pg osd's used deviation: 0.992159572475 / 0.992159572475
+standard deviation: -1306.63525744
+MAX/MIN used capacity: 0.720241546631 / 0.688323974609
+MAX/MIN used capacity deviation: 1.02958726696 / 0.983961010191
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992151596742 / 0.992151596742
+standard deviation: -1529.77201006
+MAX/MIN used capacity: 0.823036193848 / 0.786319732666
+MAX/MIN used capacity deviation: 1.02946608123 / 0.983540577966
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992527662163 / 0.992527662163
+standard deviation: -1760.49064884
+MAX/MIN used capacity: 0.926008224487 / 0.884609222412
+MAX/MIN used capacity deviation: 1.02956874363 / 0.983539866746
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992522973056 / 0.992522973056
+standard deviation: -1977.94130074
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.926008224487 / 0.884609222412
+MAX/MIN used capacity deviation: 1.02956874363 / 0.983539866746
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.987352809415 / 0.983539866746
+standard deviation: -1977.94130074
+MAX/MIN used capacity: 0.405532836914 / 0.391159057617
+MAX/MIN used capacity deviation: 1.01781155866 / 0.981736061495
+MAX/MIN used osd id: 24 / 0
+MAX/MIN pg osd's used deviation: 0.981736061495 / 0.981736061495
+standard deviation: -969.973380756
+MAX/MIN used capacity: 0.509048461914 / 0.489059448242
+MAX/MIN used capacity deviation: 1.02209239648 / 0.981957477283
+MAX/MIN used osd id: 24 / 0
+MAX/MIN pg osd's used deviation: 0.981957477283 / 0.981957477283
+standard deviation: -1185.03643799
+MAX/MIN used capacity: 0.609909057617 / 0.58674621582
+MAX/MIN used capacity deviation: 1.02050387235 / 0.981747652135
+MAX/MIN used osd id: 24 / 9
+MAX/MIN pg osd's used deviation: 0.985168820455 / 0.985168820455
+standard deviation: -1409.64263534
+MAX/MIN used capacity: 0.710662841797 / 0.687377929688
+MAX/MIN used capacity deviation: 1.01921811763 / 0.985823372765
+MAX/MIN used osd id: 24 / 0
+MAX/MIN pg osd's used deviation: 0.985823372765 / 0.985823372765
+standard deviation: -1505.85571603
+MAX/MIN used capacity: 0.811401367188 / 0.785110473633
+MAX/MIN used capacity deviation: 1.01823099455 / 0.985238441447
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.986866048535 / 0.986866048535
+standard deviation: -1752.85577255
+MAX/MIN used capacity: 0.913482666016 / 0.883056640625
+MAX/MIN used capacity deviation: 1.01896268259 / 0.985023358285
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.98665734782 / 0.98665734782
+standard deviation: -1934.04481835
+pg num in osd , MAX/MIN/AVG:225 / 169 / 192.0
+pg num in osd deviation, MAX/MIN:1.171875 / 0.880208333333
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.913482666016 / 0.883056640625
+MAX/MIN used capacity deviation: 1.01896268259 / 0.985023358285
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.994946440568 / 1.00226535203
+standard deviation: -1934.04481835
+MAX/MIN used capacity: 0.411632537842 / 0.388072967529
+MAX/MIN used capacity deviation: 1.03008987047 / 0.971133222241
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.994874346615 / 0.994874346615
+standard deviation: -1366.16964397
+MAX/MIN used capacity: 0.514419555664 / 0.484127044678
+MAX/MIN used capacity deviation: 1.02984629381 / 0.969201962101
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.996954323443 / 0.996954323443
+standard deviation: -1721.60563569
+MAX/MIN used capacity: 0.616806030273 / 0.581169128418
+MAX/MIN used capacity deviation: 1.02901691248 / 0.969563903075
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995898366029 / 0.995898366029
+standard deviation: -2053.74150942
+MAX/MIN used capacity: 0.719543457031 / 0.679191589355
+MAX/MIN used capacity deviation: 1.02892529581 / 0.97122335025
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995039449164 / 0.995039449164
+standard deviation: -2388.0756734
+MAX/MIN used capacity: 0.822914123535 / 0.775741577148
+MAX/MIN used capacity deviation: 1.02964982887 / 0.970626410844
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995517816716 / 0.995517816716
+standard deviation: -2716.61961288
+MAX/MIN used capacity: 0.926872253418 / 0.873180389404
+MAX/MIN used capacity deviation: 1.03086591131 / 0.971149901768
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995918787288 / 0.995918787288
+standard deviation: -3028.04504732
+pg num in osd , MAX/MIN/AVG:224 / 174 / 192.0
+pg num in osd deviation, MAX/MIN:1.16666666667 / 0.90625
+pg num in osd  MAX/MIN osd id:20 / 10
+MAX/MIN used capacity: 0.926872253418 / 0.873180389404
+MAX/MIN used capacity deviation: 1.03086591131 / 0.971149901768
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 1.02113739906 / 0.990449946343
+standard deviation: -3028.04504732
+MAX/MIN used capacity: 0.408126831055 / 0.391799926758
+MAX/MIN used capacity deviation: 1.020319267 / 0.979501918678
+MAX/MIN used osd id: 41 / 58
+MAX/MIN pg osd's used deviation: 1.00685335676 / 1.00685335676
+standard deviation: -881.302034516
+MAX/MIN used capacity: 0.508514404297 / 0.490982055664
+MAX/MIN used capacity deviation: 1.01702977851 / 0.981965047803
+MAX/MIN used osd id: 85 / 58
+MAX/MIN pg osd's used deviation: 1.00528049973 / 1.00528049973
+standard deviation: -1008.03777263
+MAX/MIN used capacity: 0.609680175781 / 0.590255737305
+MAX/MIN used capacity deviation: 1.01613459536 / 0.983760500362
+MAX/MIN used osd id: 85 / 58
+MAX/MIN pg osd's used deviation: 1.0036223764 / 1.0036223764
+standard deviation: -1101.22292816
+MAX/MIN used capacity: 0.711791992188 / 0.690216064453
+MAX/MIN used capacity deviation: 1.01684667287 / 0.986023889564
+MAX/MIN used osd id: 85 / 81
+MAX/MIN pg osd's used deviation: 1.00208922994 / 1.00208922994
+standard deviation: -1209.07517386
+MAX/MIN used capacity: 0.811904907227 / 0.786087036133
+MAX/MIN used capacity deviation: 1.0148821019 / 0.982609732256
+MAX/MIN used osd id: 85 / 77
+MAX/MIN pg osd's used deviation: 1.00339985218 / 1.00339985218
+standard deviation: -1384.13137623
+MAX/MIN used capacity: 0.912841796875 / 0.882461547852
+MAX/MIN used capacity deviation: 1.01426963048 / 0.980513766037
+MAX/MIN used osd id: 79 / 77
+MAX/MIN pg osd's used deviation: 1.00196086223 / 1.00196086223
+standard deviation: -1559.30965795
+pg num in osd , MAX/MIN/AVG:291 / 225 / 256.0
+pg num in osd deviation, MAX/MIN:1.13671875 / 0.87890625
+pg num in osd  MAX/MIN osd id:32 / 92
+MAX/MIN used capacity: 0.912841796875 / 0.882461547852
+MAX/MIN used capacity deviation: 1.01426963048 / 0.980513766037
+MAX/MIN used osd id: 79 / 77
+MAX/MIN pg osd's used deviation: 0.993161618811 / 0.999688995912
+standard deviation: -1559.30965795
+MAX/MIN used capacity: 0.408164978027 / 0.392578125
+MAX/MIN used capacity deviation: 1.02041341821 / 0.98144624848
+MAX/MIN used osd id: 37 / 86
+MAX/MIN pg osd's used deviation: 1.01260281811 / 1.01260281811
+standard deviation: -819.667640978
+MAX/MIN used capacity: 0.510478973389 / 0.49027633667
+MAX/MIN used capacity deviation: 1.02095843361 / 0.980553140904
+MAX/MIN used osd id: 37 / 9
+MAX/MIN pg osd's used deviation: 1.01295519493 / 1.01295519493
+standard deviation: -1044.33685909
+MAX/MIN used capacity: 0.611759185791 / 0.588958740234
+MAX/MIN used capacity deviation: 1.0195992102 / 0.981598446464
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 1.0127518248 / 1.0127518248
+standard deviation: -1212.85736411
+MAX/MIN used capacity: 0.714366912842 / 0.686676025391
+MAX/MIN used capacity deviation: 1.02052478686 / 0.980966351965
+MAX/MIN used osd id: 37 / 50
+MAX/MIN pg osd's used deviation: 1.0130915722 / 1.0130915722
+standard deviation: -1443.58287858
+MAX/MIN used capacity: 0.816757202148 / 0.783988952637
+MAX/MIN used capacity deviation: 1.0209468678 / 0.979986541266
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 1.01166284501 / 1.01166284501
+standard deviation: -1663.8801242
+MAX/MIN used capacity: 0.917919158936 / 0.883018493652
+MAX/MIN used capacity deviation: 1.01991060889 / 0.981132075472
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 1.01212438461 / 1.01212438461
+standard deviation: -1840.57573081
+pg num in osd , MAX/MIN/AVG:289 / 220 / 256.0
+pg num in osd deviation, MAX/MIN:1.12890625 / 0.859375
+pg num in osd  MAX/MIN osd id:81 / 27
+MAX/MIN used capacity: 0.917919158936 / 0.883018493652
+MAX/MIN used capacity deviation: 1.01991060889 / 0.981132075472
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 0.99050351906 / 0.986519278005
+standard deviation: -1840.57573081
+MAX/MIN used capacity: 0.411468505859 / 0.38720703125
+MAX/MIN used capacity deviation: 1.0289229265 / 0.968254401203
+MAX/MIN used osd id: 136 / 15
+MAX/MIN pg osd's used deviation: 1.00221351285 / 1.00221351285
+standard deviation: -1146.53093517
+MAX/MIN used capacity: 0.514434814453 / 0.484283447266
+MAX/MIN used capacity deviation: 1.02912124725 / 0.968803765359
+MAX/MIN used osd id: 136 / 244
+MAX/MIN pg osd's used deviation: 0.995848952079 / 0.995848952079
+standard deviation: -1372.6793363
+MAX/MIN used capacity: 0.615493774414 / 0.581985473633
+MAX/MIN used capacity deviation: 1.02607376944 / 0.970212946929
+MAX/MIN used osd id: 220 / 244
+MAX/MIN pg osd's used deviation: 0.99397160277 / 0.99397160277
+standard deviation: -1597.86707373
+MAX/MIN used capacity: 0.718215942383 / 0.680419921875
+MAX/MIN used capacity deviation: 1.02627385429 / 0.972266326258
+MAX/MIN used osd id: 220 / 101
+MAX/MIN pg osd's used deviation: 0.993197786457 / 0.993197786457
+standard deviation: -1792.09112944
+MAX/MIN used capacity: 0.820877075195 / 0.779739379883
+MAX/MIN used capacity deviation: 1.02634714643 / 0.9749124585
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.99690956354 / 0.99690956354
+standard deviation: -2018.72204261
+MAX/MIN used capacity: 0.923721313477 / 0.876358032227
+MAX/MIN used capacity deviation: 1.02660785563 / 0.97396912586
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.996676361413 / 0.996676361413
+standard deviation: -2230.97718171
+pg num in osd , MAX/MIN/AVG:235 / 157 / 192.0
+pg num in osd deviation, MAX/MIN:1.22395833333 / 0.817708333333
+pg num in osd  MAX/MIN osd id:237 / 214
+MAX/MIN used capacity: 0.923721313477 / 0.876358032227
+MAX/MIN used capacity deviation: 1.02660785563 / 0.97396912586
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.989079018972 / 0.980277633422
+standard deviation: -2230.97718171
+MAX/MIN used capacity: 0.412197113037 / 0.386035919189
+MAX/MIN used capacity deviation: 1.03074465963 / 0.965325688958
+MAX/MIN used osd id: 239 / 82
+MAX/MIN pg osd's used deviation: 1.01783829227 / 1.01783829227
+standard deviation: -1299.03163131
+MAX/MIN used capacity: 0.515506744385 / 0.483268737793
+MAX/MIN used capacity deviation: 1.03126544696 / 0.966773677188
+MAX/MIN used osd id: 239 / 45
+MAX/MIN pg osd's used deviation: 1.0178039061 / 1.0178039061
+standard deviation: -1607.03948237
+MAX/MIN used capacity: 0.617923736572 / 0.579780578613
+MAX/MIN used capacity deviation: 1.03012454304 / 0.966537079347
+MAX/MIN used osd id: 239 / 177
+MAX/MIN pg osd's used deviation: 1.01835968577 / 1.01835968577
+standard deviation: -1932.75007262
+MAX/MIN used capacity: 0.720401763916 / 0.676357269287
+MAX/MIN used capacity deviation: 1.0293969576 / 0.966460869652
+MAX/MIN used osd id: 249 / 82
+MAX/MIN pg osd's used deviation: 1.01853331449 / 1.01853331449
+standard deviation: -2256.71674313
+MAX/MIN used capacity: 0.822639465332 / 0.773471832275
+MAX/MIN used capacity deviation: 1.02855055759 / 0.967076000963
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 1.01921657456 / 1.01921657456
+standard deviation: -2577.41104498
+MAX/MIN used capacity: 0.925926208496 / 0.870262145996
+MAX/MIN used capacity deviation: 1.02905823548 / 0.967194167466
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 1.0200109547 / 1.0200109547
+standard deviation: -2899.27152479
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.925926208496 / 0.870262145996
+MAX/MIN used capacity deviation: 1.02905823548 / 0.967194167466
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 0.980646380172 / 0.971226015649
+standard deviation: -2899.27152479
+MAX/MIN used capacity: 0.405227661133 / 0.392471313477
+MAX/MIN used capacity deviation: 1.01307253433 / 0.981181558738
+MAX/MIN used osd id: 35 / 47
+MAX/MIN pg osd's used deviation: 0.997088899432 / 0.997088899432
+standard deviation: -837.822636859
+MAX/MIN used capacity: 0.506164550781 / 0.492645263672
+MAX/MIN used capacity deviation: 1.01233103243 / 0.98529240664
+MAX/MIN used osd id: 35 / 47
+MAX/MIN pg osd's used deviation: 0.99627875572 / 0.99627875572
+standard deviation: -1005.69757093
+MAX/MIN used capacity: 0.608032226562 / 0.591415405273
+MAX/MIN used capacity deviation: 1.01338962145 / 0.985694848874
+MAX/MIN used osd id: 15 / 5
+MAX/MIN pg osd's used deviation: 0.998461401523 / 0.998461401523
+standard deviation: -1117.32030621
+MAX/MIN used capacity: 0.709121704102 / 0.689895629883
+MAX/MIN used capacity deviation: 1.01303266204 / 0.985566796821
+MAX/MIN used osd id: 15 / 5
+MAX/MIN pg osd's used deviation: 0.997773848028 / 0.997773848028
+standard deviation: -1249.21885593
+MAX/MIN used capacity: 0.809860229492 / 0.788162231445
+MAX/MIN used capacity deviation: 1.01232745908 / 0.985204903327
+MAX/MIN used osd id: 15 / 5
+MAX/MIN pg osd's used deviation: 0.99804138717 / 0.99804138717
+standard deviation: -1369.83409123
+MAX/MIN used capacity: 0.91162109375 / 0.885131835938
+MAX/MIN used capacity deviation: 1.01291382904 / 0.983481276696
+MAX/MIN used osd id: 24 / 5
+MAX/MIN pg osd's used deviation: 0.997214207225 / 0.997214207225
+standard deviation: -1499.17380719
+pg num in osd , MAX/MIN/AVG:282 / 216 / 256.0
+pg num in osd deviation, MAX/MIN:1.1015625 / 0.84375
+pg num in osd  MAX/MIN osd id:38 / 30
+MAX/MIN used capacity: 0.91162109375 / 0.885131835938
+MAX/MIN used capacity deviation: 1.01291382904 / 0.983481276696
+MAX/MIN used osd id: 24 / 5
+MAX/MIN pg osd's used deviation: 1.00077459662 / 0.990602055489
+standard deviation: -1499.17380719
+MAX/MIN used capacity: 0.409496307373 / 0.386817932129
+MAX/MIN used capacity deviation: 1.02440932984 / 0.967676366037
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.0240610114 / 1.0240610114
+standard deviation: -1386.65243758
+MAX/MIN used capacity: 0.511531829834 / 0.484039306641
+MAX/MIN used capacity deviation: 1.02373096477 / 0.968710053751
+MAX/MIN used osd id: 0 / 30
+MAX/MIN pg osd's used deviation: 1.02373096477 / 1.02373096477
+standard deviation: -1719.20691086
+MAX/MIN used capacity: 0.613826751709 / 0.581163406372
+MAX/MIN used capacity deviation: 1.02371201453 / 0.969237590004
+MAX/MIN used osd id: 0 / 30
+MAX/MIN pg osd's used deviation: 1.02371201453 / 1.02371201453
+standard deviation: -2064.22426904
+MAX/MIN used capacity: 0.715991973877 / 0.677459716797
+MAX/MIN used capacity deviation: 1.02351307244 / 0.968431073942
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.02351307244 / 1.02351307244
+standard deviation: -2423.41551319
+MAX/MIN used capacity: 0.818437576294 / 0.774175643921
+MAX/MIN used capacity deviation: 1.02371406106 / 0.968350568651
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.02329655648 / 1.02329655648
+standard deviation: -2774.27438305
+MAX/MIN used capacity: 0.921474456787 / 0.871477127075
+MAX/MIN used capacity deviation: 1.02452824187 / 0.968939423393
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.02286140437 / 1.02286140437
+standard deviation: -3107.22372956
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.921474456787 / 0.871477127075
+MAX/MIN used capacity deviation: 1.02452824187 / 0.968939423393
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.01112780148 / 0.969225712276
+standard deviation: -3107.22372956
+MAX/MIN used capacity: 0.409255981445 / 0.391418457031
+MAX/MIN used capacity deviation: 1.02314092936 / 0.978547075793
+MAX/MIN used osd id: 98 / 68
+MAX/MIN pg osd's used deviation: 1.00723362659 / 1.00723362659
+standard deviation: -875.359338913
+MAX/MIN used capacity: 0.51057434082 / 0.490432739258
+MAX/MIN used capacity deviation: 1.02114933087 / 0.980866102133
+MAX/MIN used osd id: 98 / 68
+MAX/MIN pg osd's used deviation: 1.00537173295 / 1.00537173295
+standard deviation: -1025.01647344
+MAX/MIN used capacity: 0.612030029297 / 0.589172363281
+MAX/MIN used capacity deviation: 1.02005102162 / 0.981954875267
+MAX/MIN used osd id: 98 / 68
+MAX/MIN pg osd's used deviation: 1.00875950695 / 1.00875950695
+standard deviation: -1185.76770432
+MAX/MIN used capacity: 0.712783813477 / 0.687698364258
+MAX/MIN used capacity deviation: 1.01826333056 / 0.982426948494
+MAX/MIN used osd id: 98 / 60
+MAX/MIN pg osd's used deviation: 1.01015436819 / 1.01015436819
+standard deviation: -1343.26567241
+MAX/MIN used capacity: 0.814178466797 / 0.785263061523
+MAX/MIN used capacity deviation: 1.01772364967 / 0.981579372967
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 1.0068899034 / 1.0068899034
+standard deviation: -1527.29330071
+MAX/MIN used capacity: 0.917358398438 / 0.8837890625
+MAX/MIN used capacity deviation: 1.01928754141 / 0.981988263443
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 1.00457128083 / 1.00457128083
+standard deviation: -1707.81516532
+pg num in osd , MAX/MIN/AVG:386 / 296 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.130859375 / 0.8671875
+pg num in osd  MAX/MIN osd id:48 / 140
+MAX/MIN used capacity: 0.917358398438 / 0.8837890625
+MAX/MIN used capacity deviation: 1.01928754141 / 0.981988263443
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 0.984175357469 / 1.00480863987
+standard deviation: -1707.81516532
+MAX/MIN used capacity: 0.412658691406 / 0.387580871582
+MAX/MIN used capacity deviation: 1.03175909153 / 0.969057713516
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.01063290469 / 1.01063290469
+standard deviation: -1246.22369248
+MAX/MIN used capacity: 0.516073226929 / 0.48525428772
+MAX/MIN used capacity deviation: 1.03225873455 / 0.97061415094
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.01048588899 / 1.01048588899
+standard deviation: -1557.23815235
+MAX/MIN used capacity: 0.619749069214 / 0.582633972168
+MAX/MIN used capacity deviation: 1.03302761651 / 0.971162384048
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.00845511116 / 1.00845511116
+standard deviation: -1866.62703629
+MAX/MIN used capacity: 0.721918106079 / 0.680047988892
+MAX/MIN used capacity deviation: 1.03142380903 / 0.971602846801
+MAX/MIN used osd id: 38 / 12
+MAX/MIN pg osd's used deviation: 1.0078845656 / 1.0078845656
+standard deviation: -2170.23864695
+MAX/MIN used capacity: 0.825403213501 / 0.776369094849
+MAX/MIN used capacity deviation: 1.03186622071 / 0.970566906784
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.00764979655 / 1.00764979655
+standard deviation: -2481.12068854
+MAX/MIN used capacity: 0.928895950317 / 0.873514175415
+MAX/MIN used capacity deviation: 1.03221879667 / 0.970676802618
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.00718318454 / 1.00718318454
+standard deviation: -2788.36968652
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928895950317 / 0.873514175415
+MAX/MIN used capacity deviation: 1.03221879667 / 0.970676802618
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.971130377034 / 0.988474299658
+standard deviation: -2788.36968652
+MAX/MIN used capacity: 0.40852355957 / 0.387405395508
+MAX/MIN used capacity deviation: 1.02130926417 / 0.968513835137
+MAX/MIN used osd id: 260 / 113
+MAX/MIN pg osd's used deviation: 1.00166356623 / 1.00166356623
+standard deviation: -971.138408567
+MAX/MIN used capacity: 0.510360717773 / 0.485900878906
+MAX/MIN used capacity deviation: 1.02072167891 / 0.971801989508
+MAX/MIN used osd id: 159 / 113
+MAX/MIN pg osd's used deviation: 1.00329613764 / 1.00329613764
+standard deviation: -1140.75218198
+MAX/MIN used capacity: 0.613235473633 / 0.58381652832
+MAX/MIN used capacity deviation: 1.02205948824 / 0.973027895182
+MAX/MIN used osd id: 349 / 113
+MAX/MIN pg osd's used deviation: 1.00199417345 / 1.00199417345
+standard deviation: -1309.45633063
+MAX/MIN used capacity: 0.714324951172 / 0.682418823242
+MAX/MIN used capacity deviation: 1.02046449401 / 0.974884298838
+MAX/MIN used osd id: 366 / 113
+MAX/MIN pg osd's used deviation: 1.00413758527 / 1.00413758527
+standard deviation: -1464.72042981
+MAX/MIN used capacity: 0.816329956055 / 0.780014038086
+MAX/MIN used capacity deviation: 1.02041265794 / 0.975017751012
+MAX/MIN used osd id: 260 / 237
+MAX/MIN pg osd's used deviation: 1.00538274758 / 1.00538274758
+standard deviation: -1633.18686308
+MAX/MIN used capacity: 0.918380737305 / 0.877227783203
+MAX/MIN used capacity deviation: 1.02042320364 / 0.974697691816
+MAX/MIN used osd id: 260 / 106
+MAX/MIN pg osd's used deviation: 1.00789404041 / 1.00789404041
+standard deviation: -1818.96835924
+pg num in osd , MAX/MIN/AVG:306 / 203 / 256.0
+pg num in osd deviation, MAX/MIN:1.1953125 / 0.79296875
+pg num in osd  MAX/MIN osd id:141 / 106
+MAX/MIN used capacity: 0.918380737305 / 0.877227783203
+MAX/MIN used capacity deviation: 1.02042320364 / 0.974697691816
+MAX/MIN used osd id: 260 / 106
+MAX/MIN pg osd's used deviation: 0.979360100327 / 0.974697691816
+standard deviation: -1818.96835924
+MAX/MIN used capacity: 0.409549713135 / 0.391635894775
+MAX/MIN used capacity deviation: 1.02391607323 / 0.979129699413
+MAX/MIN used osd id: 364 / 332
+MAX/MIN pg osd's used deviation: 1.00373073248 / 1.00373073248
+standard deviation: -869.625617037
+MAX/MIN used capacity: 0.511932373047 / 0.488891601562
+MAX/MIN used capacity deviation: 1.02390651067 / 0.977823087986
+MAX/MIN used osd id: 364 / 332
+MAX/MIN pg osd's used deviation: 1.0038136806 / 1.0038136806
+standard deviation: -1082.80522657
+MAX/MIN used capacity: 0.614891052246 / 0.586622238159
+MAX/MIN used capacity deviation: 1.02486020692 / 0.977743595696
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00334443708 / 1.00334443708
+standard deviation: -1289.76721993
+MAX/MIN used capacity: 0.717901229858 / 0.684791564941
+MAX/MIN used capacity deviation: 1.02561499067 / 0.978313541301
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00396297634 / 1.00396297634
+standard deviation: -1491.62686248
+MAX/MIN used capacity: 0.820665359497 / 0.782802581787
+MAX/MIN used capacity deviation: 1.02587350597 / 0.978543105011
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00387372713 / 1.00387372713
+standard deviation: -1694.44085998
+MAX/MIN used capacity: 0.923791885376 / 0.880641937256
+MAX/MIN used capacity deviation: 1.02647725231 / 0.978530911925
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00434050982 / 1.00434050982
+standard deviation: -1904.16200841
+pg num in osd , MAX/MIN/AVG:484 / 367 / 426.666666667
+pg num in osd deviation, MAX/MIN:1.134375 / 0.86015625
+pg num in osd  MAX/MIN osd id:82 / 178
+MAX/MIN used capacity: 0.923791885376 / 0.880641937256
+MAX/MIN used capacity deviation: 1.02647725231 / 0.978530911925
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.01385644795 / 0.984823299522
+standard deviation: -1904.16200841
+========== stop logging at Thu Jan  2 17:41:21 2025 ==========
+========== start logging at Mon Jan  6 10:29:13 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+========== stop logging at Mon Jan  6 10:29:19 2025 ==========
+========== start logging at Mon Jan  6 10:31:23 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+========== stop logging at Mon Jan  6 10:31:28 2025 ==========
+========== start logging at Mon Jan  6 10:50:48 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+========== stop logging at Mon Jan  6 10:50:54 2025 ==========
+========== start logging at Mon Jan  6 10:53:32 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+========== stop logging at Mon Jan  6 10:53:39 2025 ==========
+========== start logging at Mon Jan  6 10:56:17 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+========== stop logging at Mon Jan  6 10:56:24 2025 ==========
+========== start logging at Mon Jan  6 10:57:11 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+========== stop logging at Mon Jan  6 10:57:18 2025 ==========
+========== start logging at Mon Jan  6 10:58:44 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+========== stop logging at Mon Jan  6 10:58:51 2025 ==========
+========== start logging at Mon Jan  6 10:59:46 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+MAX/MIN used capacity: 0.703903198242 / 0.688598632812
+MAX/MIN used capacity deviation: 1.00952771737 / 0.98757813248
+MAX/MIN used osd id: 12 / 10
+MAX/MIN pg osd's used deviation: 0.997600973835 / 0.997600973835
+standard deviation: -1144.97237958
+MAX/MIN used capacity: 0.803817749023 / 0.78776550293
+MAX/MIN used capacity deviation: 1.00871609096 / 0.988572023538
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.997514304418 / 0.997514304418
+standard deviation: -1230.04245354
+========== stop logging at Mon Jan  6 10:59:55 2025 ==========
+========== start logging at Mon Jan  6 11:01:48 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+MAX/MIN used capacity: 0.703903198242 / 0.688598632812
+MAX/MIN used capacity deviation: 1.00952771737 / 0.98757813248
+MAX/MIN used osd id: 12 / 10
+MAX/MIN pg osd's used deviation: 0.997600973835 / 0.997600973835
+standard deviation: -1144.97237958
+MAX/MIN used capacity: 0.803817749023 / 0.78776550293
+MAX/MIN used capacity deviation: 1.00871609096 / 0.988572023538
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.997514304418 / 0.997514304418
+standard deviation: -1230.04245354
+MAX/MIN used capacity: 0.904663085938 / 0.886444091797
+MAX/MIN used capacity deviation: 1.00912631419 / 0.988803536912
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.998011763467 / 0.998011763467
+standard deviation: -1406.78727514
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.904663085938 / 0.886444091797
+MAX/MIN used capacity deviation: 1.00912631419 / 0.988803536912
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 1.00482006406 / 0.998811738787
+standard deviation: -1406.78727514
+========== stop logging at Mon Jan  6 11:01:59 2025 ==========
+========== start logging at Mon Jan  6 11:02:10 2025 ==========
+========== stop logging at Mon Jan  6 11:02:12 2025 ==========
+========== start logging at Mon Jan  6 11:04:12 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+========== stop logging at Mon Jan  6 11:04:16 2025 ==========
+========== start logging at Mon Jan  6 11:05:52 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+========== stop logging at Mon Jan  6 11:05:57 2025 ==========
+========== start logging at Mon Jan  6 11:07:44 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+========== stop logging at Mon Jan  6 11:07:51 2025 ==========
+========== start logging at Mon Jan  6 11:07:55 2025 ==========
+========== stop logging at Mon Jan  6 11:07:56 2025 ==========
+========== start logging at Mon Jan  6 11:08:48 2025 ==========
+========== stop logging at Mon Jan  6 11:08:50 2025 ==========
+========== start logging at Mon Jan  6 11:08:59 2025 ==========
+========== stop logging at Mon Jan  6 11:09:00 2025 ==========
+========== start logging at Mon Jan  6 11:14:14 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+========== stop logging at Mon Jan  6 11:14:20 2025 ==========
+========== start logging at Mon Jan  6 11:17:22 2025 ==========
+========== stop logging at Mon Jan  6 11:17:23 2025 ==========
+========== start logging at Mon Jan  6 11:17:39 2025 ==========
+========== stop logging at Mon Jan  6 11:17:41 2025 ==========
+========== start logging at Mon Jan  6 11:18:46 2025 ==========
+========== stop logging at Mon Jan  6 11:18:46 2025 ==========
+========== start logging at Mon Jan  6 11:18:54 2025 ==========
+========== stop logging at Mon Jan  6 11:18:54 2025 ==========
+========== start logging at Mon Jan  6 11:20:25 2025 ==========
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+========== stop logging at Mon Jan  6 11:20:31 2025 ==========

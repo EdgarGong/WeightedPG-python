@@ -50,7 +50,7 @@ class Balancer:
         self.c = Crush()
         self.crushmap_json = json.loads(self.crushmap)
         self.c.parse(self.crushmap_json)
-        self.pg_num = 16384   # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
+        self.pg_num = 4096   # Suggest PG Count = (Target PGs per OSD) x (OSD#) x (%Data) / (Size)
         self.pg_num_mask = self.pg_num - 1
         self.replication_count = 3
         self.pg_pri_in_osd = {}
@@ -100,6 +100,7 @@ class Balancer:
         for inode_no in range(inode_num):
             for block_no in range(inode_size):
                 key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
+                # print(key)
                 engine_id = self.engine_id[self.c.c.ceph_str_hash_rjenkins(key, len(key)) % self.engine_num]
                 objs = self.obj_in_engine.get(engine_id, [])
                 objs.append(key)
@@ -234,9 +235,14 @@ class Balancer:
 
     def do_upmap_by_pg(self):
         total_did = 0
+        # left pg num to optimize
         left = self.max_optimizations
         osdmap = copy.deepcopy(self.osdmap)
+        cnt = 100
         while True:
+            cnt -= 1
+            if cnt <= 0:
+                break
             available = min(left, self.pg_num)
             did, pending_inc, obj_dev = self.calc_pg_rep_upmaps_by_pg(available, total_did, osdmap)
 
@@ -244,10 +250,13 @@ class Balancer:
                 break
 
             logger.log("did:{}, old:{}, new:{}".format(did, pending_inc.old_pg_upmap_items, pending_inc.new_pg_upmap_items))
+            
+            # remove old upmap items
             for old_item in pending_inc.old_pg_upmap_items:
                 if old_item in osdmap.pg_upmap_items:
                     osdmap.pg_upmap_items.pop(old_item)
 
+            # add new upmap items
             for pg, um_pairs in pending_inc.new_pg_upmap_items.items():
                 osdmap.pg_upmap_items[pg] = um_pairs
             total_did += did
@@ -325,6 +334,7 @@ class Balancer:
 
     def get_real_rep_pg_in_osd(self, osdmap):
         pg_in_osd = copy.deepcopy(self.pg_rep_in_osd)
+        # execute the upmap items
         for pg, um_pairs in osdmap.pg_upmap_items.items():
             for ump in um_pairs:
                 osd_from = ump[0]
@@ -387,6 +397,7 @@ class Balancer:
         return cur_max_deviation, stddev, osd_deviation, deviation_osd, min_dev_perc, max_dev_perc
 
     @with_goto
+    # max: available pg num to optimize
     def calc_pg_rep_upmaps_by_pg(self, max, last_did, osdmap):
         pending_inc = Incremental()
         obj_dev = 1.0
@@ -416,7 +427,9 @@ class Balancer:
         local_fallback_retries = self.local_fallback_retries
         retried = False
 
+        # max: available pg num to optimize
         while max > 0:
+            print("max:{}".format(max))
             max -= 1
             using_more_overfull = False
             overfull, more_overfull, underfull, more_underfull = self.fill_overfull_underfull(deviation_osd,
@@ -439,6 +452,8 @@ class Balancer:
             to_unmap = []
             to_upmap = {}
             temp_pg_in_osd = copy.deepcopy(pg_in_osd)
+            
+            #
             for item in reversed(deviation_osd):
                 if skip_overfull and len(underfull) != 0:
                     break
@@ -732,7 +747,7 @@ class Balancer:
             n_changes += 1
 
             num_changed += self.pack_upmap_results(to_unmap, to_upmap, tmp_osd_map, pending_inc)
-            # logger.log("now total did:{}".format(last_did + num_changed))
+            logger.log("now total did:{}".format(last_did + num_changed))
 
             if cur_max_deviation <= max_deviation:
                 break
@@ -1002,16 +1017,23 @@ class Balancer:
 logger = Logger("log.txt")
 
 b = Balancer()
-disk_load = 12288  # GB
+# disk_load = 12288  # GB
+disk_load = 128 # GB
 inode_size = 4096
 inode_num = int(b.disk_num * disk_load / inode_size / b.replication_count * 256)
+print("inode_num:{}".format(inode_num))
 b.fill_engine(inode_num, inode_size)
+print("end of fill engine")
 # b.calc_engine_deviation()
 b.fill_osd_with_pg()
+print("end of fill osd with pg")
 b.engine_to_pg_naive_hash()
+print("end of engine to pg naive hash")
 
 b.calc_obj_deviation_in_osd()
 b.calc_pri_obj_deviation_in_osd()
+
+print("end of calc obj deviation in osd")
 
 pg_did, obj_dev, _ = b.do_upmap_by_pg()
 logger.log("pg upmap total_did:{}, obj_dev:{}".format(pg_did, obj_dev))

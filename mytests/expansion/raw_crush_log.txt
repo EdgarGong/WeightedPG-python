@@ -1,0 +1,403 @@
+========== start logging at Tue Nov 26 21:16:19 2024 ==========
+========== stop logging at Tue Nov 26 21:16:19 2024 ==========
+========== start logging at Tue Nov 26 21:16:34 2024 ==========
+========== stop logging at Tue Nov 26 21:16:54 2024 ==========
+========== start logging at Tue Nov 26 21:17:28 2024 ==========
+========== stop logging at Tue Nov 26 21:18:26 2024 ==========
+========== start logging at Tue Nov 26 21:20:50 2024 ==========
+========== stop logging at Tue Nov 26 21:21:10 2024 ==========
+========== start logging at Tue Nov 26 21:22:32 2024 ==========
+========== stop logging at Tue Nov 26 21:22:36 2024 ==========
+========== start logging at Tue Nov 26 21:22:44 2024 ==========
+========== stop logging at Tue Nov 26 21:23:03 2024 ==========
+========== start logging at Tue Nov 26 21:36:11 2024 ==========
+========== stop logging at Tue Nov 26 21:38:28 2024 ==========
+========== start logging at Tue Nov 26 21:38:42 2024 ==========
+========== stop logging at Tue Nov 26 21:39:27 2024 ==========
+========== start logging at Tue Nov 26 21:39:54 2024 ==========
+========== stop logging at Tue Nov 26 21:40:14 2024 ==========
+========== start logging at Tue Nov 26 21:42:55 2024 ==========
+========== stop logging at Tue Nov 26 21:43:41 2024 ==========
+========== start logging at Wed Nov 27 14:40:19 2024 ==========
+========== stop logging at Wed Nov 27 14:41:09 2024 ==========
+========== start logging at Wed Nov 27 14:41:21 2024 ==========
+========== stop logging at Wed Nov 27 14:41:29 2024 ==========
+========== start logging at Wed Nov 27 14:42:34 2024 ==========
+========== stop logging at Wed Nov 27 14:42:41 2024 ==========
+========== start logging at Wed Nov 27 14:43:07 2024 ==========
+========== stop logging at Wed Nov 27 14:43:20 2024 ==========
+========== start logging at Wed Nov 27 14:45:31 2024 ==========
+========== stop logging at Wed Nov 27 14:47:44 2024 ==========
+========== start logging at Wed Nov 27 14:51:16 2024 ==========
+========== stop logging at Wed Nov 27 14:53:03 2024 ==========
+========== start logging at Wed Nov 27 14:53:26 2024 ==========
+========== stop logging at Wed Nov 27 14:56:24 2024 ==========
+========== start logging at Wed Nov 27 14:57:25 2024 ==========
+========== stop logging at Wed Nov 27 14:58:03 2024 ==========
+========== start logging at Wed Nov 27 15:06:56 2024 ==========
+========== stop logging at Wed Nov 27 15:07:02 2024 ==========
+========== start logging at Wed Nov 27 15:09:48 2024 ==========
+========== stop logging at Wed Nov 27 15:12:48 2024 ==========
+========== start logging at Wed Nov 27 15:15:06 2024 ==========
+========== stop logging at Wed Nov 27 15:15:42 2024 ==========
+========== start logging at Wed Nov 27 15:16:19 2024 ==========
+========== stop logging at Wed Nov 27 15:16:51 2024 ==========
+========== start logging at Wed Nov 27 15:23:13 2024 ==========
+========== stop logging at Wed Nov 27 15:26:09 2024 ==========
+========== start logging at Wed Nov 27 15:33:38 2024 ==========
+========== stop logging at Wed Nov 27 15:33:57 2024 ==========
+========== start logging at Wed Nov 27 15:34:25 2024 ==========
+========== stop logging at Wed Nov 27 15:36:07 2024 ==========
+========== start logging at Wed Nov 27 15:36:34 2024 ==========
+========== stop logging at Wed Nov 27 15:38:11 2024 ==========
+========== start logging at Wed Nov 27 15:40:20 2024 ==========
+========== stop logging at Wed Nov 27 15:41:15 2024 ==========
+========== start logging at Wed Nov 27 15:54:55 2024 ==========
+========== stop logging at Wed Nov 27 15:55:59 2024 ==========
+========== start logging at Sun Dec  8 20:58:39 2024 ==========
+========== stop logging at Sun Dec  8 20:58:39 2024 ==========
+========== start logging at Sun Dec  8 20:58:59 2024 ==========
+========== stop logging at Sun Dec  8 20:58:59 2024 ==========
+========== start logging at Sun Dec  8 20:59:50 2024 ==========
+========== stop logging at Sun Dec  8 20:59:50 2024 ==========
+========== start logging at Sun Dec  8 21:00:12 2024 ==========
+========== stop logging at Sun Dec  8 21:00:12 2024 ==========
+========== start logging at Sun Dec  8 21:01:14 2024 ==========
+========== stop logging at Sun Dec  8 21:01:14 2024 ==========
+========== start logging at Sun Dec  8 21:02:14 2024 ==========
+========== stop logging at Sun Dec  8 21:02:14 2024 ==========
+========== start logging at Sun Dec  8 21:02:25 2024 ==========
+========== stop logging at Sun Dec  8 21:04:00 2024 ==========
+========== start logging at Sun Dec  8 21:04:01 2024 ==========
+pg num in osd , MAX/MIN/AVG:44/21/32.0
+pg num in osd deviation, MAX/MIN:1.375/0.65625
+pg num in osd  MAX/MIN osd id:347/262
+MAX/MIN used capacity:0.000779176292764/0.000583465094458
+MAX/MIN used capacity deviation:1.14057168571/0.854086260736
+========== stop logging at Sun Dec  8 21:06:05 2024 ==========
+========== start logging at Sun Dec  8 21:12:37 2024 ==========
+========== stop logging at Sun Dec  8 21:12:37 2024 ==========
+========== start logging at Sun Dec  8 21:12:59 2024 ==========
+========== stop logging at Sun Dec  8 21:13:00 2024 ==========
+========== start logging at Sun Dec  8 21:15:12 2024 ==========
+pg num in osd , MAX/MIN/AVG:44/21/32.0
+pg num in osd deviation, MAX/MIN:1.375/0.65625
+pg num in osd  MAX/MIN osd id:347/262
+MAX/MIN used capacity:0.797876523791/0.597468256725
+MAX/MIN used capacity deviation:1.14057168571/0.854086260736
+========== stop logging at Sun Dec  8 21:17:14 2024 ==========
+========== start logging at Mon Dec  9 11:25:06 2024 ==========
+========== stop logging at Mon Dec  9 11:25:06 2024 ==========
+========== start logging at Mon Dec  9 11:25:30 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Mon Dec  9 11:27:11 2024 ==========
+========== start logging at Mon Dec  9 16:12:58 2024 ==========
+========== stop logging at Mon Dec  9 16:13:36 2024 ==========
+========== start logging at Mon Dec  9 16:13:38 2024 ==========
+pg num in osd , MAX/MIN/AVG:155/99/128.0
+pg num in osd deviation, MAX/MIN:1.2109375/0.7734375
+pg num in osd  MAX/MIN osd id:39/2
+MAX/MIN used capacity:0.736541748047/0.672210693359
+MAX/MIN used capacity deviation:1.05337814246/0.961373952514
+MAX/MIN used osd id:95/76
+MAX/MIN pg osd's used deviation:0.973681913408/0.982978351955
+========== stop logging at Mon Dec  9 16:14:41 2024 ==========
+========== start logging at Mon Dec  9 16:42:13 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Mon Dec  9 16:44:06 2024 ==========
+========== start logging at Mon Dec  9 16:49:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Mon Dec  9 16:51:29 2024 ==========
+========== start logging at Mon Dec  9 16:51:48 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+========== stop logging at Mon Dec  9 16:53:28 2024 ==========
+========== start logging at Mon Dec  9 16:53:45 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+standard deviation: -2493.24888449
+========== stop logging at Mon Dec  9 16:55:27 2024 ==========
+========== start logging at Mon Dec  9 16:56:53 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.215393066406/0.182983398438
+MAX/MIN used capacity deviation:1.08118872549/0.918504901961
+MAX/MIN used osd id:110/41
+MAX/MIN pg osd's used deviation:0.918504901961/0.938112745098
+========== stop logging at Mon Dec  9 16:57:24 2024 ==========
+========== start logging at Mon Dec  9 16:58:16 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.220703125/0.178344726562
+MAX/MIN used capacity deviation:1.10784313725/0.895220588235
+MAX/MIN used osd id:80/347
+MAX/MIN pg osd's used deviation:0.911764705882/0.919730392157
+========== stop logging at Mon Dec  9 16:58:25 2024 ==========
+========== start logging at Mon Dec  9 17:01:32 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.220703125/0.178344726562
+MAX/MIN used capacity deviation:1.10784313725/0.895220588235
+MAX/MIN used osd id:80/347
+MAX/MIN pg osd's used deviation:0.911764705882/0.919730392157
+standard deviation: -0.00707356932047
+========== stop logging at Mon Dec  9 17:01:45 2024 ==========
+========== start logging at Mon Dec  9 17:02:34 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+standard deviation: -0.0190219794044
+========== stop logging at Mon Dec  9 17:04:34 2024 ==========
+========== start logging at Mon Dec  9 17:05:25 2024 ==========
+pg num in osd , MAX/MIN/AVG:85/40/64.0
+pg num in osd deviation, MAX/MIN:1.328125/0.625
+pg num in osd  MAX/MIN osd id:41/262
+MAX/MIN used capacity:0.752349853516/0.646636962891
+MAX/MIN used capacity deviation:1.07598638268/0.924799231844
+MAX/MIN used osd id:201/262
+MAX/MIN pg osd's used deviation:0.928683659218/0.924799231844
+standard deviation: -0.0190219794044
+========== stop logging at Mon Dec  9 17:07:08 2024 ==========
+========== start logging at Mon Dec  9 19:47:16 2024 ==========
+========== stop logging at Mon Dec  9 19:47:18 2024 ==========
+========== start logging at Mon Dec  9 19:47:35 2024 ==========
+========== stop logging at Mon Dec  9 19:47:37 2024 ==========
+========== start logging at Mon Dec  9 19:47:55 2024 ==========
+========== stop logging at Mon Dec  9 19:47:56 2024 ==========
+========== start logging at Mon Dec  9 19:48:17 2024 ==========
+========== stop logging at Mon Dec  9 19:48:19 2024 ==========
+========== start logging at Mon Dec  9 19:50:20 2024 ==========
+========== stop logging at Mon Dec  9 19:50:24 2024 ==========
+========== start logging at Mon Dec  9 19:51:07 2024 ==========
+========== stop logging at Mon Dec  9 19:51:11 2024 ==========
+========== start logging at Mon Dec  9 19:51:54 2024 ==========
+========== stop logging at Mon Dec  9 19:51:59 2024 ==========
+========== start logging at Mon Dec  9 19:52:27 2024 ==========
+========== stop logging at Mon Dec  9 19:52:32 2024 ==========
+========== start logging at Mon Dec  9 19:53:53 2024 ==========
+========== stop logging at Mon Dec  9 19:54:10 2024 ==========
+========== start logging at Mon Dec  9 19:54:28 2024 ==========
+========== stop logging at Mon Dec  9 19:54:31 2024 ==========
+========== start logging at Mon Dec  9 19:55:07 2024 ==========
+========== stop logging at Mon Dec  9 19:55:11 2024 ==========
+========== start logging at Mon Dec  9 19:56:02 2024 ==========
+========== stop logging at Mon Dec  9 19:56:31 2024 ==========
+========== start logging at Mon Dec  9 20:01:39 2024 ==========
+========== stop logging at Mon Dec  9 20:01:52 2024 ==========
+========== start logging at Mon Dec  9 20:02:52 2024 ==========
+========== stop logging at Mon Dec  9 20:02:56 2024 ==========
+========== start logging at Mon Dec  9 20:09:23 2024 ==========
+========== stop logging at Mon Dec  9 20:09:27 2024 ==========
+========== start logging at Mon Dec  9 20:10:27 2024 ==========
+========== stop logging at Mon Dec  9 20:10:31 2024 ==========
+========== start logging at Mon Dec  9 21:39:46 2024 ==========
+pg num in osd , MAX/MIN/AVG:44/21/32.0
+pg num in osd deviation, MAX/MIN:1.375/0.65625
+pg num in osd  MAX/MIN osd id:347/262
+MAX/MIN used capacity:0.876891422693/0.344011524215
+MAX/MIN used capacity deviation:1.26191671678/0.495060029026
+========== stop logging at Mon Dec  9 21:41:57 2024 ==========
+========== start logging at Mon Dec  9 21:43:16 2024 ==========
+pg num in osd , MAX/MIN/AVG:44/21/32.0
+pg num in osd deviation, MAX/MIN:1.375/0.65625
+pg num in osd  MAX/MIN osd id:347/262
+MAX/MIN used capacity:0.845310907238/0.56284975493
+MAX/MIN used capacity deviation:1.20409468596/0.801745716402
+========== stop logging at Mon Dec  9 21:45:23 2024 ==========
+========== start logging at Mon Dec  9 21:50:43 2024 ==========
+========== stop logging at Mon Dec  9 21:51:04 2024 ==========
+========== start logging at Mon Dec  9 21:55:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:44/21/32.0
+pg num in osd deviation, MAX/MIN:1.375/0.65625
+pg num in osd  MAX/MIN osd id:347/262
+MAX/MIN used capacity:1.16443258325/0.40160052262
+MAX/MIN used capacity deviation:1.64768583414/0.56826947444
+========== stop logging at Mon Dec  9 21:56:32 2024 ==========
+========== start logging at Mon Dec  9 21:56:44 2024 ==========
+pg num in osd , MAX/MIN/AVG:44/21/32.0
+pg num in osd deviation, MAX/MIN:1.375/0.65625
+pg num in osd  MAX/MIN osd id:347/262
+MAX/MIN used capacity:0.797876523791/0.597468256725
+MAX/MIN used capacity deviation:1.14057168571/0.854086260736
+========== stop logging at Mon Dec  9 21:58:45 2024 ==========
+========== start logging at Sat Dec 14 18:13:34 2024 ==========
+========== stop logging at Sat Dec 14 18:13:38 2024 ==========
+========== start logging at Sat Dec 14 18:13:45 2024 ==========
+pg num in osd , MAX/MIN/AVG:2147/1936/2048.0
+pg num in osd deviation, MAX/MIN:1.04833984375/0.9453125
+pg num in osd  MAX/MIN osd id:10/8
+MAX/MIN used capacity:0.694610595703/0.683410644531
+MAX/MIN used capacity deviation:1.01034268466/0.994051846591
+MAX/MIN used osd id:0/2
+MAX/MIN pg osd's used deviation:0.994140625/1.0078568892
+standard deviation: -0.00342239365936
+========== stop logging at Sat Dec 14 18:13:50 2024 ==========
+========== start logging at Sat Dec 14 18:14:27 2024 ==========
+pg num in osd , MAX/MIN/AVG:1067/971/1024.0
+pg num in osd deviation, MAX/MIN:1.0419921875/0.9482421875
+pg num in osd  MAX/MIN osd id:23/2
+MAX/MIN used capacity:0.697692871094/0.677490234375
+MAX/MIN used capacity deviation:1.01482599432/0.985440340909
+MAX/MIN used osd id:15/8
+MAX/MIN pg osd's used deviation:1.00759055398/1.00115411932
+standard deviation: -0.00515717725653
+========== stop logging at Sat Dec 14 18:14:34 2024 ==========
+========== start logging at Sat Dec 14 18:14:53 2024 ==========
+pg num in osd , MAX/MIN/AVG:1067/971/1024.0
+pg num in osd deviation, MAX/MIN:1.0419921875/0.9482421875
+pg num in osd  MAX/MIN osd id:23/2
+MAX/MIN used capacity:0.718322753906/0.647583007812
+MAX/MIN used capacity deviation:1.04483309659/0.941938920455
+MAX/MIN used osd id:23/5
+MAX/MIN pg osd's used deviation:1.04483309659/0.944424715909
+standard deviation: -0.0201592262298
+========== stop logging at Sat Dec 14 18:14:57 2024 ==========
+========== start logging at Sat Dec 14 18:16:09 2024 ==========
+pg num in osd , MAX/MIN/AVG:450/369/409.6
+pg num in osd deviation, MAX/MIN:1.0986328125/0.90087890625
+pg num in osd  MAX/MIN osd id:11/29
+MAX/MIN used capacity:0.772888183594/0.629364013672
+MAX/MIN used capacity deviation:1.10412597656/0.899091448103
+MAX/MIN used osd id:11/29
+MAX/MIN pg osd's used deviation:1.10412597656/0.899091448103
+standard deviation: -0.0365071138667
+========== stop logging at Sat Dec 14 18:16:15 2024 ==========
+========== start logging at Sat Dec 14 18:16:35 2024 ==========
+pg num in osd , MAX/MIN/AVG:450/369/409.6
+pg num in osd deviation, MAX/MIN:1.0986328125/0.90087890625
+pg num in osd  MAX/MIN osd id:11/29
+MAX/MIN used capacity:0.713836669922/0.682495117188
+MAX/MIN used capacity deviation:1.01976667132/0.974993024554
+MAX/MIN used osd id:53/25
+MAX/MIN pg osd's used deviation:0.991690499442/0.991516113281
+standard deviation: -0.00661797259574
+========== stop logging at Sat Dec 14 18:16:51 2024 ==========
+========== start logging at Sat Dec 14 18:18:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:82/47/64.0
+pg num in osd deviation, MAX/MIN:1.28125/0.734375
+pg num in osd  MAX/MIN osd id:20/9
+MAX/MIN used capacity:0.756072998047/0.617034912109
+MAX/MIN used capacity deviation:1.09974254261/0.897505326705
+MAX/MIN used osd id:21/9
+MAX/MIN pg osd's used deviation:1.04700816761/0.897505326705
+standard deviation: -0.0282962891752
+========== stop logging at Sat Dec 14 18:19:04 2024 ==========
+========== start logging at Sat Dec 14 18:19:43 2024 ==========
+pg num in osd , MAX/MIN/AVG:73/53/64.0
+pg num in osd deviation, MAX/MIN:1.140625/0.828125
+pg num in osd  MAX/MIN osd id:11/8
+MAX/MIN used capacity:0.703674316406/0.666809082031
+MAX/MIN used capacity deviation:1.02352627841/0.969904119318
+MAX/MIN used osd id:0/2
+MAX/MIN pg osd's used deviation:1.005859375/1.0029296875
+standard deviation: -0.00845176231638
+========== stop logging at Sat Dec 14 18:19:49 2024 ==========
+========== start logging at Sat Dec 14 18:21:14 2024 ==========
+========== stop logging at Sat Dec 14 18:21:14 2024 ==========
+========== start logging at Sat Dec 14 18:27:46 2024 ==========
+pg num in osd , MAX/MIN/AVG:73/53/64.0
+pg num in osd deviation, MAX/MIN:1.140625/0.828125
+pg num in osd  MAX/MIN osd id:11/8
+MAX/MIN used capacity:0.703674316406/0.666809082031
+MAX/MIN used capacity deviation:1.02352627841/0.969904119318
+MAX/MIN used osd id:0/2
+MAX/MIN pg osd's used deviation:1.005859375/1.0029296875
+standard deviation: -0.00845176231638
+========== stop logging at Sat Dec 14 18:27:52 2024 ==========
+========== start logging at Sat Dec 14 18:30:06 2024 ==========
+========== stop logging at Sat Dec 14 18:30:15 2024 ==========
+========== start logging at Sat Dec 14 18:30:17 2024 ==========
+pg num in osd , MAX/MIN/AVG:109/67/85.3333333333
+pg num in osd deviation, MAX/MIN:1.27734375/0.78515625
+pg num in osd  MAX/MIN osd id:14/33
+MAX/MIN used capacity:0.730560302734/0.662414550781
+MAX/MIN used capacity deviation:1.04677297108/0.949131296642
+MAX/MIN used osd id:15/0
+MAX/MIN pg osd's used deviation:1.00693796642/0.953154151119
+standard deviation: -0.0153385249166
+========== stop logging at Sat Dec 14 18:30:35 2024 ==========
+========== start logging at Sat Dec 14 18:31:41 2024 ==========
+pg num in osd , MAX/MIN/AVG:103/68/85.3333333333
+pg num in osd deviation, MAX/MIN:1.20703125/0.796875
+pg num in osd  MAX/MIN osd id:24/22
+MAX/MIN used capacity:0.723876953125/0.675842285156
+MAX/MIN used capacity deviation:1.03719682836/0.968371035448
+MAX/MIN used osd id:13/16
+MAX/MIN pg osd's used deviation:0.974317863806/0.985424440299
+standard deviation: -0.0114386764712
+========== stop logging at Sat Dec 14 18:32:00 2024 ==========
+========== start logging at Sat Dec 14 18:32:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:114/63/85.3333333333
+pg num in osd deviation, MAX/MIN:1.3359375/0.73828125
+pg num in osd  MAX/MIN osd id:130/61
+MAX/MIN used capacity:0.741668701172/0.652801513672
+MAX/MIN used capacity deviation:1.06268948228/0.935357392724
+MAX/MIN used osd id:37/130
+MAX/MIN pg osd's used deviation:0.935357392724/0.978428171642
+standard deviation: -0.0144053528824
+========== stop logging at Sat Dec 14 18:34:05 2024 ==========
+========== start logging at Sat Dec 14 18:34:44 2024 ==========
+pg num in osd , MAX/MIN/AVG:105/67/85.3333333333
+pg num in osd deviation, MAX/MIN:1.23046875/0.78515625
+pg num in osd  MAX/MIN osd id:15/8
+MAX/MIN used capacity:0.7265625/0.676055908203
+MAX/MIN used capacity deviation:1.04104477612/0.968677122201
+MAX/MIN used osd id:9/18
+MAX/MIN pg osd's used deviation:0.970426189366/0.993470149254
+standard deviation: -0.0132968165451
+========== stop logging at Sat Dec 14 18:35:01 2024 ==========
+========== start logging at Sat Dec 14 18:35:28 2024 ==========
+pg num in osd , MAX/MIN/AVG:90/38/64.0
+pg num in osd deviation, MAX/MIN:1.40625/0.59375
+pg num in osd  MAX/MIN osd id:112/228
+MAX/MIN used capacity:0.767639160156/0.605651855469
+MAX/MIN used capacity deviation:1.09785265363/0.866183659218
+MAX/MIN used osd id:327/228
+MAX/MIN pg osd's used deviation:0.947887569832/0.866183659218
+standard deviation: -0.018897066438
+========== stop logging at Sat Dec 14 18:38:57 2024 ==========
+========== start logging at Sat Dec 14 18:40:33 2024 ==========
+pg num in osd , MAX/MIN/AVG:81/48/64.0
+pg num in osd deviation, MAX/MIN:1.265625/0.75
+pg num in osd  MAX/MIN osd id:92/48
+MAX/MIN used capacity:0.744262695312/0.648284912109
+MAX/MIN used capacity deviation:1.06442039106/0.927156075419
+MAX/MIN used osd id:64/13
+MAX/MIN pg osd's used deviation:0.976780726257/0.979748603352
+standard deviation: -0.01774372197
+========== stop logging at Sat Dec 14 18:41:25 2024 ==========

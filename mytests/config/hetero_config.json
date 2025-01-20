@@ -1,0 +1,13 @@
+{
+  "host_num": 24,
+  "disk_num": 32,
+  "obj_size": 4,
+  "disk_size1": 128, 
+  "disk_size2": 256,
+  "overall_used_capacity": 0.7,
+  "pg_num": 8192,
+  "type":"rep",
+  "k":4,
+  "m":2,
+  "replicated_num":3
+}

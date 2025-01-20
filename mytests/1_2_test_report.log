@@ -1,0 +1,1142 @@
+========== start logging at Thu Jan  2 17:01:30 2025 ==========
+-------------------------------------------------------------------
+('host_num:', 4, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 1024)
+('pg num mask:', 1023)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 349525)
+('inode number:', 85)
+('min value:', 171.66666666666666, 'max value:', 210.66666666666666)
+('hash func num:', 5)
+('weight power:', 4.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.402740478516 / 0.391876220703
+MAX/MIN used capacity deviation: 1.01080689056 / 0.983539537901
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.992577592996 / 0.992577592996
+standard deviation: -786.727676836
+50/% of total obj num
+MAX/MIN used capacity: 0.503479003906 / 0.490371704102
+MAX/MIN used capacity deviation: 1.01091266992 / 0.984595116776
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.996543714827 / 0.996543714827
+standard deviation: -838.693291675
+60/% of total obj num
+MAX/MIN used capacity: 0.60417175293 / 0.589920043945
+MAX/MIN used capacity deviation: 1.01090659582 / 0.987060484933
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.998166543 / 0.998166543
+standard deviation: -1003.89164629
+70/% of total obj num
+MAX/MIN used capacity: 0.703903198242 / 0.688598632812
+MAX/MIN used capacity deviation: 1.00952771737 / 0.98757813248
+MAX/MIN used osd id: 12 / 10
+MAX/MIN pg osd's used deviation: 0.997600973835 / 0.997600973835
+standard deviation: -1144.97237958
+80/% of total obj num
+MAX/MIN used capacity: 0.803817749023 / 0.78776550293
+MAX/MIN used capacity deviation: 1.00871609096 / 0.988572023538
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.997514304418 / 0.997514304418
+standard deviation: -1230.04245354
+90/% of total obj num
+MAX/MIN used capacity: 0.904663085938 / 0.886444091797
+MAX/MIN used capacity deviation: 1.00912631419 / 0.988803536912
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 0.998011763467 / 0.998011763467
+standard deviation: -1406.78727514
+pg num in osd , MAX/MIN/AVG:218 / 167 / 192.0
+pg num in osd deviation, MAX/MIN:1.13541666667 / 0.869791666667
+pg num in osd  MAX/MIN osd id:1 / 5
+MAX/MIN used capacity: 0.904663085938 / 0.886444091797
+MAX/MIN used capacity deviation: 1.00912631419 / 0.988803536912
+MAX/MIN used osd id: 13 / 10
+MAX/MIN pg osd's used deviation: 1.00482006406 / 0.998811738787
+standard deviation: -1406.78727514
+-------------------------------------------------------------------
+('host_num:', 4, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 4, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 512)
+('pg num mask:', 511)
+('crush type:', 'ec')
+('replicated count:', 6)
+('object load number:', 699050)
+('inode number:', 170)
+('min value:', 180.66666666666666, 'max value:', 203.83333333333334)
+('hash func num:', 5)
+('weight power:', 10.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.403602600098 / 0.394630432129
+MAX/MIN used capacity deviation: 1.01296702534 / 0.990448562138
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00018549967 / 1.00018549967
+standard deviation: -727.201044674
+50/% of total obj num
+MAX/MIN used capacity: 0.503921508789 / 0.493457794189
+MAX/MIN used capacity deviation: 1.01179824927 / 0.990788691374
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00100624523 / 1.00100624523
+standard deviation: -867.617274134
+60/% of total obj num
+MAX/MIN used capacity: 0.603912353516 / 0.592506408691
+MAX/MIN used capacity deviation: 1.01047014735 / 0.991385644976
+MAX/MIN used osd id: 14 / 3
+MAX/MIN pg osd's used deviation: 1.00244061425 / 1.00244061425
+standard deviation: -998.803150964
+70/% of total obj num
+MAX/MIN used capacity: 0.704399108887 / 0.691547393799
+MAX/MIN used capacity deviation: 1.01023479996 / 0.991803132946
+MAX/MIN used osd id: 14 / 3
+MAX/MIN pg osd's used deviation: 1.00188064278 / 1.00188064278
+standard deviation: -1166.50061616
+80/% of total obj num
+MAX/MIN used capacity: 0.805324554443 / 0.790409088135
+MAX/MIN used capacity deviation: 1.01060517663 / 0.991887695111
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00052358684 / 1.00052358684
+standard deviation: -1319.71246276
+90/% of total obj num
+MAX/MIN used capacity: 0.905281066895 / 0.889141082764
+MAX/MIN used capacity deviation: 1.00981404327 / 0.99181037211
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 1.00122283266 / 1.00122283266
+standard deviation: -1447.70451383
+pg num in osd , MAX/MIN/AVG:210 / 168 / 192.0
+pg num in osd deviation, MAX/MIN:1.09375 / 0.875
+pg num in osd  MAX/MIN osd id:7 / 10
+MAX/MIN used capacity: 0.905281066895 / 0.889141082764
+MAX/MIN used capacity deviation: 1.00981404327 / 0.99181037211
+MAX/MIN used osd id: 14 / 10
+MAX/MIN pg osd's used deviation: 0.995342172408 / 0.99181037211
+standard deviation: -1447.70451383
+-------------------------------------------------------------------
+('host_num:', 4, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 4096)
+('pg num mask:', 4095)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 1048576)
+('inode number:', 256)
+('min value:', 220.66666666666666, 'max value:', 287.3333333333333)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.408264160156 / 0.392318725586
+MAX/MIN used capacity deviation: 1.02066380722 / 0.980800087738
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.988353213536 / 0.988353213536
+standard deviation: -1030.38541535
+50/% of total obj num
+MAX/MIN used capacity: 0.508728027344 / 0.489654541016
+MAX/MIN used capacity deviation: 1.01745799533 / 0.979310949919
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.988313652637 / 0.988313652637
+standard deviation: -1157.5400371
+60/% of total obj num
+MAX/MIN used capacity: 0.612594604492 / 0.588104248047
+MAX/MIN used capacity deviation: 1.02099360401 / 0.980176239462
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.989738438259 / 0.989738438259
+standard deviation: -1357.4574272
+70/% of total obj num
+MAX/MIN used capacity: 0.712799072266 / 0.687728881836
+MAX/MIN used capacity deviation: 1.01828605372 / 0.982471437408
+MAX/MIN used osd id: 30 / 21
+MAX/MIN pg osd's used deviation: 0.988858340985 / 0.988858340985
+standard deviation: -1465.26303099
+80/% of total obj num
+MAX/MIN used capacity: 0.812713623047 / 0.787796020508
+MAX/MIN used capacity deviation: 1.01589420868 / 0.984747138673
+MAX/MIN used osd id: 16 / 21
+MAX/MIN pg osd's used deviation: 0.989401079323 / 0.989401079323
+standard deviation: -1631.66298731
+90/% of total obj num
+MAX/MIN used capacity: 0.914764404297 / 0.886093139648
+MAX/MIN used capacity deviation: 1.0164064015 / 0.984549393515
+MAX/MIN used osd id: 16 / 37
+MAX/MIN pg osd's used deviation: 0.987889377854 / 0.987889377854
+standard deviation: -1799.70778299
+pg num in osd , MAX/MIN/AVG:298 / 218 / 256.0
+pg num in osd deviation, MAX/MIN:1.1640625 / 0.8515625
+pg num in osd  MAX/MIN osd id:37 / 2
+MAX/MIN used capacity: 0.914764404297 / 0.886093139648
+MAX/MIN used capacity deviation: 1.0164064015 / 0.984549393515
+MAX/MIN used osd id: 16 / 37
+MAX/MIN pg osd's used deviation: 0.984549393515 / 1.0116931241
+standard deviation: -1799.70778299
+-------------------------------------------------------------------
+('host_num:', 4, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 4, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 2048)
+('pg num mask:', 2047)
+('crush type:', 'ec')
+('replicated count:', 6)
+('object load number:', 2097152)
+('inode number:', 512)
+('min value:', 240.5, 'max value:', 273.0)
+('hash func num:', 5)
+('weight power:', 8.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.40731048584 / 0.393142700195
+MAX/MIN used capacity deviation: 1.01827839959 / 0.982858859475
+MAX/MIN used osd id: 47 / 22
+MAX/MIN pg osd's used deviation: 0.993978725865 / 0.993978725865
+standard deviation: -870.383910146
+50/% of total obj num
+MAX/MIN used capacity: 0.509651184082 / 0.492156982422
+MAX/MIN used capacity deviation: 1.01930334025 / 0.98431490356
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.992608063324 / 0.992608063324
+standard deviation: -1071.47872169
+60/% of total obj num
+MAX/MIN used capacity: 0.611415863037 / 0.591625213623
+MAX/MIN used capacity deviation: 1.01902741022 / 0.986042963069
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.991981180809 / 0.991981180809
+standard deviation: -1264.72234272
+70/% of total obj num
+MAX/MIN used capacity: 0.713233947754 / 0.689739227295
+MAX/MIN used capacity deviation: 1.01890661135 / 0.985342692974
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.993364464017 / 0.993364464017
+standard deviation: -1483.66137232
+80/% of total obj num
+MAX/MIN used capacity: 0.814384460449 / 0.787910461426
+MAX/MIN used capacity deviation: 1.01798154638 / 0.984889016046
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.99594688029 / 0.99594688029
+standard deviation: -1637.90239331
+90/% of total obj num
+MAX/MIN used capacity: 0.916744232178 / 0.886123657227
+MAX/MIN used capacity deviation: 1.01860567384 / 0.984582780334
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.996005690262 / 0.996005690262
+standard deviation: -1851.48486159
+pg num in osd , MAX/MIN/AVG:284 / 215 / 256.0
+pg num in osd deviation, MAX/MIN:1.109375 / 0.83984375
+pg num in osd  MAX/MIN osd id:31 / 27
+MAX/MIN used capacity: 0.916744232178 / 0.886123657227
+MAX/MIN used capacity deviation: 1.01860567384 / 0.984582780334
+MAX/MIN used osd id: 47 / 27
+MAX/MIN pg osd's used deviation: 0.999638133234 / 0.984582780334
+standard deviation: -1851.48486159
+-------------------------------------------------------------------
+('host_num:', 6, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 2048)
+('pg num mask:', 2047)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 524288)
+('inode number:', 128)
+('min value:', 222.66666666666666, 'max value:', 287.3333333333333)
+('hash func num:', 5)
+('weight power:', 4.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.406311035156 / 0.389907836914
+MAX/MIN used capacity deviation: 1.01578340025 / 0.974775169993
+MAX/MIN used osd id: 22 / 14
+MAX/MIN pg osd's used deviation: 0.999876021629 / 0.999876021629
+standard deviation: -1021.88665386
+50/% of total obj num
+MAX/MIN used capacity: 0.509216308594 / 0.487457275391
+MAX/MIN used capacity deviation: 1.01843650221 / 0.974918269799
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.997348775287 / 0.997348775287
+standard deviation: -1278.5764545
+60/% of total obj num
+MAX/MIN used capacity: 0.611709594727 / 0.584182739258
+MAX/MIN used capacity deviation: 1.01952182496 / 0.973643469996
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.994115795798 / 0.994115795798
+standard deviation: -1554.81909451
+70/% of total obj num
+MAX/MIN used capacity: 0.712692260742 / 0.68310546875
+MAX/MIN used capacity deviation: 1.01813623978 / 0.975869209809
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.994092643052 / 0.994092643052
+standard deviation: -1762.50995269
+80/% of total obj num
+MAX/MIN used capacity: 0.813674926758 / 0.78092956543
+MAX/MIN used capacity deviation: 1.01709705337 / 0.97616521509
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.996497619383 / 0.996497619383
+standard deviation: -2022.89027961
+90/% of total obj num
+MAX/MIN used capacity: 0.91535949707 / 0.87841796875
+MAX/MIN used capacity deviation: 1.0170686944 / 0.976022447431
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.994892531228 / 0.994892531228
+standard deviation: -2246.80818051
+pg num in osd , MAX/MIN/AVG:297 / 209 / 256.0
+pg num in osd deviation, MAX/MIN:1.16015625 / 0.81640625
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.91535949707 / 0.87841796875
+MAX/MIN used capacity deviation: 1.0170686944 / 0.976022447431
+MAX/MIN used osd id: 19 / 14
+MAX/MIN pg osd's used deviation: 0.976022447431 / 1.00014834972
+standard deviation: -2246.80818051
+-------------------------------------------------------------------
+('host_num:', 6, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 8, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 512)
+('pg num mask:', 511)
+('crush type:', 'ec')
+('replicated count:', 10)
+('object load number:', 1258291)
+('inode number:', 307)
+('min value:', 203.9, 'max value:', 223.8)
+('hash func num:', 5)
+('weight power:', 19.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.40661239624 / 0.392482757568
+MAX/MIN used capacity deviation: 1.01719686592 / 0.981849630309
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01108935221 / 1.01108935221
+standard deviation: -1048.18206629
+50/% of total obj num
+MAX/MIN used capacity: 0.508722305298 / 0.490419387817
+MAX/MIN used capacity deviation: 1.01810906026 / 0.981479319586
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01086021933 / 1.01086021933
+standard deviation: -1310.7728709
+60/% of total obj num
+MAX/MIN used capacity: 0.610569000244 / 0.588512420654
+MAX/MIN used capacity deviation: 1.01827956134 / 0.98149458834
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01043523901 / 1.01043523901
+standard deviation: -1581.81098744
+70/% of total obj num
+MAX/MIN used capacity: 0.712385177612 / 0.685926437378
+MAX/MIN used capacity deviation: 1.01835772282 / 0.980534838093
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01056793175 / 1.01056793175
+standard deviation: -1853.76918914
+80/% of total obj num
+MAX/MIN used capacity: 0.813970565796 / 0.784450531006
+MAX/MIN used capacity deviation: 1.01812766905 / 0.981203527718
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.00927656326 / 1.00927656326
+standard deviation: -2092.50668391
+90/% of total obj num
+MAX/MIN used capacity: 0.915342330933 / 0.882171630859
+MAX/MIN used capacity deviation: 1.01771122439 / 0.980830821676
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.0095339584 / 1.0095339584
+standard deviation: -2366.10104853
+pg num in osd , MAX/MIN/AVG:236 / 192 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.10625 / 0.9
+pg num in osd  MAX/MIN osd id:23 / 9
+MAX/MIN used capacity: 0.915342330933 / 0.882171630859
+MAX/MIN used capacity deviation: 1.01771122439 / 0.980830821676
+MAX/MIN used osd id: 8 / 12
+MAX/MIN pg osd's used deviation: 1.01038858449 / 1.00044904981
+standard deviation: -2366.10104853
+-------------------------------------------------------------------
+('host_num:', 6, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 8192)
+('pg num mask:', 8191)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 1572864)
+('inode number:', 384)
+('min value:', 308.6666666666667, 'max value:', 375.0)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.407150268555 / 0.389404296875
+MAX/MIN used capacity deviation: 1.01787825998 / 0.97351321796
+MAX/MIN used osd id: 51 / 52
+MAX/MIN pg osd's used deviation: 1.00658672736 / 1.00658672736
+standard deviation: -846.018386982
+50/% of total obj num
+MAX/MIN used capacity: 0.507629394531 / 0.489181518555
+MAX/MIN used capacity deviation: 1.01526008003 / 0.978364281164
+MAX/MIN used osd id: 14 / 52
+MAX/MIN pg osd's used deviation: 1.00305303326 / 1.00305303326
+standard deviation: -1014.45890065
+60/% of total obj num
+MAX/MIN used capacity: 0.609237670898 / 0.589828491211
+MAX/MIN used capacity deviation: 1.0153976245 / 0.983048943698
+MAX/MIN used osd id: 14 / 52
+MAX/MIN pg osd's used deviation: 0.997773696988 / 0.997773696988
+standard deviation: -1130.19525108
+70/% of total obj num
+MAX/MIN used capacity: 0.708297729492 / 0.689712524414
+MAX/MIN used capacity deviation: 1.01185555353 / 0.985305217152
+MAX/MIN used osd id: 18 / 52
+MAX/MIN pg osd's used deviation: 0.99888556162 / 0.99888556162
+standard deviation: -1146.23711673
+80/% of total obj num
+MAX/MIN used capacity: 0.810852050781 / 0.789749145508
+MAX/MIN used capacity deviation: 1.01356603009 / 0.98718737334
+MAX/MIN used osd id: 51 / 31
+MAX/MIN pg osd's used deviation: 0.998726843573 / 0.998726843573
+standard deviation: -1289.90796399
+90/% of total obj num
+MAX/MIN used capacity: 0.913238525391 / 0.889587402344
+MAX/MIN used capacity deviation: 1.01471061956 / 0.988431564254
+MAX/MIN used osd id: 51 / 43
+MAX/MIN pg osd's used deviation: 0.999706126693 / 0.999706126693
+standard deviation: -1376.19652989
+pg num in osd , MAX/MIN/AVG:385 / 301 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.1279296875 / 0.8818359375
+pg num in osd  MAX/MIN osd id:32 / 22
+MAX/MIN used capacity: 0.913238525391 / 0.889587402344
+MAX/MIN used capacity deviation: 1.01471061956 / 0.988431564254
+MAX/MIN used osd id: 51 / 43
+MAX/MIN pg osd's used deviation: 0.996213555471 / 0.994806354445
+standard deviation: -1376.19652989
+-------------------------------------------------------------------
+('host_num:', 6, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 8, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 2048)
+('pg num mask:', 2047)
+('crush type:', 'ec')
+('replicated count:', 10)
+('object load number:', 3774873)
+('inode number:', 921)
+('min value:', 273.2, 'max value:', 301.4)
+('hash func num:', 5)
+('weight power:', 13.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.413091659546 / 0.392751693726
+MAX/MIN used capacity deviation: 1.03340289536 / 0.982519806622
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.991795568486 / 0.991795568486
+standard deviation: -880.069256161
+50/% of total obj num
+MAX/MIN used capacity: 0.515525817871 / 0.491495132446
+MAX/MIN used capacity deviation: 1.0317238776 / 0.983631170916
+MAX/MIN used osd id: 46 / 50
+MAX/MIN pg osd's used deviation: 0.993338270932 / 0.993338270932
+standard deviation: -1100.99894237
+60/% of total obj num
+MAX/MIN used capacity: 0.617523193359 / 0.590003967285
+MAX/MIN used capacity deviation: 1.02987654234 / 0.98398125338
+MAX/MIN used osd id: 46 / 50
+MAX/MIN pg osd's used deviation: 0.992159572475 / 0.992159572475
+standard deviation: -1306.63525744
+70/% of total obj num
+MAX/MIN used capacity: 0.720241546631 / 0.688323974609
+MAX/MIN used capacity deviation: 1.02958726696 / 0.983961010191
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992151596742 / 0.992151596742
+standard deviation: -1529.77201006
+80/% of total obj num
+MAX/MIN used capacity: 0.823036193848 / 0.786319732666
+MAX/MIN used capacity deviation: 1.02946608123 / 0.983540577966
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992527662163 / 0.992527662163
+standard deviation: -1760.49064884
+90/% of total obj num
+MAX/MIN used capacity: 0.926008224487 / 0.884609222412
+MAX/MIN used capacity deviation: 1.02956874363 / 0.983539866746
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.992522973056 / 0.992522973056
+standard deviation: -1977.94130074
+pg num in osd , MAX/MIN/AVG:322 / 261 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.13203125 / 0.917578125
+pg num in osd  MAX/MIN osd id:69 / 7
+MAX/MIN used capacity: 0.926008224487 / 0.884609222412
+MAX/MIN used capacity deviation: 1.02956874363 / 0.983539866746
+MAX/MIN used osd id: 46 / 7
+MAX/MIN pg osd's used deviation: 0.987352809415 / 0.983539866746
+standard deviation: -1977.94130074
+-------------------------------------------------------------------
+('host_num:', 8, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 2048)
+('pg num mask:', 2047)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 699050)
+('inode number:', 170)
+('min value:', 172.66666666666666, 'max value:', 215.33333333333334)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.405532836914 / 0.391159057617
+MAX/MIN used capacity deviation: 1.01781155866 / 0.981736061495
+MAX/MIN used osd id: 24 / 0
+MAX/MIN pg osd's used deviation: 0.981736061495 / 0.981736061495
+standard deviation: -969.973380756
+50/% of total obj num
+MAX/MIN used capacity: 0.509048461914 / 0.489059448242
+MAX/MIN used capacity deviation: 1.02209239648 / 0.981957477283
+MAX/MIN used osd id: 24 / 0
+MAX/MIN pg osd's used deviation: 0.981957477283 / 0.981957477283
+standard deviation: -1185.03643799
+60/% of total obj num
+MAX/MIN used capacity: 0.609909057617 / 0.58674621582
+MAX/MIN used capacity deviation: 1.02050387235 / 0.981747652135
+MAX/MIN used osd id: 24 / 9
+MAX/MIN pg osd's used deviation: 0.985168820455 / 0.985168820455
+standard deviation: -1409.64263534
+70/% of total obj num
+MAX/MIN used capacity: 0.710662841797 / 0.687377929688
+MAX/MIN used capacity deviation: 1.01921811763 / 0.985823372765
+MAX/MIN used osd id: 24 / 0
+MAX/MIN pg osd's used deviation: 0.985823372765 / 0.985823372765
+standard deviation: -1505.85571603
+80/% of total obj num
+MAX/MIN used capacity: 0.811401367188 / 0.785110473633
+MAX/MIN used capacity deviation: 1.01823099455 / 0.985238441447
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.986866048535 / 0.986866048535
+standard deviation: -1752.85577255
+90/% of total obj num
+MAX/MIN used capacity: 0.913482666016 / 0.883056640625
+MAX/MIN used capacity deviation: 1.01896268259 / 0.985023358285
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.98665734782 / 0.98665734782
+standard deviation: -1934.04481835
+pg num in osd , MAX/MIN/AVG:225 / 169 / 192.0
+pg num in osd deviation, MAX/MIN:1.171875 / 0.880208333333
+pg num in osd  MAX/MIN osd id:14 / 5
+MAX/MIN used capacity: 0.913482666016 / 0.883056640625
+MAX/MIN used capacity deviation: 1.01896268259 / 0.985023358285
+MAX/MIN used osd id: 24 / 2
+MAX/MIN pg osd's used deviation: 0.994946440568 / 1.00226535203
+standard deviation: -1934.04481835
+-------------------------------------------------------------------
+('host_num:', 8, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 4, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 1024)
+('pg num mask:', 1023)
+('crush type:', 'ec')
+('replicated count:', 6)
+('object load number:', 1398101)
+('inode number:', 341)
+('min value:', 179.83333333333334, 'max value:', 206.83333333333334)
+('hash func num:', 5)
+('weight power:', 8)
+40/% of total obj num
+MAX/MIN used capacity: 0.411632537842 / 0.388072967529
+MAX/MIN used capacity deviation: 1.03008987047 / 0.971133222241
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.994874346615 / 0.994874346615
+standard deviation: -1366.16964397
+50/% of total obj num
+MAX/MIN used capacity: 0.514419555664 / 0.484127044678
+MAX/MIN used capacity deviation: 1.02984629381 / 0.969201962101
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.996954323443 / 0.996954323443
+standard deviation: -1721.60563569
+60/% of total obj num
+MAX/MIN used capacity: 0.616806030273 / 0.581169128418
+MAX/MIN used capacity deviation: 1.02901691248 / 0.969563903075
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995898366029 / 0.995898366029
+standard deviation: -2053.74150942
+70/% of total obj num
+MAX/MIN used capacity: 0.719543457031 / 0.679191589355
+MAX/MIN used capacity deviation: 1.02892529581 / 0.97122335025
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995039449164 / 0.995039449164
+standard deviation: -2388.0756734
+80/% of total obj num
+MAX/MIN used capacity: 0.822914123535 / 0.775741577148
+MAX/MIN used capacity deviation: 1.02964982887 / 0.970626410844
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995517816716 / 0.995517816716
+standard deviation: -2716.61961288
+90/% of total obj num
+MAX/MIN used capacity: 0.926872253418 / 0.873180389404
+MAX/MIN used capacity deviation: 1.03086591131 / 0.971149901768
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 0.995918787288 / 0.995918787288
+standard deviation: -3028.04504732
+pg num in osd , MAX/MIN/AVG:224 / 174 / 192.0
+pg num in osd deviation, MAX/MIN:1.16666666667 / 0.90625
+pg num in osd  MAX/MIN osd id:20 / 10
+MAX/MIN used capacity: 0.926872253418 / 0.873180389404
+MAX/MIN used capacity deviation: 1.03086591131 / 0.971149901768
+MAX/MIN used osd id: 29 / 22
+MAX/MIN pg osd's used deviation: 1.02113739906 / 0.990449946343
+standard deviation: -3028.04504732
+-------------------------------------------------------------------
+('host_num:', 8, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 8192)
+('pg num mask:', 8191)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 2097152)
+('inode number:', 512)
+('min value:', 228.0, 'max value:', 286.0)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.408126831055 / 0.391799926758
+MAX/MIN used capacity deviation: 1.020319267 / 0.979501918678
+MAX/MIN used osd id: 41 / 58
+MAX/MIN pg osd's used deviation: 1.00685335676 / 1.00685335676
+standard deviation: -881.302034516
+50/% of total obj num
+MAX/MIN used capacity: 0.508514404297 / 0.490982055664
+MAX/MIN used capacity deviation: 1.01702977851 / 0.981965047803
+MAX/MIN used osd id: 85 / 58
+MAX/MIN pg osd's used deviation: 1.00528049973 / 1.00528049973
+standard deviation: -1008.03777263
+60/% of total obj num
+MAX/MIN used capacity: 0.609680175781 / 0.590255737305
+MAX/MIN used capacity deviation: 1.01613459536 / 0.983760500362
+MAX/MIN used osd id: 85 / 58
+MAX/MIN pg osd's used deviation: 1.0036223764 / 1.0036223764
+standard deviation: -1101.22292816
+70/% of total obj num
+MAX/MIN used capacity: 0.711791992188 / 0.690216064453
+MAX/MIN used capacity deviation: 1.01684667287 / 0.986023889564
+MAX/MIN used osd id: 85 / 81
+MAX/MIN pg osd's used deviation: 1.00208922994 / 1.00208922994
+standard deviation: -1209.07517386
+80/% of total obj num
+MAX/MIN used capacity: 0.811904907227 / 0.786087036133
+MAX/MIN used capacity deviation: 1.0148821019 / 0.982609732256
+MAX/MIN used osd id: 85 / 77
+MAX/MIN pg osd's used deviation: 1.00339985218 / 1.00339985218
+standard deviation: -1384.13137623
+90/% of total obj num
+MAX/MIN used capacity: 0.912841796875 / 0.882461547852
+MAX/MIN used capacity deviation: 1.01426963048 / 0.980513766037
+MAX/MIN used osd id: 79 / 77
+MAX/MIN pg osd's used deviation: 1.00196086223 / 1.00196086223
+standard deviation: -1559.30965795
+pg num in osd , MAX/MIN/AVG:291 / 225 / 256.0
+pg num in osd deviation, MAX/MIN:1.13671875 / 0.87890625
+pg num in osd  MAX/MIN osd id:32 / 92
+MAX/MIN used capacity: 0.912841796875 / 0.882461547852
+MAX/MIN used capacity deviation: 1.01426963048 / 0.980513766037
+MAX/MIN used osd id: 79 / 77
+MAX/MIN pg osd's used deviation: 0.993161618811 / 0.999688995912
+standard deviation: -1559.30965795
+-------------------------------------------------------------------
+('host_num:', 8, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 4, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 4096)
+('pg num mask:', 4095)
+('crush type:', 'ec')
+('replicated count:', 6)
+('object load number:', 4194304)
+('inode number:', 1024)
+('min value:', 236.83333333333334, 'max value:', 273.1666666666667)
+('hash func num:', 5)
+('weight power:', 8)
+40/% of total obj num
+MAX/MIN used capacity: 0.408164978027 / 0.392578125
+MAX/MIN used capacity deviation: 1.02041341821 / 0.98144624848
+MAX/MIN used osd id: 37 / 86
+MAX/MIN pg osd's used deviation: 1.01260281811 / 1.01260281811
+standard deviation: -819.667640978
+50/% of total obj num
+MAX/MIN used capacity: 0.510478973389 / 0.49027633667
+MAX/MIN used capacity deviation: 1.02095843361 / 0.980553140904
+MAX/MIN used osd id: 37 / 9
+MAX/MIN pg osd's used deviation: 1.01295519493 / 1.01295519493
+standard deviation: -1044.33685909
+60/% of total obj num
+MAX/MIN used capacity: 0.611759185791 / 0.588958740234
+MAX/MIN used capacity deviation: 1.0195992102 / 0.981598446464
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 1.0127518248 / 1.0127518248
+standard deviation: -1212.85736411
+70/% of total obj num
+MAX/MIN used capacity: 0.714366912842 / 0.686676025391
+MAX/MIN used capacity deviation: 1.02052478686 / 0.980966351965
+MAX/MIN used osd id: 37 / 50
+MAX/MIN pg osd's used deviation: 1.0130915722 / 1.0130915722
+standard deviation: -1443.58287858
+80/% of total obj num
+MAX/MIN used capacity: 0.816757202148 / 0.783988952637
+MAX/MIN used capacity deviation: 1.0209468678 / 0.979986541266
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 1.01166284501 / 1.01166284501
+standard deviation: -1663.8801242
+90/% of total obj num
+MAX/MIN used capacity: 0.917919158936 / 0.883018493652
+MAX/MIN used capacity deviation: 1.01991060889 / 0.981132075472
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 1.01212438461 / 1.01212438461
+standard deviation: -1840.57573081
+pg num in osd , MAX/MIN/AVG:289 / 220 / 256.0
+pg num in osd deviation, MAX/MIN:1.12890625 / 0.859375
+pg num in osd  MAX/MIN osd id:81 / 27
+MAX/MIN used capacity: 0.917919158936 / 0.883018493652
+MAX/MIN used capacity deviation: 1.01991060889 / 0.981132075472
+MAX/MIN used osd id: 37 / 76
+MAX/MIN pg osd's used deviation: 0.99050351906 / 0.986519278005
+standard deviation: -1840.57573081
+-------------------------------------------------------------------
+('host_num:', 8, 'disk_num:', 32, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 16384)
+('pg num mask:', 16383)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 5592405)
+('inode number:', 1365)
+('min value:', 165.66666666666666, 'max value:', 225.66666666666666)
+('hash func num:', 5)
+('weight power:', 3.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.411468505859 / 0.38720703125
+MAX/MIN used capacity deviation: 1.0289229265 / 0.968254401203
+MAX/MIN used osd id: 136 / 15
+MAX/MIN pg osd's used deviation: 1.00221351285 / 1.00221351285
+standard deviation: -1146.53093517
+50/% of total obj num
+MAX/MIN used capacity: 0.514434814453 / 0.484283447266
+MAX/MIN used capacity deviation: 1.02912124725 / 0.968803765359
+MAX/MIN used osd id: 136 / 244
+MAX/MIN pg osd's used deviation: 0.995848952079 / 0.995848952079
+standard deviation: -1372.6793363
+60/% of total obj num
+MAX/MIN used capacity: 0.615493774414 / 0.581985473633
+MAX/MIN used capacity deviation: 1.02607376944 / 0.970212946929
+MAX/MIN used osd id: 220 / 244
+MAX/MIN pg osd's used deviation: 0.99397160277 / 0.99397160277
+standard deviation: -1597.86707373
+70/% of total obj num
+MAX/MIN used capacity: 0.718215942383 / 0.680419921875
+MAX/MIN used capacity deviation: 1.02627385429 / 0.972266326258
+MAX/MIN used osd id: 220 / 101
+MAX/MIN pg osd's used deviation: 0.993197786457 / 0.993197786457
+standard deviation: -1792.09112944
+80/% of total obj num
+MAX/MIN used capacity: 0.820877075195 / 0.779739379883
+MAX/MIN used capacity deviation: 1.02634714643 / 0.9749124585
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.99690956354 / 0.99690956354
+standard deviation: -2018.72204261
+90/% of total obj num
+MAX/MIN used capacity: 0.923721313477 / 0.876358032227
+MAX/MIN used capacity deviation: 1.02660785563 / 0.97396912586
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.996676361413 / 0.996676361413
+standard deviation: -2230.97718171
+pg num in osd , MAX/MIN/AVG:235 / 157 / 192.0
+pg num in osd deviation, MAX/MIN:1.22395833333 / 0.817708333333
+pg num in osd  MAX/MIN osd id:237 / 214
+MAX/MIN used capacity: 0.923721313477 / 0.876358032227
+MAX/MIN used capacity deviation: 1.02660785563 / 0.97396912586
+MAX/MIN used osd id: 136 / 236
+MAX/MIN pg osd's used deviation: 0.989079018972 / 0.980277633422
+standard deviation: -2230.97718171
+-------------------------------------------------------------------
+('host_num:', 8, 'disk_num:', 32, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 4, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 8192)
+('pg num mask:', 8191)
+('crush type:', 'ec')
+('replicated count:', 6)
+('object load number:', 11184810)
+('inode number:', 2730)
+('min value:', 173.83333333333334, 'max value:', 213.83333333333334)
+('hash func num:', 5)
+('weight power:', 7.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.412197113037 / 0.386035919189
+MAX/MIN used capacity deviation: 1.03074465963 / 0.965325688958
+MAX/MIN used osd id: 239 / 82
+MAX/MIN pg osd's used deviation: 1.01783829227 / 1.01783829227
+standard deviation: -1299.03163131
+50/% of total obj num
+MAX/MIN used capacity: 0.515506744385 / 0.483268737793
+MAX/MIN used capacity deviation: 1.03126544696 / 0.966773677188
+MAX/MIN used osd id: 239 / 45
+MAX/MIN pg osd's used deviation: 1.0178039061 / 1.0178039061
+standard deviation: -1607.03948237
+60/% of total obj num
+MAX/MIN used capacity: 0.617923736572 / 0.579780578613
+MAX/MIN used capacity deviation: 1.03012454304 / 0.966537079347
+MAX/MIN used osd id: 239 / 177
+MAX/MIN pg osd's used deviation: 1.01835968577 / 1.01835968577
+standard deviation: -1932.75007262
+70/% of total obj num
+MAX/MIN used capacity: 0.720401763916 / 0.676357269287
+MAX/MIN used capacity deviation: 1.0293969576 / 0.966460869652
+MAX/MIN used osd id: 249 / 82
+MAX/MIN pg osd's used deviation: 1.01853331449 / 1.01853331449
+standard deviation: -2256.71674313
+80/% of total obj num
+MAX/MIN used capacity: 0.822639465332 / 0.773471832275
+MAX/MIN used capacity deviation: 1.02855055759 / 0.967076000963
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 1.01921657456 / 1.01921657456
+standard deviation: -2577.41104498
+90/% of total obj num
+MAX/MIN used capacity: 0.925926208496 / 0.870262145996
+MAX/MIN used capacity deviation: 1.02905823548 / 0.967194167466
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 1.0200109547 / 1.0200109547
+standard deviation: -2899.27152479
+pg num in osd , MAX/MIN/AVG:231 / 150 / 192.0
+pg num in osd deviation, MAX/MIN:1.203125 / 0.78125
+pg num in osd  MAX/MIN osd id:130 / 37
+MAX/MIN used capacity: 0.925926208496 / 0.870262145996
+MAX/MIN used capacity deviation: 1.02905823548 / 0.967194167466
+MAX/MIN used osd id: 249 / 45
+MAX/MIN pg osd's used deviation: 0.980646380172 / 0.971226015649
+standard deviation: -2899.27152479
+-------------------------------------------------------------------
+('host_num:', 12, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 4096)
+('pg num mask:', 4095)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 1048576)
+('inode number:', 256)
+('min value:', 224.66666666666666, 'max value:', 279.3333333333333)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.405227661133 / 0.392471313477
+MAX/MIN used capacity deviation: 1.01307253433 / 0.981181558738
+MAX/MIN used osd id: 35 / 47
+MAX/MIN pg osd's used deviation: 0.997088899432 / 0.997088899432
+standard deviation: -837.822636859
+50/% of total obj num
+MAX/MIN used capacity: 0.506164550781 / 0.492645263672
+MAX/MIN used capacity deviation: 1.01233103243 / 0.98529240664
+MAX/MIN used osd id: 35 / 47
+MAX/MIN pg osd's used deviation: 0.99627875572 / 0.99627875572
+standard deviation: -1005.69757093
+60/% of total obj num
+MAX/MIN used capacity: 0.608032226562 / 0.591415405273
+MAX/MIN used capacity deviation: 1.01338962145 / 0.985694848874
+MAX/MIN used osd id: 15 / 5
+MAX/MIN pg osd's used deviation: 0.998461401523 / 0.998461401523
+standard deviation: -1117.32030621
+70/% of total obj num
+MAX/MIN used capacity: 0.709121704102 / 0.689895629883
+MAX/MIN used capacity deviation: 1.01303266204 / 0.985566796821
+MAX/MIN used osd id: 15 / 5
+MAX/MIN pg osd's used deviation: 0.997773848028 / 0.997773848028
+standard deviation: -1249.21885593
+80/% of total obj num
+MAX/MIN used capacity: 0.809860229492 / 0.788162231445
+MAX/MIN used capacity deviation: 1.01232745908 / 0.985204903327
+MAX/MIN used osd id: 15 / 5
+MAX/MIN pg osd's used deviation: 0.99804138717 / 0.99804138717
+standard deviation: -1369.83409123
+90/% of total obj num
+MAX/MIN used capacity: 0.91162109375 / 0.885131835938
+MAX/MIN used capacity deviation: 1.01291382904 / 0.983481276696
+MAX/MIN used osd id: 24 / 5
+MAX/MIN pg osd's used deviation: 0.997214207225 / 0.997214207225
+standard deviation: -1499.17380719
+pg num in osd , MAX/MIN/AVG:282 / 216 / 256.0
+pg num in osd deviation, MAX/MIN:1.1015625 / 0.84375
+pg num in osd  MAX/MIN osd id:38 / 30
+MAX/MIN used capacity: 0.91162109375 / 0.885131835938
+MAX/MIN used capacity deviation: 1.01291382904 / 0.983481276696
+MAX/MIN used osd id: 24 / 5
+MAX/MIN pg osd's used deviation: 1.00077459662 / 0.990602055489
+standard deviation: -1499.17380719
+-------------------------------------------------------------------
+('host_num:', 12, 'disk_num:', 4, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 8, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 1024)
+('pg num mask:', 1023)
+('crush type:', 'ec')
+('replicated count:', 10)
+('object load number:', 2516582)
+('inode number:', 614)
+('min value:', 204.0, 'max value:', 224.4)
+('hash func num:', 5)
+('weight power:', 13.5)
+40/% of total obj num
+MAX/MIN used capacity: 0.409496307373 / 0.386817932129
+MAX/MIN used capacity deviation: 1.02440932984 / 0.967676366037
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.0240610114 / 1.0240610114
+standard deviation: -1386.65243758
+50/% of total obj num
+MAX/MIN used capacity: 0.511531829834 / 0.484039306641
+MAX/MIN used capacity deviation: 1.02373096477 / 0.968710053751
+MAX/MIN used osd id: 0 / 30
+MAX/MIN pg osd's used deviation: 1.02373096477 / 1.02373096477
+standard deviation: -1719.20691086
+60/% of total obj num
+MAX/MIN used capacity: 0.613826751709 / 0.581163406372
+MAX/MIN used capacity deviation: 1.02371201453 / 0.969237590004
+MAX/MIN used osd id: 0 / 30
+MAX/MIN pg osd's used deviation: 1.02371201453 / 1.02371201453
+standard deviation: -2064.22426904
+70/% of total obj num
+MAX/MIN used capacity: 0.715991973877 / 0.677459716797
+MAX/MIN used capacity deviation: 1.02351307244 / 0.968431073942
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.02351307244 / 1.02351307244
+standard deviation: -2423.41551319
+80/% of total obj num
+MAX/MIN used capacity: 0.818437576294 / 0.774175643921
+MAX/MIN used capacity deviation: 1.02371406106 / 0.968350568651
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.02329655648 / 1.02329655648
+standard deviation: -2774.27438305
+90/% of total obj num
+MAX/MIN used capacity: 0.921474456787 / 0.871477127075
+MAX/MIN used capacity deviation: 1.02452824187 / 0.968939423393
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.02286140437 / 1.02286140437
+standard deviation: -3107.22372956
+pg num in osd , MAX/MIN/AVG:246 / 190 / 213.333333333
+pg num in osd deviation, MAX/MIN:1.153125 / 0.890625
+pg num in osd  MAX/MIN osd id:43 / 33
+MAX/MIN used capacity: 0.921474456787 / 0.871477127075
+MAX/MIN used capacity deviation: 1.02452824187 / 0.968939423393
+MAX/MIN used osd id: 47 / 30
+MAX/MIN pg osd's used deviation: 1.01112780148 / 0.969225712276
+standard deviation: -3107.22372956
+-------------------------------------------------------------------
+('host_num:', 12, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 16384)
+('pg num mask:', 16383)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 3145728)
+('inode number:', 768)
+('min value:', 305.0, 'max value:', 378.6666666666667)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.409255981445 / 0.391418457031
+MAX/MIN used capacity deviation: 1.02314092936 / 0.978547075793
+MAX/MIN used osd id: 98 / 68
+MAX/MIN pg osd's used deviation: 1.00723362659 / 1.00723362659
+standard deviation: -875.359338913
+50/% of total obj num
+MAX/MIN used capacity: 0.51057434082 / 0.490432739258
+MAX/MIN used capacity deviation: 1.02114933087 / 0.980866102133
+MAX/MIN used osd id: 98 / 68
+MAX/MIN pg osd's used deviation: 1.00537173295 / 1.00537173295
+standard deviation: -1025.01647344
+60/% of total obj num
+MAX/MIN used capacity: 0.612030029297 / 0.589172363281
+MAX/MIN used capacity deviation: 1.02005102162 / 0.981954875267
+MAX/MIN used osd id: 98 / 68
+MAX/MIN pg osd's used deviation: 1.00875950695 / 1.00875950695
+standard deviation: -1185.76770432
+70/% of total obj num
+MAX/MIN used capacity: 0.712783813477 / 0.687698364258
+MAX/MIN used capacity deviation: 1.01826333056 / 0.982426948494
+MAX/MIN used osd id: 98 / 60
+MAX/MIN pg osd's used deviation: 1.01015436819 / 1.01015436819
+standard deviation: -1343.26567241
+80/% of total obj num
+MAX/MIN used capacity: 0.814178466797 / 0.785263061523
+MAX/MIN used capacity deviation: 1.01772364967 / 0.981579372967
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 1.0068899034 / 1.0068899034
+standard deviation: -1527.29330071
+90/% of total obj num
+MAX/MIN used capacity: 0.917358398438 / 0.8837890625
+MAX/MIN used capacity deviation: 1.01928754141 / 0.981988263443
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 1.00457128083 / 1.00457128083
+standard deviation: -1707.81516532
+pg num in osd , MAX/MIN/AVG:386 / 296 / 341.333333333
+pg num in osd deviation, MAX/MIN:1.130859375 / 0.8671875
+pg num in osd  MAX/MIN osd id:48 / 140
+MAX/MIN used capacity: 0.917358398438 / 0.8837890625
+MAX/MIN used capacity deviation: 1.01928754141 / 0.981988263443
+MAX/MIN used osd id: 20 / 139
+MAX/MIN pg osd's used deviation: 0.984175357469 / 1.00480863987
+standard deviation: -1707.81516532
+-------------------------------------------------------------------
+('host_num:', 12, 'disk_num:', 12, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 8, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 4096)
+('pg num mask:', 4095)
+('crush type:', 'ec')
+('replicated count:', 10)
+('object load number:', 7549747)
+('inode number:', 1843)
+('min value:', 269.4, 'max value:', 301.5)
+('hash func num:', 5)
+('weight power:', 13.7)
+40/% of total obj num
+MAX/MIN used capacity: 0.412658691406 / 0.387580871582
+MAX/MIN used capacity deviation: 1.03175909153 / 0.969057713516
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.01063290469 / 1.01063290469
+standard deviation: -1246.22369248
+50/% of total obj num
+MAX/MIN used capacity: 0.516073226929 / 0.48525428772
+MAX/MIN used capacity deviation: 1.03225873455 / 0.97061415094
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.01048588899 / 1.01048588899
+standard deviation: -1557.23815235
+60/% of total obj num
+MAX/MIN used capacity: 0.619749069214 / 0.582633972168
+MAX/MIN used capacity deviation: 1.03302761651 / 0.971162384048
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.00845511116 / 1.00845511116
+standard deviation: -1866.62703629
+70/% of total obj num
+MAX/MIN used capacity: 0.721918106079 / 0.680047988892
+MAX/MIN used capacity deviation: 1.03142380903 / 0.971602846801
+MAX/MIN used osd id: 38 / 12
+MAX/MIN pg osd's used deviation: 1.0078845656 / 1.0078845656
+standard deviation: -2170.23864695
+80/% of total obj num
+MAX/MIN used capacity: 0.825403213501 / 0.776369094849
+MAX/MIN used capacity deviation: 1.03186622071 / 0.970566906784
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.00764979655 / 1.00764979655
+standard deviation: -2481.12068854
+90/% of total obj num
+MAX/MIN used capacity: 0.928895950317 / 0.873514175415
+MAX/MIN used capacity deviation: 1.03221879667 / 0.970676802618
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 1.00718318454 / 1.00718318454
+standard deviation: -2788.36968652
+pg num in osd , MAX/MIN/AVG:329 / 238 / 284.444444444
+pg num in osd deviation, MAX/MIN:1.156640625 / 0.83671875
+pg num in osd  MAX/MIN osd id:75 / 115
+MAX/MIN used capacity: 0.928895950317 / 0.873514175415
+MAX/MIN used capacity deviation: 1.03221879667 / 0.970676802618
+MAX/MIN used osd id: 95 / 12
+MAX/MIN pg osd's used deviation: 0.971130377034 / 0.988474299658
+standard deviation: -2788.36968652
+-------------------------------------------------------------------
+('host_num:', 12, 'disk_num:', 32, 'overall_used_capacity:', 0.9)
+('type:', 'rep', 'k:', 3, 'm:', 0)
+('config file name:', 'config/config.json')
+('pg num:', 32768)
+('pg num mask:', 32767)
+('crush type:', 'rep')
+('replicated count:', 3)
+('object load number:', 8388608)
+('inode number:', 2048)
+('min value:', 218.66666666666666, 'max value:', 294.3333333333333)
+('hash func num:', 5)
+('weight power:', 4)
+40/% of total obj num
+MAX/MIN used capacity: 0.40852355957 / 0.387405395508
+MAX/MIN used capacity deviation: 1.02130926417 / 0.968513835137
+MAX/MIN used osd id: 260 / 113
+MAX/MIN pg osd's used deviation: 1.00166356623 / 1.00166356623
+standard deviation: -971.138408567
+50/% of total obj num
+MAX/MIN used capacity: 0.510360717773 / 0.485900878906
+MAX/MIN used capacity deviation: 1.02072167891 / 0.971801989508
+MAX/MIN used osd id: 159 / 113
+MAX/MIN pg osd's used deviation: 1.00329613764 / 1.00329613764
+standard deviation: -1140.75218198
+60/% of total obj num
+MAX/MIN used capacity: 0.613235473633 / 0.58381652832
+MAX/MIN used capacity deviation: 1.02205948824 / 0.973027895182
+MAX/MIN used osd id: 349 / 113
+MAX/MIN pg osd's used deviation: 1.00199417345 / 1.00199417345
+standard deviation: -1309.45633063
+70/% of total obj num
+MAX/MIN used capacity: 0.714324951172 / 0.682418823242
+MAX/MIN used capacity deviation: 1.02046449401 / 0.974884298838
+MAX/MIN used osd id: 366 / 113
+MAX/MIN pg osd's used deviation: 1.00413758527 / 1.00413758527
+standard deviation: -1464.72042981
+80/% of total obj num
+MAX/MIN used capacity: 0.816329956055 / 0.780014038086
+MAX/MIN used capacity deviation: 1.02041265794 / 0.975017751012
+MAX/MIN used osd id: 260 / 237
+MAX/MIN pg osd's used deviation: 1.00538274758 / 1.00538274758
+standard deviation: -1633.18686308
+90/% of total obj num
+MAX/MIN used capacity: 0.918380737305 / 0.877227783203
+MAX/MIN used capacity deviation: 1.02042320364 / 0.974697691816
+MAX/MIN used osd id: 260 / 106
+MAX/MIN pg osd's used deviation: 1.00789404041 / 1.00789404041
+standard deviation: -1818.96835924
+pg num in osd , MAX/MIN/AVG:306 / 203 / 256.0
+pg num in osd deviation, MAX/MIN:1.1953125 / 0.79296875
+pg num in osd  MAX/MIN osd id:141 / 106
+MAX/MIN used capacity: 0.918380737305 / 0.877227783203
+MAX/MIN used capacity deviation: 1.02042320364 / 0.974697691816
+MAX/MIN used osd id: 260 / 106
+MAX/MIN pg osd's used deviation: 0.979360100327 / 0.974697691816
+standard deviation: -1818.96835924
+-------------------------------------------------------------------
+('host_num:', 12, 'disk_num:', 32, 'overall_used_capacity:', 0.9)
+('type:', 'ec', 'k:', 8, 'm:', 2)
+('config file name:', 'config/config.json')
+('pg num:', 16384)
+('pg num mask:', 16383)
+('crush type:', 'ec')
+('replicated count:', 10)
+('object load number:', 20132659)
+('inode number:', 4915)
+('min value:', 404.1, 'max value:', 455.1)
+('hash func num:', 5)
+('weight power:', 12)
+40/% of total obj num
+MAX/MIN used capacity: 0.409549713135 / 0.391635894775
+MAX/MIN used capacity deviation: 1.02391607323 / 0.979129699413
+MAX/MIN used osd id: 364 / 332
+MAX/MIN pg osd's used deviation: 1.00373073248 / 1.00373073248
+standard deviation: -869.625617037
+50/% of total obj num
+MAX/MIN used capacity: 0.511932373047 / 0.488891601562
+MAX/MIN used capacity deviation: 1.02390651067 / 0.977823087986
+MAX/MIN used osd id: 364 / 332
+MAX/MIN pg osd's used deviation: 1.0038136806 / 1.0038136806
+standard deviation: -1082.80522657
+60/% of total obj num
+MAX/MIN used capacity: 0.614891052246 / 0.586622238159
+MAX/MIN used capacity deviation: 1.02486020692 / 0.977743595696
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00334443708 / 1.00334443708
+standard deviation: -1289.76721993
+70/% of total obj num
+MAX/MIN used capacity: 0.717901229858 / 0.684791564941
+MAX/MIN used capacity deviation: 1.02561499067 / 0.978313541301
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00396297634 / 1.00396297634
+standard deviation: -1491.62686248
+80/% of total obj num
+MAX/MIN used capacity: 0.820665359497 / 0.782802581787
+MAX/MIN used capacity deviation: 1.02587350597 / 0.978543105011
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00387372713 / 1.00387372713
+standard deviation: -1694.44085998
+90/% of total obj num
+MAX/MIN used capacity: 0.923791885376 / 0.880641937256
+MAX/MIN used capacity deviation: 1.02647725231 / 0.978530911925
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.00434050982 / 1.00434050982
+standard deviation: -1904.16200841
+pg num in osd , MAX/MIN/AVG:484 / 367 / 426.666666667
+pg num in osd deviation, MAX/MIN:1.134375 / 0.86015625
+pg num in osd  MAX/MIN osd id:82 / 178
+MAX/MIN used capacity: 0.923791885376 / 0.880641937256
+MAX/MIN used capacity deviation: 1.02647725231 / 0.978530911925
+MAX/MIN used osd id: 364 / 339
+MAX/MIN pg osd's used deviation: 1.01385644795 / 0.984823299522
+standard deviation: -1904.16200841
+========== stop logging at Thu Jan  2 17:41:21 2025 ==========

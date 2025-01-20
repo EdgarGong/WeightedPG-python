@@ -1,3 +1,5 @@
+# test object to pg hash
+
 from __future__ import division
 
 import copy

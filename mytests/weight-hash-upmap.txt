@@ -1,0 +1,69 @@
+========== start logging at Thu Dec 26 16:18:52 2024 ==========
+pg num in osd , MAX/MIN/AVG:115/77/96.0
+pg num in osd deviation, MAX/MIN:1.19791666667/0.802083333333
+pg num in osd  MAX/MIN osd id:1/5
+MAX/MIN used capacity:0.825958251953/0.555801391602
+MAX/MIN used capacity deviation:1.19460628531/0.803870939266
+MAX/MIN used osd id:1/5
+MAX/MIN pg osd's used deviation:1.19460628531/0.803870939266
+standard deviation: -17360.1259212
+Real Objects in OSD MIN/MAX deviation: 0.803870939266/1.19460628531
+pg upmap total_did:0, obj_dev:0.390735346045
+========== stop logging at Thu Dec 26 16:18:58 2024 ==========
+========== start logging at Thu Dec 26 16:19:51 2024 ==========
+pg num in osd , MAX/MIN/AVG:115/77/96.0
+pg num in osd deviation, MAX/MIN:1.19791666667/0.802083333333
+pg num in osd  MAX/MIN osd id:1/5
+MAX/MIN used capacity:0.825958251953/0.555801391602
+MAX/MIN used capacity deviation:1.19460628531/0.803870939266
+MAX/MIN used osd id:1/5
+MAX/MIN pg osd's used deviation:1.19460628531/0.803870939266
+standard deviation: -17360.1259212
+Real Objects in OSD MIN/MAX deviation: 0.803870939266/1.19460628531
+pg upmap total_did:0, obj_dev:0.390735346045
+========== stop logging at Thu Dec 26 16:19:56 2024 ==========
+========== start logging at Thu Dec 26 16:20:21 2024 ==========
+pg num in osd , MAX/MIN/AVG:115/77/96.0
+pg num in osd deviation, MAX/MIN:1.19791666667/0.802083333333
+pg num in osd  MAX/MIN osd id:1/5
+MAX/MIN used capacity:0.825958251953/0.555801391602
+MAX/MIN used capacity deviation:1.19460628531/0.803870939266
+MAX/MIN used osd id:1/5
+MAX/MIN pg osd's used deviation:1.19460628531/0.803870939266
+standard deviation: -17360.1259212
+Real Objects in OSD MIN/MAX deviation: 0.803870939266/1.19460628531
+pg upmap total_did:0, obj_dev:0.390735346045
+MAX/MIN used capacity:0.825958251953/0.555801391602
+MAX/MIN used capacity deviation:1.19460628531/0.803870939266
+MAX/MIN used osd id:1/5
+MAX/MIN pg osd's used deviation:1.19460628531/0.803870939266
+standard deviation: -17360.1259212
+========== stop logging at Thu Dec 26 16:20:27 2024 ==========
+========== start logging at Thu Dec 26 16:26:00 2024 ==========
+pg num in osd , MAX/MIN/AVG:412/339/384.0
+pg num in osd deviation, MAX/MIN:1.07291666667/0.8828125
+pg num in osd  MAX/MIN osd id:14/5
+MAX/MIN used capacity:0.741180419922/0.606750488281
+MAX/MIN used capacity deviation:1.07198975989/0.877560028249
+MAX/MIN used osd id:14/5
+MAX/MIN pg osd's used deviation:1.07198975989/0.877560028249
+standard deviation: -9088.37686278
+Real Objects in OSD MIN/MAX deviation: 0.877560028249/1.07198975989
+pg upmap total_did:0, obj_dev:0.194429731638
+MAX/MIN used capacity:0.741180419922/0.606750488281
+MAX/MIN used capacity deviation:1.07198975989/0.877560028249
+MAX/MIN used osd id:14/5
+MAX/MIN pg osd's used deviation:1.07198975989/0.877560028249
+standard deviation: -9088.37686278
+========== stop logging at Thu Dec 26 16:26:09 2024 ==========
+========== start logging at Thu Dec 26 16:52:43 2024 ==========
+pg num in osd , MAX/MIN/AVG:1081/975/1024.0
+pg num in osd deviation, MAX/MIN:1.0556640625/0.9521484375
+pg num in osd  MAX/MIN osd id:14/5
+MAX/MIN used capacity:0.737766265869/0.665355682373
+MAX/MIN used capacity deviation:1.05512940817/0.951570137919
+MAX/MIN used osd id:14/5
+MAX/MIN pg osd's used deviation:1.05512940817/0.951570137919
+standard deviation: -4642.23441172
+Real Objects in OSD MIN/MAX deviation: 0.951570137919/1.05512940817
+========== stop logging at Thu Dec 26 16:53:03 2024 ==========
