@@ -1,2 +1,0 @@
-========== start logging at Mon Jan  6 10:29:01 2025 ==========
-========== stop logging at Mon Jan  6 10:29:01 2025 ==========

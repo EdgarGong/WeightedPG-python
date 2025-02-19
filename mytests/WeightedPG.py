@@ -304,25 +304,6 @@ class Balancer:
                         # print("overflow! osd id:", osds[i])
                     self.osd_used_capacity[osds[i]] = used_capacity
 
-    def group_data(self, data, num_groups):
-        sorted_data = sorted(data.items(), key=lambda x: x[1])
-        min_value = sorted_data[0][1]
-        max_value = sorted_data[-1][1]
-        interval_width = (max_value - min_value) / num_groups
-
-        groups = {}
-    
-        for key, value in sorted_data:
-            group_index = int((value - min_value) // interval_width)
-            if group_index == num_groups:
-                group_index -= 1
-            group = groups.get(group_index, [])
-            group.append((key, value))
-            groups[group_index] = group
-        
-        # groups = [group for group in groups if len(group) != 0]
-        
-        return groups
     
     
     # calculate pg weight
@@ -347,48 +328,39 @@ class Balancer:
         for pgid, v in self.pg_weight.items():
             self.pg_Rendezvous_node[pgid] = rendezvousNode(pgid, v)
 
-    def init_pg_group_Rendezvous_node(self):
-        assert len(self.pg_weight) > 0
-        self.grouped_data = self.group_data(self.pg_weight, 100)
-        for groupid, group in self.grouped_data.items():
-            values = [pair[1] for pair in group]
-            # all pgs in this group use the mean weight as their weight
-            mean_weight = np.sum(values)
-            self.group_Rendezvous_node[groupid] = rendezvousNode(groupid, mean_weight)
+    # # use Rendezvous hash. Each pg corresponds to a node
+    # def write_obj_with_Rendezvous(self, inode_num, inode_size):
+    #     self.cal_pg_weight(3)
+    #     self.init_pg_Rendezvous_node()
+    #     count = 0
+    #     for inode_no in range(inode_num):
+    #         # print(inode_num-inode_no)
+    #         for block_no in range(inode_size):
+    #             count = count + 1
+    #             if count % 10000 == 0:
+    #                 sys.stdout.write("\r%d" % count)  
+    #                 sys.stdout.flush() 
 
-    # use Rendezvous hash. Each pg corresponds to a node
-    def write_obj_with_Rendezvous(self, inode_num, inode_size):
-        self.cal_pg_weight(3)
-        self.init_pg_Rendezvous_node()
-        count = 0
-        for inode_no in range(inode_num):
-            # print(inode_num-inode_no)
-            for block_no in range(inode_size):
-                count = count + 1
-                if count % 10000 == 0:
-                    sys.stdout.write("\r%d" % count)  
-                    sys.stdout.flush() 
-
-                # key format: "10000000001.00000002"
-                key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
-                pg_node = determine_responsible_node(self.pg_Rendezvous_node.values(), key)
+    #             # key format: "10000000001.00000002"
+    #             key = "100" + str('%08x' % inode_no) + '.' + str('%08x' % block_no)
+    #             pg_node = determine_responsible_node(self.pg_Rendezvous_node.values(), key)
                 
-                pg_id = pg_node.id
+    #             pg_id = pg_node.id
 
-                # append to obj_in_pg
-                objs = self.obj_in_pg.get(pg_id, [])
-                objs.append(key)
-                self.obj_in_pg[pg_id] = objs
+    #             # append to obj_in_pg
+    #             objs = self.obj_in_pg.get(pg_id, [])
+    #             objs.append(key)
+    #             self.obj_in_pg[pg_id] = objs
 
-                # start crush
-                osds = self.pg_to_osds.get(pg_id, [])
-                assert len(osds) == self.replication_count
-                for i in range(len(osds)):
-                    used_capacity = self.osd_used_capacity.get(osds[i], 0)
-                    used_capacity += self.obj_size
-                    # if used_capacity >= self.disk_size*1024:
-                        # print("overflow! osd id:", osds[i])
-                    self.osd_used_capacity[osds[i]] = used_capacity
+    #             # start crush
+    #             osds = self.pg_to_osds.get(pg_id, [])
+    #             assert len(osds) == self.replication_count
+    #             for i in range(len(osds)):
+    #                 used_capacity = self.osd_used_capacity.get(osds[i], 0)
+    #                 used_capacity += self.obj_size
+    #                 # if used_capacity >= self.disk_size*1024:
+    #                     # print("overflow! osd id:", osds[i])
+    #                 self.osd_used_capacity[osds[i]] = used_capacity
     
     def hash1(self, key):
         raw_pg_id = self.c.c.ceph_str_hash_rjenkins(key, len(key))
@@ -548,20 +520,15 @@ class Balancer:
         logger.log("objects in PGs MIN/MAX/AVG objects number: " + str(min_obj) + "/" + str(max_obj) + "/" + str(avg_obj))
         
 def test(host_num, disk_num, pg_num, overall_used_capacity, power, type, k, m):
-  
+  # initial
   b = Balancer(host_num, disk_num, pg_num, overall_used_capacity, power, type, k, m)
   print("pg num:", b.pg_num)
   print("pg num mask:", b.pg_num_mask)
   print("crush type:", b.crush_type)
   print("replicated count:", b.replication_count)
-  # disk_load = 12288  # GB
-  # inode_size = 4096
   inode_size = 4096
-  # inode_num = int(b.disk_num * disk_load / inode_size / b.replication_count * 256)
   disk_capacity = b.disk_num*b.disk_size #GB
-  overall_utilization = b.overall_used_capacity
 
-  # target_capacity = disk_capacity*overall_utilization*1024
   target_capacity = disk_capacity*1024
   if b.crush_type == 'rep':
       obj_load_num = int(target_capacity/b.replication_count/b.obj_size)
@@ -569,26 +536,17 @@ def test(host_num, disk_num, pg_num, overall_used_capacity, power, type, k, m):
       redun = (b.k + b.m)/b.k
       obj_load_num = int(target_capacity/redun/b.obj_size)
 
-  # obj_load_num = i  nt(disk_capacity*overall_utilization*1024/b.replication_count/b.obj_size)
-  # obj_load_num = 2936012
   print("object load number:", obj_load_num)
   inode_num = int(obj_load_num/inode_size)
   print("inode number:", inode_num)
   # each inode has {inode_size} blocks
   # each block is a object
-  time1 = time.time()
   b.crush_pg_to_osds()
   # b.stripe_pg_to_osds()
-  
-  # # save osd_used_capacity to file
-  # with open('b_pg_to_osds', 'w') as f:
-  #     json.dump(b.pg_to_osds, f)
 
   # 1: conv_ceph 
   # 2:Rendezvous_power_2
   hash_type = 2
-  # b.cal_pg_weight()
-  time2 = time.time()
 
   if hash_type == 1:
     b.write_obj(inode_num, inode_size)
@@ -597,10 +555,8 @@ def test(host_num, disk_num, pg_num, overall_used_capacity, power, type, k, m):
   else:
     print("hash type error")
   # b.stripe_write_obj(inode_num, inode_size)
-  time3 = time.time()
-  # print(time2-time1, time3-time2)
   max_osd_id, min_osd_id = b.print_pg_in_osd()
-  if hash_type == 0:
+  if hash_type == 1:
     b.print_obj_in_pg_number()
   b.print_osd_used_capacity(max_osd_id, min_osd_id)
   
@@ -627,16 +583,8 @@ test_cases = [
     (10, 2, 32, 'rep', 3, 0, 4),
     (10, 2, 32, 'ec', 8, 2, 12),
 ]
-# host_num = 4
-# disk_num = 12
-# pg_num = 4096
-# overall_used_capacity = 0.9
-# power = 8
-# type = 'ec'
-# k = 4
-# m = 2
+
 for host_num, extra_hosts, disk_num, type, k, m, power in test_cases:
-  # for overall_used_capacity in [0.9]:
     overall_used_capacity = 0.9
     print("-------------------------------------------------------------------")
     total_hosts = host_num + extra_hosts
