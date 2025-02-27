@@ -3,7 +3,6 @@
 新华三华科联合实验室数据打散项目。
 
 在Ceph系统中实现：https://github.com/EdgarGong/Ceph-weightedPG。
-[python-crush](https://github.com/ceph/python-crush)
 
 使用[python-crush](https://github.com/ceph/python-crush)环境。
 
